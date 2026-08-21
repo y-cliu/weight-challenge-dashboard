@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>管住嘴的100天 — 排行榜</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky-top: #6EC1E8;
+    --sky-bottom: #BFE8F7;
+    --card: #FFFFFF;
+    --card-warm: #FFF7E6;
+    --text: #2C3E50;
+    --text-dim: #7C8FA3;
+    --orange: #FF8A3D;
+    --red: #F2545B;
+    --green: #6FBE44;
+    --gold: #FFC53D;
+    --blue: #4FB6E8;
+    --line: #E3EEF5;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 340px, #F4FAFD 340px);
+    color: var(--text);
+    font-family:'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap{ max-width: 900px; margin:0 auto; padding: 24px 16px 50px; }
+
+  .title-badge{
+    text-align:center;
+    margin-bottom: 18px;
+  }
+  h1{
+    font-family:'ZCOOL KuaiLe', sans-serif;
+    font-size: 34px;
+    margin: 0 0 4px;
+    background: linear-gradient(90deg, var(--green), var(--orange) 55%, var(--red));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 0 rgba(255,255,255,0.4);
+  }
+  .tagline{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .clock{
+    background: var(--card);
+    border-radius: 20px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+    box-shadow: 0 6px 16px rgba(50,100,140,0.12);
+  }
+  .clock-row{ display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px; }
+  .clock-day{ font-family:'ZCOOL KuaiLe', sans-serif; font-size: 36px; color: var(--orange); line-height:1; }
+  .clock-day span{ font-size:15px; color: var(--text-dim); font-family:'Noto Sans TC', sans-serif; font-weight:500; }
+  .clock-label{ font-size: 12px; color: var(--text-dim); }
+  .track{ margin-top:12px; height:12px; background:#F0F0F0; border-radius:10px; overflow:hidden; }
+  .track-fill{ height:100%; background: linear-gradient(90deg, var(--green), var(--orange)); border-radius:10px; }
+
+  .stats{ display:grid; grid-template-columns: repeat(3,1fr); gap:10px; margin-bottom:22px; }
+  .stat{
+    background: var(--card);
+    border-radius: 16px;
+    padding: 14px 10px;
+    text-align:center;
+    box-shadow: 0 4px 10px rgba(50,100,140,0.08);
+  }
+  .stat-num{ font-family:'ZCOOL KuaiLe', sans-serif; font-size: 24px; color: var(--blue); }
+  .stat-num.good{ color: var(--green); }
+  .stat-label{ font-size: 11px; color: var(--text-dim); margin-top:2px; }
+
+  .section-title{
+    font-family:'ZCOOL KuaiLe', sans-serif;
+    font-size: 18px;
+    color: var(--text);
+    margin: 22px 4px 10px;
+    display:flex; align-items:center; gap:6px;
+  }
+
+  .roster{ display:flex; flex-direction:column; gap:8px; }
+  .row{
+    background: var(--card);
+    border-radius: 14px;
+    padding: 10px 14px;
+    display:grid;
+    grid-template-columns: 40px 1fr 58px 58px 66px;
+    align-items:center;
+    box-shadow: 0 3px 8px rgba(50,100,140,0.07);
+  }
+  .row.top1{ background: linear-gradient(90deg, #FFF3D6, #FFFFFF); border: 2px solid var(--gold); }
+  .row.top2{ background: linear-gradient(90deg, #EAF6FF, #FFFFFF); border: 2px solid var(--blue); }
+  .row.top3{ background: linear-gradient(90deg, #F1FBE9, #FFFFFF); border: 2px solid var(--green); }
+  .row.header{
+    background:transparent; box-shadow:none; padding: 0 14px;
+    font-size: 11px; color: var(--text-dim); font-weight:700;
+  }
+  .rank{ font-family:'ZCOOL KuaiLe', sans-serif; font-size:20px; text-align:center; color: var(--text-dim); }
+  .name-cell{ display:flex; flex-direction:column; }
+  .nickname{ font-weight:700; font-size:14px; }
+  .supervisor{ font-size:11px; color: var(--text-dim); }
+  .pct{ font-weight:700; font-size:13px; text-align:right; color: var(--text); }
+  .badge{ font-size:11px; text-align:center; padding:4px 6px; border-radius:20px; font-weight:700; }
+  .badge.pass{ background: #E8F7DE; color: var(--green); }
+  .badge.active{ background: #F1F1F1; color: var(--text-dim); }
+
+  .chart-box{
+    background: var(--card);
+    border-radius: 18px;
+    padding: 16px;
+    height: 250px;
+    box-shadow: 0 4px 10px rgba(50,100,140,0.08);
+  }
+  .legend{ display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; font-size:12px; color: var(--text-dim); justify-content:center; }
+  .legend span{ display:flex; align-items:center; gap:5px; font-weight:600; }
+  .dot{ width:9px; height:9px; border-radius:50%; }
+
+  .footer-note{ text-align:center; font-size:11px; color: var(--text-dim); margin-top:22px; }
+  .empty{ text-align:center; padding:24px; color: var(--text-dim); font-size:13px; }
+
+  @media (max-width:480px){
+    .row{ grid-template-columns:32px 1fr 48px 48px 56px; padding:9px 10px; }
+    h1{ font-size:26px; }
+    .clock-day{ font-size:28px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title-badge">
+    <h1>管住嘴的100天</h1>
+    <p class="tagline">杜絕嘴饞，瘦出更好的自己！</p>
+  </div>
+
+  <div class="clock">
+    <div class="clock-row">
+      <div class="clock-day" id="dayNum">--<span> / 100 天</span></div>
+      <div class="clock-label" id="updatedAt">載入中...</div>
+    </div>
+    <div class="track"><div class="track-fill" id="trackFill" style="width:0%"></div></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="stat-num" id="totalPlayers">--</div><div class="stat-label">報名人數</div></div>
+    <div class="stat"><div class="stat-num good" id="passedCount">--</div><div class="stat-label">已達標 🎉</div></div>
+    <div class="stat"><div class="stat-num" id="reportRate">--</div><div class="stat-label">今日回報率</div></div>
+  </div>
+
+  <div class="section-title">🏆 排行榜</div>
+  <div class="roster" id="roster">
+    <div class="row header">
+      <div style="text-align:center">名次</div><div>暱稱</div><div style="text-align:right">減重%</div><div style="text-align:right">減脂%</div><div style="text-align:center">狀態</div>
+    </div>
+    <div class="empty" id="rosterEmpty" style="display:none">尚無資料，等候第一次回報彙總。</div>
+  </div>
+
+  <div class="section-title">📈 前五名減重趨勢</div>
+  <div class="chart-box"><canvas id="trendChart"></canvas></div>
+  <div class="legend" id="legend"></div>
+
+  <p class="footer-note">資料每日 22:00 自動更新</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const seriesColors = ['#FFC53D', '#4FB6E8', '#6FBE44', '#F2545B', '#FF8A3D'];
+const medals = ['🥇','🥈','🥉'];
+
+function pct(v){ return (v===null || v===undefined || v==='') ? '—' : (v*100).toFixed(1)+'%'; }
+
+async function loadDashboard(){
+  try{
+    const lbRes = await fetch('./data/leaderboard.json', {cache:'no-store'});
+    const lb = await lbRes.json();
+    renderMeta(lb.meta);
+    renderRoster(lb.leaderboard);
+    await renderTrend(lb.leaderboard);
+  }catch(err){
+    document.getElementById('rosterEmpty').style.display = 'block';
+    document.getElementById('rosterEmpty').textContent = '資料載入失敗，請確認 data/leaderboard.json 是否存在。';
+    console.error(err);
+  }
+}
+
+function renderMeta(meta){
+  document.getElementById('dayNum').innerHTML = `${meta.day}<span> / ${meta.totalDays} 天</span>`;
+  document.getElementById('trackFill').style.width = Math.min(100, (meta.day/meta.totalDays*100)) + '%';
+  document.getElementById('updatedAt').textContent = '更新於 ' + meta.updatedAt;
+  document.getElementById('totalPlayers').textContent = meta.totalPlayers;
+  document.getElementById('passedCount').textContent = meta.passedCount;
+  document.getElementById('reportRate').textContent = Math.round(meta.reportRateToday*100) + '%';
+}
+
+function renderRoster(list){
+  const container = document.getElementById('roster');
+  if(!list || !list.length){
+    document.getElementById('rosterEmpty').style.display = 'block';
+    return;
+  }
+  list.forEach(p => {
+    const row = document.createElement('div');
+    row.className = 'row' + (p.rank<=3 ? ' top'+p.rank : '');
+    const rankDisplay = p.rank<=3 ? medals[p.rank-1] : String(p.rank).padStart(2,'0');
+    row.innerHTML = `
+      <div class="rank">${rankDisplay}</div>
+      <div class="name-cell"><span class="nickname">${p.nickname}</span></div>
+      <div class="pct">${pct(p.weightPct)}</div>
+      <div class="pct">${pct(p.fatPct)}</div>
+      <div><span class="badge ${p.passed?'pass':'active'}">${p.passed?'達標':'進行中'}</span></div>
+    `;
+    container.appendChild(row);
+  });
+}
+
+// 只抓前5名各自的個人歷史檔案(每個約幾KB)，不再下載全體選手的合併大檔
+async function renderTrend(leaderboard){
+  const top5 = leaderboard.slice(0,5);
+  const results = await Promise.all(top5.map(p =>
+    fetch(`./data/history/${p.pid}.json`, {cache:'no-store'}).then(r => r.ok ? r.json() : []).catch(() => [])
+  ));
+
+  const allDates = new Set();
+  results.forEach(rows => rows.forEach(r => allDates.add(r.date)));
+  const dates = [...allDates].sort();
+
+  const datasets = top5.map((p, idx) => {
+    const byDate = Object.fromEntries(results[idx].map(r => [r.date, r.weightPct]));
+    return {
+      label: p.nickname,
+      data: dates.map(d => byDate[d] !== undefined ? +(byDate[d]*100).toFixed(1) : null),
+      borderColor: seriesColors[idx],
+      backgroundColor: seriesColors[idx],
+      borderWidth: 3,
+      pointRadius: 3,
+      spanGaps: true,
+      tension: 0.35
+    };
+  });
+
+  new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: { labels: dates, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display:false } },
+      scales: {
+        y: { ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true, text:'減重 %', color:'#7C8FA3', font:{size:10}} },
+        x: { ticks:{ color:'#7C8FA3', font:{size:9}, maxTicksLimit:8 }, grid:{ display:false } }
+      }
+    }
+  });
+
+  const legend = document.getElementById('legend');
+  top5.forEach((p, idx) => {
+    const item = document.createElement('span');
+    item.innerHTML = `<span class="dot" style="background:${seriesColors[idx]}"></span>${p.nickname}`;
+    legend.appendChild(item);
+  });
+}
+
+loadDashboard();
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>管住嘴的100天 — 我的進度</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky-top: #6EC1E8; --sky-bottom: #BFE8F7;
+    --card: #FFFFFF; --text: #2C3E50; --text-dim: #7C8FA3;
+    --orange: #FF8A3D; --red: #F2545B; --green: #6FBE44; --blue: #4FB6E8; --gold:#FFC53D;
+    --line: #E3EEF5;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 260px, #F4FAFD 260px);
+    color: var(--text);
+    font-family:'Noto Sans TC', sans-serif;
+  }
+  .wrap{ max-width: 640px; margin:0 auto; padding: 24px 16px 50px; }
+  .title-badge{ text-align:center; margin-bottom: 18px; }
+  h1{
+    font-family:'ZCOOL KuaiLe', sans-serif; font-size: 28px; margin:0 0 4px;
+    background: linear-gradient(90deg, var(--green), var(--orange) 55%, var(--red));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .tagline{ font-size: 13px; color:#fff; font-weight:700; margin:0; }
+
+  .search-card{
+    background: var(--card); border-radius: 20px; padding: 20px;
+    box-shadow: 0 6px 16px rgba(50,100,140,0.12); margin-bottom: 18px;
+  }
+  .search-row{ display:flex; gap:8px; }
+  .search-row input{
+    flex:1; padding: 12px 14px; border-radius: 12px; border: 2px solid var(--line);
+    font-size: 15px; font-family:'Noto Sans TC', sans-serif; text-transform: uppercase;
+  }
+  .search-row input:focus{ outline:none; border-color: var(--orange); }
+  .search-row button{
+    padding: 12px 20px; border-radius: 12px; border:none;
+    background: linear-gradient(90deg, var(--orange), var(--red));
+    color:#fff; font-weight:700; font-size:15px; cursor:pointer;
+  }
+  .search-row button:active{ transform: scale(0.97); }
+  .hint{ font-size:12px; color: var(--text-dim); margin: 8px 4px 0; }
+
+  .result{ display:none; }
+  .profile-card{
+    background: var(--card); border-radius: 18px; padding: 18px 20px; margin-bottom: 14px;
+    box-shadow: 0 4px 10px rgba(50,100,140,0.08);
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+  .profile-name{ font-family:'ZCOOL KuaiLe', sans-serif; font-size:22px; }
+  .profile-sup{ font-size:12px; color:var(--text-dim); }
+  .rank-pill{
+    font-family:'ZCOOL KuaiLe', sans-serif; font-size:15px;
+    background: linear-gradient(90deg, var(--gold), var(--orange)); color:#fff;
+    padding: 6px 16px; border-radius: 20px;
+  }
+
+  .stats{ display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-bottom:18px; }
+  .stat{ background:var(--card); border-radius:16px; padding:14px; text-align:center; box-shadow: 0 4px 10px rgba(50,100,140,0.08); }
+  .stat-num{ font-family:'ZCOOL KuaiLe', sans-serif; font-size:26px; color: var(--blue); }
+  .stat-label{ font-size:11px; color:var(--text-dim); margin-top:2px; }
+
+  .chart-box{ background:var(--card); border-radius:18px; padding:16px; height:260px; box-shadow: 0 4px 10px rgba(50,100,140,0.08); }
+  .legend{ display:flex; gap:14px; justify-content:center; margin-top:10px; font-size:12px; color:var(--text-dim); font-weight:600; }
+  .legend span{ display:flex; align-items:center; gap:5px; }
+  .dot{ width:9px; height:9px; border-radius:50%; }
+
+  .error{ display:none; text-align:center; color: var(--red); font-size:13px; padding: 14px; font-weight:700; }
+  .back-link{ display:block; text-align:center; margin-top:20px; font-size:13px; color: var(--blue); text-decoration:none; font-weight:700; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="title-badge">
+    <h1>我的進度</h1>
+    <p class="tagline">輸入你的參賽編號，看看自己的進步曲線！</p>
+  </div>
+
+  <div class="search-card">
+    <div class="search-row">
+      <input type="text" id="pidInput" placeholder="例如：P001" maxlength="10">
+      <button onclick="search()">查詢</button>
+    </div>
+    <p class="hint">參賽編號請參考報名回覆信件或詢問管理員</p>
+  </div>
+
+  <p class="error" id="errorMsg">找不到這個參賽編號，請確認輸入是否正確。</p>
+
+  <div class="result" id="result">
+    <div class="profile-card">
+      <div>
+        <div class="profile-name" id="pName">--</div>
+      </div>
+      <div class="rank-pill" id="pRank">排名 --</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="stat-num" id="pWeight">--</div><div class="stat-label">減重進度</div></div>
+      <div class="stat"><div class="stat-num" id="pFat">--</div><div class="stat-label">減脂進度</div></div>
+    </div>
+
+    <div class="chart-box"><canvas id="myChart"></canvas></div>
+    <div class="legend">
+      <span><span class="dot" style="background:#FF8A3D"></span>減重%</span>
+      <span><span class="dot" style="background:#4FB6E8"></span>減脂%</span>
+    </div>
+  </div>
+
+  <a class="back-link" href="./index.html">← 回排行榜</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+let chartInstance = null;
+
+function pct(v){ return (v===null || v===undefined || v==='') ? '—' : (v*100).toFixed(1)+'%'; }
+
+async function search(){
+  const pid = document.getElementById('pidInput').value.trim().toUpperCase();
+  document.getElementById('errorMsg').style.display = 'none';
+  document.getElementById('result').style.display = 'none';
+  if(!pid) return;
+
+  try{
+    const lbRes = await fetch('./data/leaderboard.json', {cache:'no-store'});
+    const lb = await lbRes.json();
+
+    const player = lb.leaderboard.find(p => p.pid === pid);
+    if(!player){
+      document.getElementById('errorMsg').style.display = 'block';
+      return;
+    }
+
+    document.getElementById('pName').textContent = player.nickname;
+    document.getElementById('pRank').textContent = player.passed ? `排名 第${player.rank}名` : '進行中';
+    document.getElementById('pWeight').textContent = pct(player.weightPct);
+    document.getElementById('pFat').textContent = pct(player.fatPct);
+
+    // 只抓自己的個人歷史檔案（幾KB等級），不用下載所有選手的合併大檔
+    const histRes = await fetch(`./data/history/${pid}.json`, {cache:'no-store'});
+    const myRows = histRes.ok ? (await histRes.json()).sort((a,b) => a.date.localeCompare(b.date)) : [];
+    renderChart(myRows);
+
+    document.getElementById('result').style.display = 'block';
+  }catch(err){
+    document.getElementById('errorMsg').textContent = '資料載入失敗，請稍後再試。';
+    document.getElementById('errorMsg').style.display = 'block';
+    console.error(err);
+  }
+}
+
+function renderChart(rows){
+  if(chartInstance) chartInstance.destroy();
+  const labels = rows.map(r => r.date);
+  chartInstance = new Chart(document.getElementById('myChart'), {
+    type:'line',
+    data:{
+      labels,
+      datasets:[
+        { label:'減重%', data: rows.map(r=>r.weightPct!==''?+(r.weightPct*100).toFixed(1):null), borderColor:'#FF8A3D', backgroundColor:'#FF8A3D', borderWidth:3, pointRadius:3, tension:0.35, spanGaps:true },
+        { label:'減脂%', data: rows.map(r=>r.fatPct!==''?+(r.fatPct*100).toFixed(1):null), borderColor:'#4FB6E8', backgroundColor:'#4FB6E8', borderWidth:3, pointRadius:3, tension:0.35, spanGaps:true }
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{ display:false } },
+      scales:{
+        y:{ ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true,text:'%',color:'#7C8FA3',font:{size:10}} },
+        x:{ ticks:{ color:'#7C8FA3', font:{size:9}, maxTicksLimit:8 }, grid:{ display:false } }
+      }
+    }
+  });
+}
+
+document.getElementById('pidInput').addEventListener('keydown', e => { if(e.key === 'Enter') search(); });
+</script>
+</body>
+</html>

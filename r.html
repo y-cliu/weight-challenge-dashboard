@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>正在前往回報表單...</title>
+</head>
+<body style="font-family:sans-serif; text-align:center; padding:60px 20px; color:#555;">
+  <p id="msg">正在為你開啟回報表單，請稍候…</p>
+
+<script>
+  // ===== 這裡是唯一需要之後維護的地方 =====
+  // 如果Google表單有變動（例如換一個新表單、或gapps帳號被停用改用其他後台），
+  // 只需要改這3個值並commit，不需要重發任何連結給選手。
+  const FORM_BASE = 'https://docs.google.com/forms/d/e/1FAIpQLScSzB8YqCY2VS3WupkQeysOzFORyFPNFMTib51BFms9jRzCDg/viewform';
+  const UUID_ENTRY = 'entry.965998224';
+  const PID_ENTRY = 'entry.333475401';
+  // ==========================================
+
+  const params = new URLSearchParams(window.location.search);
+  const pid = params.get('p');
+  const code = params.get('c');
+
+  if (pid && code) {
+    const dest = `${FORM_BASE}?usp=pp_url&${UUID_ENTRY}=${encodeURIComponent(code)}&${PID_ENTRY}=${encodeURIComponent(pid)}`;
+    window.location.replace(dest);
+  } else {
+    document.getElementById('msg').textContent = '連結參數不完整，請確認網址是否複製完整，或聯繫管理員取得正確連結。';
+  }
+</script>
+
+  <noscript>
+    <p>請開啟瀏覽器的JavaScript功能以繼續前往表單，或聯繫管理員取得直接連結。</p>
+  </noscript>
+</body>
+</html>
