@@ -155,20 +155,31 @@ async function search(){
   }
 }
 
+// 降採樣：跟主排行榜同一套邏輯，100天資料稀疏化成約16~18個點，形狀不變但視覺更乾淨
+function downsampleRows(rows, maxPoints) {
+  if (rows.length <= maxPoints) return rows;
+  const step = Math.ceil(rows.length / maxPoints);
+  const sampled = rows.filter((_, i) => i % step === 0);
+  if (sampled[sampled.length - 1] !== rows[rows.length - 1]) sampled.push(rows[rows.length - 1]);
+  return sampled;
+}
+
 function renderChart(rows){
   if(chartInstance) chartInstance.destroy();
-  const labels = rows.map(r => r.date);
+  const displayRows = downsampleRows(rows, 18);
+  const labels = displayRows.map(r => r.date);
   chartInstance = new Chart(document.getElementById('myChart'), {
     type:'line',
     data:{
       labels,
       datasets:[
-        { label:'減重%', data: rows.map(r=>r.weightPct!==''?+(r.weightPct*100).toFixed(1):null), borderColor:'#FF8A3D', backgroundColor:'#FF8A3D', borderWidth:3, pointRadius:3, tension:0.35, spanGaps:true },
-        { label:'減脂%', data: rows.map(r=>r.fatPct!==''?+(r.fatPct*100).toFixed(1):null), borderColor:'#4FB6E8', backgroundColor:'#4FB6E8', borderWidth:3, pointRadius:3, tension:0.35, spanGaps:true }
+        { label:'減重%', data: displayRows.map(r=>r.weightPct!==''?+(r.weightPct*100).toFixed(1):null), borderColor:'#FF8A3D', backgroundColor:'#FF8A3D', borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHitRadius:12, tension:0.35, spanGaps:true },
+        { label:'減脂%', data: displayRows.map(r=>r.fatPct!==''?+(r.fatPct*100).toFixed(1):null), borderColor:'#4FB6E8', backgroundColor:'#4FB6E8', borderWidth:2.5, pointRadius:0, pointHoverRadius:5, pointHitRadius:12, tension:0.35, spanGaps:true }
       ]
     },
     options:{
       responsive:true, maintainAspectRatio:false,
+      interaction: { mode: 'index', intersect: false },
       plugins:{ legend:{ display:false } },
       scales:{
         y:{ ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true,text:'%',color:'#7C8FA3',font:{size:10}} },
