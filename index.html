@@ -220,16 +220,29 @@ function renderRoster(list){
   });
 }
 
-// 只抓前5名各自的個人歷史檔案(每個約幾KB)，不再下載全體選手的合併大檔
+// 降採樣：把100天份的每日資料點，稀疏化成大約15~18個點，趨勢線形狀不變但視覺上不再擁擠
+function downsampleDates(dates, maxPoints) {
+  if (dates.length <= maxPoints) return dates;
+  const step = Math.ceil(dates.length / maxPoints);
+  const sampled = dates.filter((_, i) => i % step === 0);
+  if (sampled[sampled.length - 1] !== dates[dates.length - 1]) sampled.push(dates[dates.length - 1]);
+  return sampled;
+}
+
+// 只抓前3或前5名各自的個人歷史檔案(每個約幾KB)，手機窄螢幕自動減少顯示線數避免擁擠
 async function renderTrend(leaderboard){
-  const top5 = leaderboard.slice(0,5);
+  const isNarrowScreen = window.innerWidth < 480;
+  const topN = isNarrowScreen ? 3 : 5;
+  const top5 = leaderboard.slice(0, topN);
+
   const results = await Promise.all(top5.map(p =>
     fetch(`./data/history/${p.pid}.json`, {cache:'no-store'}).then(r => r.ok ? r.json() : []).catch(() => [])
   ));
 
-  const allDates = new Set();
-  results.forEach(rows => rows.forEach(r => allDates.add(r.date)));
-  const dates = [...allDates].sort();
+  const allDatesSet = new Set();
+  results.forEach(rows => rows.forEach(r => allDatesSet.add(r.date)));
+  const allDates = [...allDatesSet].sort();
+  const dates = downsampleDates(allDates, 16);
 
   const datasets = top5.map((p, idx) => {
     const byDate = Object.fromEntries(results[idx].map(r => [r.date, r.weightPct]));
@@ -238,8 +251,10 @@ async function renderTrend(leaderboard){
       data: dates.map(d => byDate[d] !== undefined ? +(byDate[d]*100).toFixed(1) : null),
       borderColor: seriesColors[idx],
       backgroundColor: seriesColors[idx],
-      borderWidth: 3,
-      pointRadius: 3,
+      borderWidth: 2.5,
+      pointRadius: 0,        // 平常不顯示點，避免100天x5條線糊成一片
+      pointHoverRadius: 5,   // 手指點按/滑鼠移過時才浮現該點方便讀數值
+      pointHitRadius: 12,    // 加大可觸控範圍，手機手指點按更容易點中
       spanGaps: true,
       tension: 0.35
     };
@@ -251,6 +266,7 @@ async function renderTrend(leaderboard){
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false }, // 點按同一天，5條線的數值一次全部顯示，不用精準點在線上
       plugins: { legend: { display:false } },
       scales: {
         y: { ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true, text:'減重 %', color:'#7C8FA3', font:{size:10}} },
