@@ -162,7 +162,7 @@
     <div class="empty" id="rosterEmpty" style="display:none">尚無資料，等候第一次回報彙總。</div>
   </div>
 
-  <div class="section-title">📈 前五名減重趨勢</div>
+  <div class="section-title">📈 前三名減重趨勢(轉橫向重整後顯示前五名)</div>
   <div class="chart-box"><canvas id="trendChart"></canvas></div>
   <div class="legend" id="legend"></div>
 
@@ -182,7 +182,7 @@ async function loadDashboard(){
     const lb = await lbRes.json();
     renderMeta(lb.meta);
     renderRoster(lb.leaderboard);
-    await renderTrend(lb.leaderboard);
+    await renderTrend(lb.leaderboard, lb.meta.day);
   }catch(err){
     document.getElementById('rosterEmpty').style.display = 'block';
     document.getElementById('rosterEmpty').textContent = '資料載入失敗，請確認 data/leaderboard.json 是否存在。';
@@ -220,6 +220,51 @@ function renderRoster(list){
   });
 }
 
+// ===== HMAC-SHA256金鑰流 + XOR解密（跟Apps Script那端演算法完全對稱，用於解密前N名的歷史金鑰已公開的資料）=====
+async function hmacKeystream(keyStr, numBytes){
+  const enc = new TextEncoder();
+  const cryptoKey = await crypto.subtle.importKey('raw', enc.encode(keyStr), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  const blockSize = 32;
+  const numBlocks = Math.ceil(numBytes / blockSize);
+  const keystream = new Uint8Array(numBlocks * blockSize);
+  for (let i = 0; i < numBlocks; i++){
+    const sig = await crypto.subtle.sign('HMAC', cryptoKey, enc.encode(String(i))); // 計數器用字串(跟GAS端一致)，而非二進位byte
+    keystream.set(new Uint8Array(sig), i * blockSize);
+  }
+  return keystream.slice(0, numBytes);
+}
+
+async function xorDecrypt(base64Cipher, keyStr){
+  const binStr = atob(base64Cipher);
+  const cipherBytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
+  const keystream = await hmacKeystream(keyStr, cipherBytes.length);
+  const plainBytes = cipherBytes.map((b, i) => b ^ keystream[i]);
+  return new TextDecoder('utf-8', {fatal:true}).decode(plainBytes);
+}
+
+// ===== 單向雜湊鏈：從已知某天(今天)的公開金鑰，往回推算更早之前任一天的金鑰 =====
+async function chainStep(keyHex){
+  const enc = new TextEncoder();
+  const cryptoKey = await crypto.subtle.importKey('raw', enc.encode(keyHex), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  const sig = await crypto.subtle.sign('HMAC', cryptoKey, enc.encode('chain-step'));
+  return [...new Uint8Array(sig)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function deriveKeyForDay(knownKeyHex, knownDayIndex, targetDayIndex){
+  let k = knownKeyHex;
+  const hops = knownDayIndex - targetDayIndex;
+  for (let i = 0; i < hops; i++) k = await chainStep(k);
+  return k;
+}
+
+const ACTIVITY_START_DATE = '2026-08-24'; // 需與Apps Script的CONFIG.ACTIVITY_START_DATE保持一致
+// 跟GAS端toDayIndex()完全對稱：格式化成純日期字串後，用UTC正午重新解析比較，避開時區造成的日界位移
+function dayIndexFromDate(dateStr){
+  const d1 = new Date(dateStr + 'T12:00:00Z');
+  const d0 = new Date(ACTIVITY_START_DATE + 'T12:00:00Z');
+  return Math.round((d1 - d0) / 86400000) + 1;
+}
+
 // 降採樣：把100天份的每日資料點，稀疏化成大約15~18個點，趨勢線形狀不變但視覺上不再擁擠
 function downsampleDates(dates, maxPoints) {
   if (dates.length <= maxPoints) return dates;
@@ -229,22 +274,40 @@ function downsampleDates(dates, maxPoints) {
   return sampled;
 }
 
-// 只抓前3或前5名各自的個人歷史檔案(每個約幾KB)，手機窄螢幕自動減少顯示線數避免擁擠
-async function renderTrend(leaderboard){
+// 只有「當天的衍生金鑰」隨排行榜一起公開的前N名，才能被解密畫出趨勢線；
+// 這把金鑰只能回推「今天以前」的資料，其餘選手的歷史檔案完全解不開，不會出現在這張圖上。
+async function renderTrend(leaderboard, todayDayIndex){
   const isNarrowScreen = window.innerWidth < 480;
   const topN = isNarrowScreen ? 3 : 5;
-  const top5 = leaderboard.slice(0, topN);
+  const candidates = leaderboard.filter(p => p.histKey).slice(0, topN);
 
-  const results = await Promise.all(top5.map(p =>
-    fetch(`./data/history/${p.pid}.json`, {cache:'no-store'}).then(r => r.ok ? r.json() : []).catch(() => [])
-  ));
+  const results = await Promise.all(candidates.map(async p => {
+    try {
+      const res = await fetch(`./data/history/${p.pid}.json`, {cache:'no-store'});
+      if (!res.ok) return [];
+      const encryptedByDate = await res.json();
+      const rows = [];
+      for (const date of Object.keys(encryptedByDate)) {
+        try {
+          const dayIdx = dayIndexFromDate(date);
+          const dayKey = await deriveKeyForDay(p.histKey, todayDayIndex, dayIdx);
+          const decrypted = JSON.parse(await xorDecrypt(encryptedByDate[date], dayKey));
+          rows.push({ date, weightPct: decrypted.weightPct, fatPct: decrypted.fatPct });
+        } catch (dayErr) { /* 單日解密失敗就略過，不影響其他天 */ }
+      }
+      return rows;
+    } catch (err) {
+      console.error('解密失敗', p.nickname, err);
+      return [];
+    }
+  }));
 
   const allDatesSet = new Set();
   results.forEach(rows => rows.forEach(r => allDatesSet.add(r.date)));
   const allDates = [...allDatesSet].sort();
   const dates = downsampleDates(allDates, 16);
 
-  const datasets = top5.map((p, idx) => {
+  const datasets = candidates.map((p, idx) => {
     const byDate = Object.fromEntries(results[idx].map(r => [r.date, r.weightPct]));
     return {
       label: p.nickname,
@@ -252,9 +315,9 @@ async function renderTrend(leaderboard){
       borderColor: seriesColors[idx],
       backgroundColor: seriesColors[idx],
       borderWidth: 2.5,
-      pointRadius: 0,        // 平常不顯示點，避免100天x5條線糊成一片
-      pointHoverRadius: 5,   // 手指點按/滑鼠移過時才浮現該點方便讀數值
-      pointHitRadius: 12,    // 加大可觸控範圍，手機手指點按更容易點中
+      pointRadius: 0,
+      pointHoverRadius: 5,
+      pointHitRadius: 12,
       spanGaps: true,
       tension: 0.35
     };
@@ -266,7 +329,7 @@ async function renderTrend(leaderboard){
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      interaction: { mode: 'index', intersect: false }, // 點按同一天，5條線的數值一次全部顯示，不用精準點在線上
+      interaction: { mode: 'index', intersect: false },
       plugins: { legend: { display:false } },
       scales: {
         y: { ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true, text:'減重 %', color:'#7C8FA3', font:{size:10}} },
@@ -276,7 +339,7 @@ async function renderTrend(leaderboard){
   });
 
   const legend = document.getElementById('legend');
-  top5.forEach((p, idx) => {
+  candidates.forEach((p, idx) => {
     const item = document.createElement('span');
     item.innerHTML = `<span class="dot" style="background:${seriesColors[idx]}"></span>${p.nickname}`;
     legend.appendChild(item);

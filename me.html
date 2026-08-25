@@ -29,23 +29,17 @@
   }
   .tagline{ font-size: 13px; color:#fff; font-weight:700; margin:0; }
 
-  .search-card{
-    background: var(--card); border-radius: 20px; padding: 20px;
-    box-shadow: 0 6px 16px rgba(50,100,140,0.12); margin-bottom: 18px;
+  .state-card{
+    background: var(--card); border-radius: 20px; padding: 28px 20px;
+    box-shadow: 0 6px 16px rgba(50,100,140,0.12); text-align:center;
   }
-  .search-row{ display:flex; gap:8px; }
-  .search-row input{
-    flex:1; padding: 12px 14px; border-radius: 12px; border: 2px solid var(--line);
-    font-size: 15px; font-family:'Noto Sans TC', sans-serif; text-transform: uppercase;
+  .state-card p{ font-size:14px; color: var(--text-dim); line-height:1.7; margin:0; }
+  .spinner{
+    width:28px; height:28px; margin:0 auto 14px;
+    border: 3px solid var(--line); border-top-color: var(--orange); border-radius:50%;
+    animation: spin 0.8s linear infinite;
   }
-  .search-row input:focus{ outline:none; border-color: var(--orange); }
-  .search-row button{
-    padding: 12px 20px; border-radius: 12px; border:none;
-    background: linear-gradient(90deg, var(--orange), var(--red));
-    color:#fff; font-weight:700; font-size:15px; cursor:pointer;
-  }
-  .search-row button:active{ transform: scale(0.97); }
-  .hint{ font-size:12px; color: var(--text-dim); margin: 8px 4px 0; }
+  @keyframes spin{ to { transform: rotate(360deg); } }
 
   .result{ display:none; }
   .profile-card{
@@ -54,7 +48,6 @@
     display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;
   }
   .profile-name{ font-family:'ZCOOL KuaiLe', sans-serif; font-size:22px; }
-  .profile-sup{ font-size:12px; color:var(--text-dim); }
   .rank-pill{
     font-family:'ZCOOL KuaiLe', sans-serif; font-size:15px;
     background: linear-gradient(90deg, var(--gold), var(--orange)); color:#fff;
@@ -70,33 +63,23 @@
   .legend{ display:flex; gap:14px; justify-content:center; margin-top:10px; font-size:12px; color:var(--text-dim); font-weight:600; }
   .legend span{ display:flex; align-items:center; gap:5px; }
   .dot{ width:9px; height:9px; border-radius:50%; }
-
-  .error{ display:none; text-align:center; color: var(--red); font-size:13px; padding: 14px; font-weight:700; }
-  .back-link{ display:block; text-align:center; margin-top:20px; font-size:13px; color: var(--blue); text-decoration:none; font-weight:700; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="title-badge">
     <h1>我的進度</h1>
-    <p class="tagline">輸入你的參賽編號，看看自己的進步曲線！</p>
+    <p class="tagline">只有你自己的專屬連結才看得到這頁</p>
   </div>
 
-  <div class="search-card">
-    <div class="search-row">
-      <input type="text" id="pidInput" placeholder="例如：P001" maxlength="10">
-      <button onclick="search()">查詢</button>
-    </div>
-    <p class="hint">參賽編號請參考報名回覆信件或詢問管理員</p>
+  <div class="state-card" id="stateCard">
+    <div class="spinner"></div>
+    <p id="stateMsg">正在解密你的資料...</p>
   </div>
-
-  <p class="error" id="errorMsg">找不到這個參賽編號，請確認輸入是否正確。</p>
 
   <div class="result" id="result">
     <div class="profile-card">
-      <div>
-        <div class="profile-name" id="pName">--</div>
-      </div>
+      <div><div class="profile-name" id="pName">--</div></div>
       <div class="rank-pill" id="pRank">排名 --</div>
     </div>
 
@@ -111,8 +94,6 @@
       <span><span class="dot" style="background:#4FB6E8"></span>減脂%</span>
     </div>
   </div>
-
-  <a class="back-link" href="./index.html">← 回排行榜</a>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -121,47 +102,117 @@ let chartInstance = null;
 
 function pct(v){ return (v===null || v===undefined || v==='') ? '—' : (v*100).toFixed(1)+'%'; }
 
-async function search(){
-  const pid = document.getElementById('pidInput').value.trim().toUpperCase();
-  document.getElementById('errorMsg').style.display = 'none';
-  document.getElementById('result').style.display = 'none';
-  if(!pid) return;
-
-  try{
-    const lbRes = await fetch('./data/leaderboard.json', {cache:'no-store'});
-    const lb = await lbRes.json();
-
-    const player = lb.leaderboard.find(p => p.pid === pid);
-    if(!player){
-      document.getElementById('errorMsg').style.display = 'block';
-      return;
-    }
-
-    document.getElementById('pName').textContent = player.nickname;
-    document.getElementById('pRank').textContent = player.passed ? `排名 第${player.rank}名` : '進行中';
-    document.getElementById('pWeight').textContent = pct(player.weightPct);
-    document.getElementById('pFat').textContent = pct(player.fatPct);
-
-    // 只抓自己的個人歷史檔案（幾KB等級），不用下載所有選手的合併大檔
-    const histRes = await fetch(`./data/history/${pid}.json`, {cache:'no-store'});
-    const myRows = histRes.ok ? (await histRes.json()).sort((a,b) => a.date.localeCompare(b.date)) : [];
-    renderChart(myRows);
-
-    document.getElementById('result').style.display = 'block';
-  }catch(err){
-    document.getElementById('errorMsg').textContent = '資料載入失敗，請稍後再試。';
-    document.getElementById('errorMsg').style.display = 'block';
-    console.error(err);
-  }
+function setState(msg, isError){
+  document.getElementById('stateMsg').textContent = msg;
+  if (isError) document.querySelector('.spinner').style.display = 'none';
 }
 
-// 降採樣：跟主排行榜同一套邏輯，100天資料稀疏化成約16~18個點，形狀不變但視覺更乾淨
+// ===== HMAC-SHA256金鑰流 + XOR解密（跟Apps Script那端演算法完全對稱）=====
+async function hmacKeystream(keyStr, numBytes){
+  const enc = new TextEncoder();
+  const cryptoKey = await crypto.subtle.importKey('raw', enc.encode(keyStr), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  const blockSize = 32;
+  const numBlocks = Math.ceil(numBytes / blockSize);
+  const keystream = new Uint8Array(numBlocks * blockSize);
+  for (let i = 0; i < numBlocks; i++){
+    const sig = await crypto.subtle.sign('HMAC', cryptoKey, enc.encode(String(i))); // 計數器用字串(跟GAS端一致)，而非二進位byte
+    keystream.set(new Uint8Array(sig), i * blockSize);
+  }
+  return keystream.slice(0, numBytes);
+}
+
+async function xorDecrypt(base64Cipher, keyStr){
+  const binStr = atob(base64Cipher);
+  const cipherBytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
+  const keystream = await hmacKeystream(keyStr, cipherBytes.length);
+  const plainBytes = cipherBytes.map((b, i) => b ^ keystream[i]);
+  return new TextDecoder('utf-8', {fatal:true}).decode(plainBytes); // fatal:true讓無效UTF-8直接拋錯，代表金鑰錯誤
+}
+
+// ===== 單向雜湊鏈：從已知某天的金鑰(這裡是選手自己的種子)，往回推算任一天的金鑰 =====
+async function chainStep(keyHex){
+  const enc = new TextEncoder();
+  const cryptoKey = await crypto.subtle.importKey('raw', enc.encode(keyHex), {name:'HMAC', hash:'SHA-256'}, false, ['sign']);
+  const sig = await crypto.subtle.sign('HMAC', cryptoKey, enc.encode('chain-step'));
+  return [...new Uint8Array(sig)].map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function deriveKeyForDay(knownKeyHex, knownDayIndex, targetDayIndex){
+  let k = knownKeyHex;
+  const hops = knownDayIndex - targetDayIndex;
+  for (let i = 0; i < hops; i++) k = await chainStep(k);
+  return k;
+}
+
+const ACTIVITY_START_DATE = '2026-08-24'; // 需與Apps Script的CONFIG.ACTIVITY_START_DATE保持一致
+const TOTAL_DAYS = 100; // 需與CONFIG.TOTAL_DAYS保持一致
+// 跟GAS端toDayIndex()完全對稱：格式化成純日期字串後，用UTC正午重新解析比較，避開時區造成的日界位移
+function dayIndexFromDate(dateStr){
+  const d1 = new Date(dateStr + 'T12:00:00Z');
+  const d0 = new Date(ACTIVITY_START_DATE + 'T12:00:00Z');
+  return Math.round((d1 - d0) / 86400000) + 1;
+}
+
 function downsampleRows(rows, maxPoints) {
   if (rows.length <= maxPoints) return rows;
   const step = Math.ceil(rows.length / maxPoints);
   const sampled = rows.filter((_, i) => i % step === 0);
   if (sampled[sampled.length - 1] !== rows[rows.length - 1]) sampled.push(rows[rows.length - 1]);
   return sampled;
+}
+
+async function init(){
+  const params = new URLSearchParams(window.location.search);
+  const pid = params.get('p');   // 公開代碼
+  const key = params.get('c');   // 歷史金鑰（注意：不是表單驗證碼）
+
+  if (!pid || !key) {
+    setState('請透過你自己收到的專屬連結開啟本頁，無法直接查詢其他人的資料。', true);
+    return;
+  }
+
+  try {
+    const lbRes = await fetch('./data/leaderboard.json', {cache:'no-store'});
+    const lb = await lbRes.json();
+    const player = lb.leaderboard.find(p => p.pid === pid);
+    if (!player) { setState('查無此參賽編號，請確認連結是否正確。', true); return; }
+
+    // 逐日解密：檔案內容現在是 {日期: base64密文} 的物件，選手自己的金鑰(c參數)等於第100天(種子)，
+    // 對每一天各自推算出當天的金鑰再解密；金鑰或某天資料不對，該天會被跳過而不是整份掛掉。
+    const histRes = await fetch(`./data/history/${pid}.json`, {cache:'no-store'});
+    let myRows = [];
+    if (histRes.ok) {
+      const encryptedByDate = await histRes.json();
+      const dates = Object.keys(encryptedByDate);
+      for (const date of dates) {
+        try {
+          const dayIdx = dayIndexFromDate(date);
+          const dayKey = await deriveKeyForDay(key, TOTAL_DAYS, dayIdx);
+          const decrypted = JSON.parse(await xorDecrypt(encryptedByDate[date], dayKey));
+          myRows.push({ date, weightPct: decrypted.weightPct, fatPct: decrypted.fatPct });
+        } catch (dayErr) {
+          console.warn(`${date} 解密失敗，略過`, dayErr);
+        }
+      }
+      myRows.sort((a,b) => a.date.localeCompare(b.date));
+      if (dates.length && myRows.length === 0) {
+        // 一整份資料都解不開，才視為金鑰本身錯誤；單日解不開只是略過那天
+        throw new Error('所有日期皆解密失敗，金鑰可能不正確');
+      }
+    }
+
+    document.getElementById('pName').textContent = player.nickname;
+    document.getElementById('pRank').textContent = player.passed ? `排名 第${player.rank}名` : '進行中';
+    document.getElementById('pWeight').textContent = pct(player.weightPct);
+    document.getElementById('pFat').textContent = pct(player.fatPct);
+    renderChart(myRows);
+
+    document.getElementById('stateCard').style.display = 'none';
+    document.getElementById('result').style.display = 'block';
+  } catch (err) {
+    setState('驗證失敗，連結可能不完整或已失效，請聯繫管理員。', true);
+    console.error(err);
+  }
 }
 
 function renderChart(rows){
@@ -189,7 +240,7 @@ function renderChart(rows){
   });
 }
 
-document.getElementById('pidInput').addEventListener('keydown', e => { if(e.key === 'Enter') search(); });
+init();
 </script>
 </body>
 </html>
