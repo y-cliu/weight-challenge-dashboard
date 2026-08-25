@@ -40,6 +40,7 @@
     animation: spin 0.8s linear infinite;
   }
   @keyframes spin{ to { transform: rotate(360deg); } }
+  .static-icon{ font-size:32px; margin-bottom:10px; }
 
   .result{ display:none; }
   .profile-card{
@@ -74,7 +75,7 @@
   </div>
 
   <div class="state-card" id="stateCard">
-    <div class="spinner"></div>
+    <div class="spinner" id="spinnerIcon"></div>
     <p id="stateMsg">正在解密你的資料...</p>
   </div>
 
@@ -164,7 +165,30 @@ function downsampleRows(rows, maxPoints) {
   return sampled;
 }
 
+// 個人成績功能開放日：在這之前(不含當天前)，起始體重/體脂資料還沒蒐集齊，
+// 每日彙總也還沒開始正式排程，此時顯示「敬請期待」而非解密錯誤，避免造成選手誤會系統壞掉。
+const STATS_AVAILABLE_DATE = '2026-08-31';
+
+function showComingSoon(){
+  document.querySelector('.spinner').style.display = 'none';
+  const icon = document.createElement('div');
+  icon.className = 'static-icon';
+  icon.textContent = '📊';
+  document.getElementById('stateCard').prepend(icon);
+  document.getElementById('stateMsg').innerHTML =
+    `個人成績查詢功能尚未開放<br>敬請期待！<br><br>` +
+    `<span style="font-size:12px; color:var(--text-dim);">開賽初期正在蒐集大家的起始體重/體脂資料，` +
+    `預計 ${STATS_AVAILABLE_DATE.replace('2026-','').replace('-','/')} 起開放查詢，請耐心等候～</span>`;
+}
+
 async function init(){
+  const today = new Date();
+  const availableDate = new Date(STATS_AVAILABLE_DATE + 'T00:00:00');
+  if (today < availableDate) {
+    showComingSoon();
+    return;
+  }
+
   const params = new URLSearchParams(window.location.search);
   const pid = params.get('p');   // 公開代碼
   const key = params.get('c');   // 歷史金鑰（注意：不是表單驗證碼）
