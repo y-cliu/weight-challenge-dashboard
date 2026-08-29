@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "day": 6,
+    "totalDays": 100,
+    "totalPlayers": 100,
+    "passedCount": 0,
+    "reportRateToday": 0.02,
+    "updatedAt": "2026-08-29"
+  },
+  "leaderboard": [
+    {
+      "pid": "0823651e",
+      "nickname": "胖",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 1,
+      "histKey": "c4195e83636e40e302ae608645029a1a526693090be4e167ba87b5dab2b7dda3"
+    },
+    {
+      "pid": "e989771e",
+      "nickname": "品質就是道德",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 2,
+      "histKey": "c872f1e71c5d10e93bec4a9b706df260c24030dce48366c546e6ca04e1e91a8d"
+    },
+    {
+      "pid": "e94023cf",
+      "nickname": "胖胖虎虎",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 3,
+      "histKey": "b6be7cf6cd618b8d14de4f0c6cea63441c09f80d4d2223c96f6d0fe36dbddb77"
+    },
+    {
+      "pid": "704bb612",
+      "nickname": "儒儒米",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 4,
+      "histKey": "09822079428e2ae915ff1e538b485da09d679dca5936200d958d1d917a8dff98"
+    },
+    {
+      "pid": "6e3323ad",
+      "nickname": "華仔",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 5,
+      "histKey": "4b5e9a623729c50739773cc727ef8d7d9a6f87983476772dec2e6ca32d340e7c"
+    },
+    {
+      "pid": "6013e654",
+      "nickname": "King",
+      "weightPct": 0.02454545454545457,
+      "fatPct": "",
+      "passed": false,
+      "rank": 6
+    },
+    {
+      "pid": "5e73f6c4",
+      "nickname": "大威",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 7
+    },
+    {
+      "pid": "e7cde42c",
+      "nickname": "飛常努力",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 8
+    },
+    {
+      "pid": "61f310ff",
+      "nickname": "刺頭",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 9
+    },
+    {
+      "pid": "1b9abb75",
+      "nickname": "阿德",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 10
+    },
+    {
+      "pid": "60382873",
+      "nickname": "salmon",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 11
+    },
+    {
+      "pid": "f3bac57b",
+      "nickname": "ㄩ",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 12
+    },
+    {
+      "pid": "8f2ec2ae",
+      "nickname": "被叫錯的阿絃",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 13
+    },
+    {
+      "pid": "adc3b0b2",
+      "nickname": "煩",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 14
+    },
+    {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 15
+    },
+    {
+      "pid": "4e937ca1",
+      "nickname": "喇叭勢在必得",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 16
+    },
+    {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.00729927007299273,
+      "fatPct": "",
+      "passed": false,
+      "rank": 17
+    },
+    {
+      "pid": "58945cc1",
+      "nickname": "網咖8小",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 18
+    },
+    {
+      "pid": "01b1b7ec",
+      "nickname": "肉雲",
+      "weightPct": -0.010362694300518135,
+      "fatPct": "",
+      "passed": false,
+      "rank": 19
+    },
+    {
+      "pid": "4c856b4e",
+      "nickname": "阿翔",
+      "weightPct": 0.008879023307436151,
+      "fatPct": -0.03272058823529414,
+      "passed": false,
+      "rank": 20
+    },
+    {
+      "pid": "276c8876",
+      "nickname": "小悅",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 21
+    },
+    {
+      "pid": "1c738cd4",
+      "nickname": "吸收好",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 22
+    },
+    {
+      "pid": "86f28999",
+      "nickname": "小胖仔",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 23
+    },
+    {
+      "pid": "6fa9a1e3",
+      "nickname": "xiang",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 24
+    },
+    {
+      "pid": "ab987f10",
+      "nickname": "白王",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 25
+    },
+    {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 26
+    },
+    {
+      "pid": "0b09504d",
+      "nickname": "腰瘦瘦",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 27
+    },
+    {
+      "pid": "43651bb4",
+      "nickname": "江77",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 28
+    },
+    {
+      "pid": "40b1f679",
+      "nickname": "Nnnnnn",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 29
+    },
+    {
+      "pid": "285b8b8f",
+      "nickname": "水牛",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 30
+    },
+    {
+      "pid": "4ceee48e",
+      "nickname": "閃亮亮的頭",
+      "weightPct": 0.0038314176245211272,
+      "fatPct": 0.025974025974025997,
+      "passed": false,
+      "rank": 31
+    },
+    {
+      "pid": "6cf7d516",
+      "nickname": "翔",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 32
+    },
+    {
+      "pid": "fbcf9cdb",
+      "nickname": "帆帆",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 33
+    },
+    {
+      "pid": "669fd666",
+      "nickname": "閃亮亮少年",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 34
+    },
+    {
+      "pid": "27f80350",
+      "nickname": "松阪豬",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 35
+    },
+    {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 36
+    },
+    {
+      "pid": "6955ceea",
+      "nickname": "凝視之眼",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 37
+    },
+    {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 38
+    },
+    {
+      "pid": "1ed92c63",
+      "nickname": "Wen",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 39
+    },
+    {
+      "pid": "8affee5d",
+      "nickname": "麻麻",
+      "weightPct": 0,
+      "fatPct": 0.016233766233766232,
+      "passed": false,
+      "rank": 40
+    },
+    {
+      "pid": "07cce5f3",
+      "nickname": "姜姜",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 41
+    },
+    {
+      "pid": "ac03691c",
+      "nickname": "建均",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 42
+    },
+    {
+      "pid": "5dc0bfe4",
+      "nickname": "建宏",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 43
+    },
+    {
+      "pid": "4061d8e5",
+      "nickname": "晉",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 44
+    },
+    {
+      "pid": "33df67af",
+      "nickname": "豪",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 45
+    },
+    {
+      "pid": "09262f1e",
+      "nickname": "胖胖",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 46
+    },
+    {
+      "pid": "e7e4b5b0",
+      "nickname": "謝浩恩",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 47
+    },
+    {
+      "pid": "995582f5",
+      "nickname": "Newjay",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 48
+    },
+    {
+      "pid": "dc9ec1fb",
+      "nickname": "郭阿斌",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 49
+    },
+    {
+      "pid": "b35362a4",
+      "nickname": "護眼儀是我的",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 50
+    },
+    {
+      "pid": "9fb983ee",
+      "nickname": "嗨",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 51
+    },
+    {
+      "pid": "628995ff",
+      "nickname": "第一名是我的",
+      "weightPct": 0.009473684210526375,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 52
+    },
+    {
+      "pid": "6e63de1a",
+      "nickname": "我會變瘦",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 53
+    },
+    {
+      "pid": "b32868fd",
+      "nickname": "佐",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 54
+    },
+    {
+      "pid": "d2e96594",
+      "nickname": "青蛙",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 55
+    },
+    {
+      "pid": "8ac2b59c",
+      "nickname": "阿傑",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 56
+    },
+    {
+      "pid": "b4edac2c",
+      "nickname": "HBK",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 57
+    },
+    {
+      "pid": "c15a7522",
+      "nickname": "10天就破功",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 58
+    },
+    {
+      "pid": "79dec2d6",
+      "nickname": "邱吉",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 59
+    },
+    {
+      "pid": "3d6d2ba0",
+      "nickname": "小邱邱",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 60
+    },
+    {
+      "pid": "c78520af",
+      "nickname": "阿泰",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 61
+    },
+    {
+      "pid": "47dba6e3",
+      "nickname": "楊哲嘉",
+      "weightPct": 0.01827956989247315,
+      "fatPct": "",
+      "passed": false,
+      "rank": 62
+    },
+    {
+      "pid": "97dba7fd",
+      "nickname": "我要瘦十斤",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 63
+    },
+    {
+      "pid": "37682215",
+      "nickname": "-冬-",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 64
+    },
+    {
+      "pid": "6ecd065a",
+      "nickname": "WJay",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 65
+    },
+    {
+      "pid": "cafbe1ca",
+      "nickname": "白阿智",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 66
+    },
+    {
+      "pid": "ab3fd63c",
+      "nickname": "DD",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 67
+    },
+    {
+      "pid": "f805593c",
+      "nickname": "體脂消滅官",
+      "weightPct": -0.006097560975609756,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 68
+    },
+    {
+      "pid": "84eac3ab",
+      "nickname": "夜露死苦",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 69
+    },
+    {
+      "pid": "1e81557b",
+      "nickname": "喇叭是我的",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 70
+    },
+    {
+      "pid": "3730d919",
+      "nickname": "羊羊愛吃飯",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 71
+    },
+    {
+      "pid": "24a64d66",
+      "nickname": "Rylan",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 72
+    },
+    {
+      "pid": "3089de40",
+      "nickname": "大心臟的男人",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 73
+    },
+    {
+      "pid": "8d5cd12d",
+      "nickname": "John",
+      "weightPct": 0,
+      "fatPct": -0.0033222591362125535,
+      "passed": false,
+      "rank": 74
+    },
+    {
+      "pid": "0b78ade4",
+      "nickname": "巢巢",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 75
+    },
+    {
+      "pid": "3523ba7a",
+      "nickname": "蛤",
+      "weightPct": 0,
+      "fatPct": -0.060171919770773685,
+      "passed": false,
+      "rank": 76
+    },
+    {
+      "pid": "a353441e",
+      "nickname": "嘎嘎",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 77
+    },
+    {
+      "pid": "9fafa607",
+      "nickname": "白",
+      "weightPct": 0.023255813953488372,
+      "fatPct": "",
+      "passed": false,
+      "rank": 78
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 79
+    },
+    {
+      "pid": "9440021b",
+      "nickname": "菱角頭",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 80
+    },
+    {
+      "pid": "cb4c10e9",
+      "nickname": "叫我第一名",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 81
+    },
+    {
+      "pid": "ba22f096",
+      "nickname": "劉德華",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 82
+    },
+    {
+      "pid": "9d3c0d53",
+      "nickname": "火日立",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 83
+    },
+    {
+      "pid": "e625a85d",
+      "nickname": "tung",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 84
+    },
+    {
+      "pid": "0ca30bc0",
+      "nickname": "為了電器",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 85
+    },
+    {
+      "pid": "91c8b675",
+      "nickname": "寶劍",
+      "weightPct": 0,
+      "fatPct": -0.019011406844106463,
+      "passed": false,
+      "rank": 86
+    },
+    {
+      "pid": "22195f75",
+      "nickname": "肥龍在天",
+      "weightPct": -0.009603841536614612,
+      "fatPct": 0.046594982078852945,
+      "passed": false,
+      "rank": 87
+    },
+    {
+      "pid": "4714ed9a",
+      "nickname": "明天再減肥",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 88
+    },
+    {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 89
+    },
+    {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.002068252326783897,
+      "fatPct": -0.0034129692832763777,
+      "passed": false,
+      "rank": 90
+    },
+    {
+      "pid": "2ccc20f7",
+      "nickname": "FWALT",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 91
+    },
+    {
+      "pid": "7e191fc7",
+      "nickname": "牧牧",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 92
+    },
+    {
+      "pid": "d8b99db7",
+      "nickname": "黃胖子",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 93
+    },
+    {
+      "pid": "32de19f4",
+      "nickname": "通資連小鳥胃",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 94
+    },
+    {
+      "pid": "9466cc32",
+      "nickname": "吃頓飯壓壓驚",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 95
+    },
+    {
+      "pid": "2d81ddb8",
+      "nickname": "鯊魚",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 96
+    },
+    {
+      "pid": "641c4f3b",
+      "nickname": "綠豆蒜",
+      "weightPct": "",
+      "fatPct": "",
+      "passed": false,
+      "rank": 97
+    },
+    {
+      "pid": "6f376100",
+      "nickname": "每月欠薪15",
+      "weightPct": 0.01831129196337739,
+      "fatPct": "",
+      "passed": false,
+      "rank": 98
+    },
+    {
+      "pid": "daa4c7c4",
+      "nickname": "阿正",
+      "weightPct": 0.004419889502762494,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 99
+    },
+    {
+      "pid": "4fbd0dd1",
+      "nickname": "初心者",
+      "weightPct": 0,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 100
+    }
+  ]
+}
