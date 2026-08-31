@@ -65,6 +65,7 @@
   .legend span{ display:flex; align-items:center; gap:5px; }
   .dot{ width:9px; height:9px; border-radius:50%; }
   .back-link{ display:block; text-align:center; margin-top:20px; font-size:13px; color: var(--blue); text-decoration:none; font-weight:700; }
+  .update-time{ text-align:center; font-size:11px; color: var(--text-dim); margin:0 0 14px; }
 </style>
 </head>
 <body>
@@ -84,6 +85,7 @@
       <div><div class="profile-name" id="pName">--</div></div>
       <div class="rank-pill" id="pRank">排名 --</div>
     </div>
+    <p class="update-time" id="updateTime"></p>
 
     <div class="stats">
       <div class="stat"><div class="stat-num" id="pWeight">--</div><div class="stat-label">減重進度</div></div>
@@ -97,7 +99,7 @@
     </div>
   </div>
 
-  <!--<a class="back-link" href="./index.html">← 回排行榜</a>-->
+  <a class="back-link" href="./index.html">← 回排行榜</a>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -232,6 +234,7 @@ async function init(){
     document.getElementById('pRank').textContent = player.passed ? `排名 第${player.rank}名` : '進行中';
     document.getElementById('pWeight').textContent = pct(player.weightPct);
     document.getElementById('pFat').textContent = pct(player.fatPct);
+    document.getElementById('updateTime').textContent = '資料更新於 ' + (lb.meta.generatedAt || lb.meta.updatedAt);
     renderChart(myRows);
 
     document.getElementById('stateCard').style.display = 'none';

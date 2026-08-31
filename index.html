@@ -162,11 +162,11 @@
     <div class="empty" id="rosterEmpty" style="display:none">尚無資料，等候第一次回報彙總。</div>
   </div>
 
-  <div class="section-title">📈 前三/五名減重趨勢(轉橫向重整後可顯示前五名)</div>
+  <div class="section-title">📈 前三名減重趨勢(轉橫向重整後顯示前五名)</div>
   <div class="chart-box"><canvas id="trendChart"></canvas></div>
   <div class="legend" id="legend"></div>
 
-  <p class="footer-note">資料每日 00:10 自動更新</p>
+  <p class="footer-note">資料每小時自動更新</p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
@@ -193,7 +193,7 @@ async function loadDashboard(){
 function renderMeta(meta){
   document.getElementById('dayNum').innerHTML = `${meta.day}<span> / ${meta.totalDays} 天</span>`;
   document.getElementById('trackFill').style.width = Math.min(100, (meta.day/meta.totalDays*100)) + '%';
-  document.getElementById('updatedAt').textContent = '更新於 ' + meta.updatedAt;
+  document.getElementById('updatedAt').textContent = '更新於 ' + (meta.generatedAt || meta.updatedAt);
   document.getElementById('totalPlayers').textContent = meta.totalPlayers;
   document.getElementById('passedCount').textContent = meta.passedCount;
   document.getElementById('reportRate').textContent = Math.round(meta.reportRateToday*100) + '%';
