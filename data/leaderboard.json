@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.18,
+    "reportRateToday": 0.22,
     "updatedAt": "2026-09-01",
-    "generatedAt": "2026-09-01 18:32"
+    "generatedAt": "2026-09-01 19:32"
   },
   "leaderboard": [
     {
@@ -30,8 +30,8 @@
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
-      "weightPct": 0.02597402597402592,
-      "fatPct": 0.03539823008849545,
+      "weightPct": 0.02247752247752248,
+      "fatPct": 0.04719764011799414,
       "passed": false,
       "rank": 3,
       "histKey": "e570749208e0cc1c1e620f3664560fb766e5b94dbb898006d085dbf26b29808f"
@@ -71,12 +71,28 @@
       "rank": 7
     },
     {
+      "pid": "e94023cf",
+      "nickname": "胖胖虎虎",
+      "weightPct": 0.031805425631431294,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 8
+    },
+    {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.0038314176245211272,
       "fatPct": 0.025974025974025997,
       "passed": false,
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.029380341880341884,
+      "fatPct": "",
+      "passed": false,
+      "rank": 10
     },
     {
       "pid": "6013e654",
@@ -84,15 +100,7 @@
       "weightPct": 0.029090909090909115,
       "fatPct": "",
       "passed": false,
-      "rank": 9
-    },
-    {
-      "pid": "e94023cf",
-      "nickname": "胖胖虎虎",
-      "weightPct": 0.028999064546305037,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "pid": "e7cde42c",
@@ -100,7 +108,7 @@
       "weightPct": 0.02843601895734593,
       "fatPct": "",
       "passed": false,
-      "rank": 11
+      "rank": 12
     },
     {
       "pid": "c15a7522",
@@ -108,7 +116,7 @@
       "weightPct": 0.026595744680851064,
       "fatPct": "",
       "passed": false,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "0b09504d",
@@ -116,7 +124,7 @@
       "weightPct": 0.0263929618768328,
       "fatPct": "",
       "passed": false,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "61f310ff",
@@ -124,7 +132,7 @@
       "weightPct": 0.026115342763873835,
       "fatPct": "",
       "passed": false,
-      "rank": 14
+      "rank": 15
     },
     {
       "pid": "1ed92c63",
@@ -132,7 +140,7 @@
       "weightPct": 0.026041666666666668,
       "fatPct": 0,
       "passed": false,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "32de19f4",
@@ -140,20 +148,12 @@
       "weightPct": 0.025,
       "fatPct": "",
       "passed": false,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "ab987f10",
       "nickname": "白王",
       "weightPct": 0.02134146341463423,
-      "fatPct": "",
-      "passed": false,
-      "rank": 17
-    },
-    {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.0192307692307692,
       "fatPct": "",
       "passed": false,
       "rank": 18
@@ -207,20 +207,12 @@
       "rank": 24
     },
     {
-      "pid": "24a64d66",
-      "nickname": "Rylan",
-      "weightPct": 0.01263157894736845,
-      "fatPct": "",
-      "passed": false,
-      "rank": 25
-    },
-    {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.002068252326783897,
       "fatPct": 0.010238907849829375,
       "passed": false,
-      "rank": 26
+      "rank": 25
     },
     {
       "pid": "8c77daee",
@@ -228,13 +220,21 @@
       "weightPct": 0.012257405515832511,
       "fatPct": 0,
       "passed": false,
-      "rank": 27
+      "rank": 26
     },
     {
       "pid": "628995ff",
       "nickname": "第一名是我的",
       "weightPct": 0.009473684210526375,
       "fatPct": 0,
+      "passed": false,
+      "rank": 27
+    },
+    {
+      "pid": "24a64d66",
+      "nickname": "Rylan",
+      "weightPct": 0.009473684210526375,
+      "fatPct": "",
       "passed": false,
       "rank": 28
     },
