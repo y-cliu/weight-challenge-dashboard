@@ -6,7 +6,7 @@
     "passedCount": 0,
     "reportRateToday": 0.46,
     "updatedAt": "2026-09-01",
-    "generatedAt": "2026-09-01 23:32"
+    "generatedAt": "2026-09-02 00:11"
   },
   "leaderboard": [
     {
@@ -303,26 +303,26 @@
       "rank": 36
     },
     {
+      "pid": "40b1f679",
+      "nickname": "Nnnnnn",
+      "weightPct": 0.005065856129685917,
+      "fatPct": "",
+      "passed": false,
+      "rank": 37
+    },
+    {
       "pid": "6cf7d516",
       "nickname": "翔",
       "weightPct": 0.0010741138560686823,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 37
+      "rank": 38
     },
     {
       "pid": "daa4c7c4",
       "nickname": "阿正",
       "weightPct": 0.004419889502762494,
       "fatPct": 0,
-      "passed": false,
-      "rank": 38
-    },
-    {
-      "pid": "40b1f679",
-      "nickname": "Nnnnnn",
-      "weightPct": 0.004052684903748791,
-      "fatPct": "",
       "passed": false,
       "rank": 39
     },
