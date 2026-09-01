@@ -263,7 +263,7 @@ function renderChart(rows){
       interaction: { mode: 'index', intersect: false },
       plugins:{ legend:{ display:false } },
       scales:{
-        y:{ ticks:{ color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true,text:'%',color:'#7C8FA3',font:{size:10}} },
+        y:{ min:-10, max:25, ticks:{ stepSize:5, color:'#7C8FA3', font:{size:10} }, grid:{ color:'#E3EEF5' }, title:{display:true,text:'%',color:'#7C8FA3',font:{size:10}} },
         x:{ ticks:{ color:'#7C8FA3', font:{size:9}, maxTicksLimit:8 }, grid:{ display:false } }
       }
     }
