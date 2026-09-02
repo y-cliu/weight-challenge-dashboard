@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.37,
+    "reportRateToday": 0.38,
     "updatedAt": "2026-09-02",
-    "generatedAt": "2026-09-02 22:32"
+    "generatedAt": "2026-09-02 23:33"
   },
   "leaderboard": [
     {
@@ -287,18 +287,18 @@
       "rank": 34
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.007454739084132085,
-      "fatPct": "",
-      "passed": false,
-      "rank": 35
-    },
-    {
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.0003070624360286708,
       "fatPct": 0.006349206349206327,
+      "passed": false,
+      "rank": 35
+    },
+    {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.006389776357827567,
+      "fatPct": "",
       "passed": false,
       "rank": 36
     },
