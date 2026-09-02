@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-02",
-    "generatedAt": "2026-09-02 16:32"
+    "generatedAt": "2026-09-02 17:32"
   },
   "leaderboard": [
     {
@@ -71,26 +71,26 @@
       "rank": 7
     },
     {
-      "pid": "9fafa607",
-      "nickname": "白",
-      "weightPct": 0.03906976744186049,
-      "fatPct": "",
-      "passed": false,
-      "rank": 8
-    },
-    {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
       "weightPct": 0.036199095022624465,
       "fatPct": "",
       "passed": false,
-      "rank": 9
+      "rank": 8
     },
     {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.014634146341463448,
       "fatPct": 0.021212121212121297,
+      "passed": false,
+      "rank": 9
+    },
+    {
+      "pid": "9fafa607",
+      "nickname": "白",
+      "weightPct": 0.03255813953488372,
+      "fatPct": "",
       "passed": false,
       "rank": 10
     },
@@ -159,25 +159,25 @@
       "rank": 18
     },
     {
-      "pid": "32de19f4",
-      "nickname": "通資連小鳥胃",
-      "weightPct": 0.025,
-      "fatPct": "",
-      "passed": false,
-      "rank": 19
-    },
-    {
       "pid": "6013e654",
       "nickname": "King",
       "weightPct": 0.02454545454545457,
       "fatPct": "",
       "passed": false,
-      "rank": 20
+      "rank": 19
     },
     {
       "pid": "6f376100",
       "nickname": "每月欠薪15",
       "weightPct": 0.02339776195320445,
+      "fatPct": "",
+      "passed": false,
+      "rank": 20
+    },
+    {
+      "pid": "32de19f4",
+      "nickname": "通資連小鳥胃",
+      "weightPct": 0.023299999999999984,
       "fatPct": "",
       "passed": false,
       "rank": 21
