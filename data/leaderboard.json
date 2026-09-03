@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.33,
+    "reportRateToday": 0.36,
     "updatedAt": "2026-09-03",
-    "generatedAt": "2026-09-03 22:32"
+    "generatedAt": "2026-09-03 23:32"
   },
   "leaderboard": [
     {
@@ -87,18 +87,18 @@
       "rank": 9
     },
     {
-      "pid": "e94023cf",
-      "nickname": "胖胖虎虎",
-      "weightPct": 0.04396632366697851,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 10
-    },
-    {
       "pid": "61f310ff",
       "nickname": "刺頭",
       "weightPct": 0.04134929270946693,
       "fatPct": "",
+      "passed": false,
+      "rank": 10
+    },
+    {
+      "pid": "e94023cf",
+      "nickname": "胖胖虎虎",
+      "weightPct": 0.03835360149672599,
+      "fatPct": 0.0028490028490028895,
       "passed": false,
       "rank": 11
     },
@@ -319,17 +319,17 @@
       "rank": 38
     },
     {
-      "pid": "669fd666",
-      "nickname": "閃亮亮少年",
-      "weightPct": 0.006791171477079772,
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.007454739084132085,
       "fatPct": "",
       "passed": false,
       "rank": 39
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.006389776357827567,
+      "pid": "669fd666",
+      "nickname": "閃亮亮少年",
+      "weightPct": 0.006791171477079772,
       "fatPct": "",
       "passed": false,
       "rank": 40
@@ -367,25 +367,25 @@
       "rank": 44
     },
     {
-      "pid": "6013e654",
-      "nickname": "King",
-      "weightPct": 0.0018691588785046994,
-      "fatPct": "",
-      "passed": false,
-      "rank": 45
-    },
-    {
       "pid": "ac03691c",
       "nickname": "建均",
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 46
+      "rank": 45
     },
     {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.0010593220338983953,
+      "fatPct": "",
+      "passed": false,
+      "rank": 46
+    },
+    {
+      "pid": "6013e654",
+      "nickname": "King",
+      "weightPct": 0.0009345794392522834,
       "fatPct": "",
       "passed": false,
       "rank": 47
