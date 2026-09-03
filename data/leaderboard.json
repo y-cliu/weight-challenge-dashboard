@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-09-03",
-    "generatedAt": "2026-09-03 11:32"
+    "generatedAt": "2026-09-03 12:32"
   },
   "leaderboard": [
     {
@@ -145,18 +145,10 @@
     {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
-      "weightPct": 0.031595576619273306,
+      "weightPct": 0.030015797788309616,
       "fatPct": "",
       "passed": false,
       "rank": 17
-    },
-    {
-      "pid": "1ed92c63",
-      "nickname": "Wen",
-      "weightPct": 0.02994791666666663,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 18
     },
     {
       "pid": "4ceee48e",
@@ -164,7 +156,7 @@
       "weightPct": 0.0038314176245211272,
       "fatPct": 0.025974025974025997,
       "passed": false,
-      "rank": 19
+      "rank": 18
     },
     {
       "pid": "ab987f10",
@@ -172,7 +164,7 @@
       "weightPct": 0.02540650406504065,
       "fatPct": "",
       "passed": false,
-      "rank": 20
+      "rank": 19
     },
     {
       "pid": "fbcf9cdb",
@@ -180,7 +172,7 @@
       "weightPct": 0.025386313465783635,
       "fatPct": "",
       "passed": false,
-      "rank": 21
+      "rank": 20
     },
     {
       "pid": "aa6c84c9",
@@ -188,7 +180,7 @@
       "weightPct": 0.020719738276990248,
       "fatPct": 0.0038314176245211272,
       "passed": false,
-      "rank": 22
+      "rank": 21
     },
     {
       "pid": "6f376100",
@@ -196,7 +188,7 @@
       "weightPct": 0.02339776195320445,
       "fatPct": "",
       "passed": false,
-      "rank": 23
+      "rank": 22
     },
     {
       "pid": "22195f75",
@@ -204,13 +196,21 @@
       "weightPct": -0.014405762304922003,
       "fatPct": 0.03584229390681004,
       "passed": false,
-      "rank": 24
+      "rank": 23
     },
     {
       "pid": "276c8876",
       "nickname": "小悅",
       "weightPct": 0.020707070707070677,
       "fatPct": "",
+      "passed": false,
+      "rank": 24
+    },
+    {
+      "pid": "1ed92c63",
+      "nickname": "Wen",
+      "weightPct": 0.02018229166666663,
+      "fatPct": 0,
       "passed": false,
       "rank": 25
     },
