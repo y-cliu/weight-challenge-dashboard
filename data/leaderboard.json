@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.06,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-03",
-    "generatedAt": "2026-09-03 14:32"
+    "generatedAt": "2026-09-03 15:32"
   },
   "leaderboard": [
     {
@@ -215,12 +215,20 @@
       "rank": 25
     },
     {
+      "pid": "8affee5d",
+      "nickname": "麻麻",
+      "weightPct": 0.0043923865300146,
+      "fatPct": 0.016233766233766232,
+      "passed": false,
+      "rank": 26
+    },
+    {
       "pid": "1ed92c63",
       "nickname": "Wen",
       "weightPct": 0.02018229166666663,
       "fatPct": 0,
       "passed": false,
-      "rank": 26
+      "rank": 27
     },
     {
       "pid": "6e63de1a",
@@ -228,7 +236,7 @@
       "weightPct": 0.019562715765247443,
       "fatPct": "",
       "passed": false,
-      "rank": 27
+      "rank": 28
     },
     {
       "pid": "e989771e",
@@ -236,7 +244,7 @@
       "weightPct": 0.01549680948040112,
       "fatPct": 0.0028169014084507443,
       "passed": false,
-      "rank": 28
+      "rank": 29
     },
     {
       "pid": "47dba6e3",
@@ -244,7 +252,7 @@
       "weightPct": 0.01827956989247315,
       "fatPct": "",
       "passed": false,
-      "rank": 29
+      "rank": 30
     },
     {
       "pid": "1e81557b",
@@ -252,21 +260,13 @@
       "weightPct": 0.017142857142857144,
       "fatPct": 0,
       "passed": false,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "9466cc32",
       "nickname": "吃頓飯壓壓驚",
       "weightPct": 0.0170261066969353,
       "fatPct": "",
-      "passed": false,
-      "rank": 31
-    },
-    {
-      "pid": "8affee5d",
-      "nickname": "麻麻",
-      "weightPct": 0,
-      "fatPct": 0.016233766233766232,
       "passed": false,
       "rank": 32
     },
