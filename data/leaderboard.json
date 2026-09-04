@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.22,
+    "reportRateToday": 0.26,
     "updatedAt": "2026-09-04",
-    "generatedAt": "2026-09-04 20:32"
+    "generatedAt": "2026-09-04 21:32"
   },
   "leaderboard": [
     {
@@ -58,7 +58,7 @@
       "pid": "58945cc1",
       "nickname": "網咖8小",
       "weightPct": 0,
-      "fatPct": 0.08691588785046737,
+      "fatPct": 0.07289719626168223,
       "passed": false,
       "rank": 6
     },
@@ -479,10 +479,10 @@
       "rank": 58
     },
     {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.002068252326783897,
-      "fatPct": -0.013651877133105754,
+      "pid": "adc3b0b2",
+      "nickname": "煩",
+      "weightPct": 0.00817995910020447,
+      "fatPct": -0.02666666666666669,
       "passed": false,
       "rank": 59
     },
@@ -495,10 +495,10 @@
       "rank": 60
     },
     {
-      "pid": "adc3b0b2",
-      "nickname": "煩",
-      "weightPct": 0,
-      "fatPct": -0.02666666666666669,
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": -0.0031023784901757718,
+      "fatPct": -0.023890784982935127,
       "passed": false,
       "rank": 61
     },
