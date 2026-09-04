@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-09-04",
-    "generatedAt": "2026-09-04 10:32"
+    "generatedAt": "2026-09-04 11:32"
   },
   "leaderboard": [
     {
@@ -497,7 +497,7 @@
     {
       "pid": "24a64d66",
       "nickname": "Rylan",
-      "weightPct": -0.010741138560687433,
+      "weightPct": -0.025778732545649902,
       "fatPct": -0.01600000000000004,
       "passed": false,
       "rank": 61
