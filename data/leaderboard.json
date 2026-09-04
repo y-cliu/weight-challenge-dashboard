@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.19,
+    "reportRateToday": 0.22,
     "updatedAt": "2026-09-04",
-    "generatedAt": "2026-09-04 19:46"
+    "generatedAt": "2026-09-04 20:32"
   },
   "leaderboard": [
     {
@@ -46,19 +46,19 @@
       "histKey": "19a4b22cef65add5e9cb42abad3954bca27d76d045e62b5f2bd5d122a40bbdb2"
     },
     {
+      "pid": "27f80350",
+      "nickname": "松阪豬",
+      "weightPct": 0.030969030969030913,
+      "fatPct": 0.05604719764011795,
+      "passed": false,
+      "rank": 5,
+      "histKey": "ffe64b4ed379586f17db7708123905a4f1f2bf5ad248c5d91f608afca71e17df"
+    },
+    {
       "pid": "58945cc1",
       "nickname": "網咖8小",
       "weightPct": 0,
       "fatPct": 0.08691588785046737,
-      "passed": false,
-      "rank": 5,
-      "histKey": "0b0c7e2745556d11eecb20295f220ccb0f241ff8647e9a84819ec0c128696d75"
-    },
-    {
-      "pid": "27f80350",
-      "nickname": "松阪豬",
-      "weightPct": 0.023976023976023893,
-      "fatPct": 0.04719764011799414,
       "passed": false,
       "rank": 6
     },
@@ -199,26 +199,26 @@
       "rank": 23
     },
     {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.025536261491317668,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 24
+    },
+    {
       "pid": "ab987f10",
       "nickname": "白王",
       "weightPct": 0.02540650406504065,
       "fatPct": "",
       "passed": false,
-      "rank": 24
+      "rank": 25
     },
     {
       "pid": "fbcf9cdb",
       "nickname": "帆帆",
       "weightPct": 0.025386313465783635,
       "fatPct": "",
-      "passed": false,
-      "rank": 25
-    },
-    {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.024514811031665022,
-      "fatPct": 0,
       "passed": false,
       "rank": 26
     },
