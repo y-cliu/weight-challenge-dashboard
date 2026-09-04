@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-09-05",
-    "generatedAt": "2026-09-05 06:31"
+    "generatedAt": "2026-09-05 07:32"
   },
   "leaderboard": [
     {
@@ -135,12 +135,20 @@
       "rank": 15
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.028280542986425336,
+      "fatPct": 0.010380622837370145,
+      "passed": false,
+      "rank": 16
+    },
+    {
       "pid": "6cf7d516",
       "nickname": "翔",
       "weightPct": 0.033297529538130984,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "9d3c0d53",
@@ -148,7 +156,7 @@
       "weightPct": 0.020053475935828877,
       "fatPct": 0.016216216216216255,
       "passed": false,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "1ed92c63",
@@ -156,7 +164,7 @@
       "weightPct": 0.03580729166666667,
       "fatPct": 0,
       "passed": false,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "24a64d66",
@@ -164,7 +172,7 @@
       "weightPct": -0.023630504833512384,
       "fatPct": 0.05866666666666674,
       "passed": false,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "16981caf",
@@ -172,7 +180,7 @@
       "weightPct": 0.03418803418803407,
       "fatPct": "",
       "passed": false,
-      "rank": 20
+      "rank": 21
     },
     {
       "pid": "5e73f6c4",
@@ -180,7 +188,7 @@
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
       "passed": false,
-      "rank": 21
+      "rank": 22
     },
     {
       "pid": "e7cde42c",
@@ -188,21 +196,13 @@
       "weightPct": 0.030015797788309616,
       "fatPct": "",
       "passed": false,
-      "rank": 22
+      "rank": 23
     },
     {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.0038314176245211272,
       "fatPct": 0.025974025974025997,
-      "passed": false,
-      "rank": 23
-    },
-    {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.028280542986425336,
-      "fatPct": 0,
       "passed": false,
       "rank": 24
     },
