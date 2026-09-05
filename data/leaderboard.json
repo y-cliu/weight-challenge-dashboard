@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.07,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-09-05",
-    "generatedAt": "2026-09-05 17:32"
+    "generatedAt": "2026-09-05 18:33"
   },
   "leaderboard": [
     {
@@ -527,18 +527,18 @@
       "rank": 64
     },
     {
-      "pid": "6ecd065a",
-      "nickname": "WJay",
-      "weightPct": 0.008800880088008925,
-      "fatPct": -0.06451612903225809,
+      "pid": "9fafa607",
+      "nickname": "白",
+      "weightPct": -0.004651162790697674,
+      "fatPct": -0.04843304843304831,
       "passed": false,
       "rank": 65
     },
     {
-      "pid": "9fafa607",
-      "nickname": "白",
-      "weightPct": -0.007441860465116253,
-      "fatPct": -0.04843304843304831,
+      "pid": "6ecd065a",
+      "nickname": "WJay",
+      "weightPct": 0.008800880088008925,
+      "fatPct": -0.06451612903225809,
       "passed": false,
       "rank": 66
     },
@@ -585,7 +585,7 @@
     {
       "pid": "669fd666",
       "nickname": "閃亮亮少年",
-      "weightPct": -0.4524617996604414,
+      "weightPct": -0.4422750424448218,
       "fatPct": "",
       "passed": false,
       "rank": 72
