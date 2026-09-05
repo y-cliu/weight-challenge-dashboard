@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-09-05",
-    "generatedAt": "2026-09-05 10:32"
+    "generatedAt": "2026-09-05 11:32"
   },
   "leaderboard": [
     {
@@ -431,25 +431,25 @@
       "rank": 52
     },
     {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.0010427528675704748,
+      "fatPct": "",
+      "passed": false,
+      "rank": 53
+    },
+    {
       "pid": "628995ff",
       "nickname": "第一名是我的",
       "weightPct": 0,
       "fatPct": 0,
       "passed": false,
-      "rank": 53
+      "rank": 54
     },
     {
       "pid": "4714ed9a",
       "nickname": "明天再減肥",
       "weightPct": 0,
-      "fatPct": "",
-      "passed": false,
-      "rank": 54
-    },
-    {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": -0.0010427528675703264,
       "fatPct": "",
       "passed": false,
       "rank": 55
