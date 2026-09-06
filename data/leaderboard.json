@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.21,
+    "reportRateToday": 0.24,
     "updatedAt": "2026-09-06",
-    "generatedAt": "2026-09-06 20:32"
+    "generatedAt": "2026-09-06 21:32"
   },
   "leaderboard": [
     {
@@ -73,7 +73,7 @@
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
-      "weightPct": 0.02897102897102889,
+      "weightPct": 0.030969030969030913,
       "fatPct": 0.05604719764011795,
       "passed": false,
       "rank": 8
@@ -527,18 +527,18 @@
       "rank": 64
     },
     {
-      "pid": "4c856b4e",
-      "nickname": "阿翔",
-      "weightPct": 0.008879023307436151,
-      "fatPct": -0.03272058823529414,
-      "passed": false,
-      "rank": 65
-    },
-    {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": -0.0031023784901757718,
       "fatPct": -0.023890784982935127,
+      "passed": false,
+      "rank": 65
+    },
+    {
+      "pid": "4c856b4e",
+      "nickname": "阿翔",
+      "weightPct": 0,
+      "fatPct": -0.04558823529411772,
       "passed": false,
       "rank": 66
     },
