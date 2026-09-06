@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-09-06",
-    "generatedAt": "2026-09-06 07:32"
+    "generatedAt": "2026-09-06 08:32"
   },
   "leaderboard": [
     {
@@ -407,12 +407,20 @@
       "rank": 49
     },
     {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.003128258602711276,
+      "fatPct": "",
+      "passed": false,
+      "rank": 50
+    },
+    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
-      "rank": 50
+      "rank": 51
     },
     {
       "pid": "ac03691c",
@@ -420,20 +428,12 @@
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 51
+      "rank": 52
     },
     {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.0010593220338983953,
-      "fatPct": "",
-      "passed": false,
-      "rank": 52
-    },
-    {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.0010427528675704748,
       "fatPct": "",
       "passed": false,
       "rank": 53
