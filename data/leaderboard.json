@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.26,
+    "reportRateToday": 0.28,
     "updatedAt": "2026-09-07",
-    "generatedAt": "2026-09-07 22:32"
+    "generatedAt": "2026-09-07 23:32"
   },
   "leaderboard": [
     {
@@ -28,22 +28,22 @@
       "histKey": "1eb480c6c69e50d526e73cf3723ae5b043e689fd8ca48aaf6b8f51ca35a9ddd3"
     },
     {
-      "pid": "f805593c",
-      "nickname": "體脂消滅官",
-      "weightPct": 0.024390243902439025,
-      "fatPct": 0.22696969696969693,
-      "passed": false,
-      "rank": 3,
-      "histKey": "0bf723f0dda5fc39f5d2a9b8a8b8f8892a70657f64ffdcac0dabc6dd47f6e5f1"
-    },
-    {
       "pid": "3089de40",
       "nickname": "大心臟的男人",
       "weightPct": 0.023653088042049897,
       "fatPct": 0.2794117647058823,
       "passed": false,
-      "rank": 4,
+      "rank": 3,
       "histKey": "d83ecd38182ab1e6f88a6af51d38f146967f231a41da92adc89824efeda4989d"
+    },
+    {
+      "pid": "f805593c",
+      "nickname": "體脂消滅官",
+      "weightPct": 0.018292682926829267,
+      "fatPct": 0.21212121212121213,
+      "passed": false,
+      "rank": 4,
+      "histKey": "0bf723f0dda5fc39f5d2a9b8a8b8f8892a70657f64ffdcac0dabc6dd47f6e5f1"
     },
     {
       "pid": "2d81ddb8",
@@ -247,18 +247,18 @@
       "rank": 29
     },
     {
-      "pid": "22195f75",
-      "nickname": "肥龍在天",
-      "weightPct": -0.012004801920768308,
-      "fatPct": 0.04301075268817202,
-      "passed": false,
-      "rank": 30
-    },
-    {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.0038314176245211272,
       "fatPct": 0.025974025974025997,
+      "passed": false,
+      "rank": 30
+    },
+    {
+      "pid": "22195f75",
+      "nickname": "肥龍在天",
+      "weightPct": -0.022809123649459855,
+      "fatPct": 0.046594982078852945,
       "passed": false,
       "rank": 31
     },
