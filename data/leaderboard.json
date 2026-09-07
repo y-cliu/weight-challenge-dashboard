@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.09,
+    "reportRateToday": 0.13,
     "updatedAt": "2026-09-07",
-    "generatedAt": "2026-09-07 17:32"
+    "generatedAt": "2026-09-07 18:32"
   },
   "leaderboard": [
     {
@@ -48,7 +48,7 @@
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
-      "weightPct": 0.03575832305795304,
+      "weightPct": 0.013563501849568366,
       "fatPct": 0.11504424778761067,
       "passed": false,
       "rank": 5,
@@ -63,12 +63,20 @@
       "rank": 6
     },
     {
+      "pid": "58945cc1",
+      "nickname": "網咖8小",
+      "weightPct": 0.004789272030651341,
+      "fatPct": 0.0928348909657321,
+      "passed": false,
+      "rank": 7
+    },
+    {
       "pid": "0823651e",
       "nickname": "胖",
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": false,
-      "rank": 7
+      "rank": 8
     },
     {
       "pid": "27f80350",
@@ -76,21 +84,13 @@
       "weightPct": 0.030969030969030913,
       "fatPct": 0.05604719764011795,
       "passed": false,
-      "rank": 8
+      "rank": 9
     },
     {
       "pid": "61f310ff",
       "nickname": "刺頭",
       "weightPct": 0.0467899891186073,
       "fatPct": 0.03496503496503496,
-      "passed": false,
-      "rank": 9
-    },
-    {
-      "pid": "58945cc1",
-      "nickname": "網咖8小",
-      "weightPct": 0,
-      "fatPct": 0.07538940809968853,
       "passed": false,
       "rank": 10
     },
@@ -401,7 +401,7 @@
     {
       "pid": "669fd666",
       "nickname": "閃亮亮少年",
-      "weightPct": 0.007640067911714699,
+      "weightPct": 0.006791171477079772,
       "fatPct": "",
       "passed": false,
       "rank": 49
@@ -463,18 +463,18 @@
       "rank": 56
     },
     {
-      "pid": "3d6d2ba0",
-      "nickname": "小邱邱",
-      "weightPct": -0.0024937655860349482,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 57
-    },
-    {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
       "weightPct": 0.011470281543274332,
       "fatPct": -0.015564202334630434,
+      "passed": false,
+      "rank": 57
+    },
+    {
+      "pid": "3d6d2ba0",
+      "nickname": "小邱邱",
+      "weightPct": -0.0012468827930173854,
+      "fatPct": -0.00330033003300323,
       "passed": false,
       "rank": 58
     },
