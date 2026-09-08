@@ -4,15 +4,15 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-09-09",
-    "generatedAt": "2026-09-09 06:31"
+    "generatedAt": "2026-09-09 07:32"
   },
   "leaderboard": [
     {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
-      "weightPct": 0.02685624012638224,
+      "weightPct": 0.03475513428120056,
       "fatPct": 0.15512465373961223,
       "passed": false,
       "rank": 1,
