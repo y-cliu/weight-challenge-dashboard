@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-09",
-    "generatedAt": "2026-09-09 07:32"
+    "generatedAt": "2026-09-09 08:32"
   },
   "leaderboard": [
     {
@@ -399,12 +399,20 @@
       "rank": 48
     },
     {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.021376433785193025,
+      "fatPct": -0.015564202334630434,
+      "passed": false,
+      "rank": 49
+    },
+    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.00423728813559328,
       "fatPct": "",
       "passed": false,
-      "rank": 49
+      "rank": 50
     },
     {
       "pid": "628995ff",
@@ -412,7 +420,7 @@
       "weightPct": 0,
       "fatPct": 0.0030959752321979665,
       "passed": false,
-      "rank": 50
+      "rank": 51
     },
     {
       "pid": "e625a85d",
@@ -420,7 +428,7 @@
       "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
-      "rank": 51
+      "rank": 52
     },
     {
       "pid": "ac03691c",
@@ -428,7 +436,7 @@
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 52
+      "rank": 53
     },
     {
       "pid": "9466cc32",
@@ -436,7 +444,7 @@
       "weightPct": 0.0011350737797956223,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 54
     },
     {
       "pid": "b7405e59",
@@ -444,7 +452,7 @@
       "weightPct": 0.007238883143743566,
       "fatPct": -0.006825938566552877,
       "passed": false,
-      "rank": 54
+      "rank": 55
     },
     {
       "pid": "6013e654",
@@ -452,7 +460,7 @@
       "weightPct": 0,
       "fatPct": "",
       "passed": false,
-      "rank": 55
+      "rank": 56
     },
     {
       "pid": "4714ed9a",
@@ -460,21 +468,13 @@
       "weightPct": 0,
       "fatPct": "",
       "passed": false,
-      "rank": 56
+      "rank": 57
     },
     {
       "pid": "3d6d2ba0",
       "nickname": "小邱邱",
       "weightPct": -0.0012468827930173854,
       "fatPct": 0,
-      "passed": false,
-      "rank": 57
-    },
-    {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.01094890510948917,
-      "fatPct": -0.015564202334630434,
       "passed": false,
       "rank": 58
     },
