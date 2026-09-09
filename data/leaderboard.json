@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.21,
+    "reportRateToday": 0.23,
     "updatedAt": "2026-09-09",
-    "generatedAt": "2026-09-09 19:32"
+    "generatedAt": "2026-09-09 20:32"
   },
   "leaderboard": [
     {
@@ -39,7 +39,7 @@
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
-      "weightPct": 0.03329223181257693,
+      "weightPct": 0.03822441430332916,
       "fatPct": 0.11504424778761067,
       "passed": false,
       "rank": 4,
@@ -145,7 +145,7 @@
     {
       "pid": "6cf7d516",
       "nickname": "翔",
-      "weightPct": 0.05477980665950585,
+      "weightPct": 0.056928034371643364,
       "fatPct": 0.003484320557491215,
       "passed": false,
       "rank": 17
