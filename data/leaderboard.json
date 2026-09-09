@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 17,
+    "day": 18,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.28,
-    "updatedAt": "2026-09-09",
-    "generatedAt": "2026-09-10 00:11"
+    "reportRateToday": 0.02,
+    "updatedAt": "2026-09-10",
+    "generatedAt": "2026-09-10 06:32"
   },
   "leaderboard": [
     {
@@ -16,7 +16,16 @@
       "fatPct": 0.15512465373961223,
       "passed": false,
       "rank": 1,
-      "histKey": "09b76b5c81c451a8ffa688cc52b3ab43c8b9da11fb4b0eccfcf4aa7f367a0b5e"
+      "histKey": "3f8288cf1b7e3bf07caae41fca858c4db4275b8feaf3dade47fb23168a2be2dc"
+    },
+    {
+      "pid": "f805593c",
+      "nickname": "體脂消滅官",
+      "weightPct": 0.024390243902439025,
+      "fatPct": 0.21212121212121213,
+      "passed": false,
+      "rank": 2,
+      "histKey": "2e8807263668f50c00d0a82f489c083d6136b7d042e109d6b9e889d055df64bf"
     },
     {
       "pid": "3089de40",
@@ -24,17 +33,8 @@
       "weightPct": 0.023653088042049897,
       "fatPct": 0.2794117647058823,
       "passed": false,
-      "rank": 2,
-      "histKey": "1970468d3d95af63a986003fa7a96ddee8443915772067e79ad75611e78f2b14"
-    },
-    {
-      "pid": "f805593c",
-      "nickname": "體脂消滅官",
-      "weightPct": 0.01951219512195115,
-      "fatPct": 0.21212121212121213,
-      "passed": false,
       "rank": 3,
-      "histKey": "23f654778364a445b6d1481c309157a546616d0fe14a0a22be85764996e36609"
+      "histKey": "f809fb589b9190baf08d2580ca907ed54a9ba2220b7bae51326ea1f0f960fdb4"
     },
     {
       "pid": "86f28999",
@@ -43,7 +43,7 @@
       "fatPct": 0.11504424778761067,
       "passed": false,
       "rank": 4,
-      "histKey": "a9f18104a6145e14312d2ced2501e099f04c9cb0a56c65111510bbff1b85553b"
+      "histKey": "ca5145b0ca2fad7eff1437be1e7c7e8436807263f861fae1aeef418b837ca915"
     },
     {
       "pid": "704bb612",
@@ -52,7 +52,7 @@
       "fatPct": 0.12391930835734881,
       "passed": false,
       "rank": 5,
-      "histKey": "131a58cf63b28cb63dc125f2c89808eb1c47441113ee6d07d0bb48c908039fa9"
+      "histKey": "d5a66948a9a0e1be4d2e9a1f293f3ae49b4558849e13b83612d618f13a6fc3c6"
     },
     {
       "pid": "27f80350",
@@ -79,12 +79,20 @@
       "rank": 8
     },
     {
+      "pid": "61f310ff",
+      "nickname": "刺頭",
+      "weightPct": 0.06311207834602842,
+      "fatPct": 0.03496503496503496,
+      "passed": false,
+      "rank": 9
+    },
+    {
       "pid": "0823651e",
       "nickname": "胖",
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": false,
-      "rank": 9
+      "rank": 10
     },
     {
       "pid": "58945cc1",
@@ -92,21 +100,13 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
       "passed": false,
-      "rank": 10
+      "rank": 11
     },
     {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
-      "passed": false,
-      "rank": 11
-    },
-    {
-      "pid": "61f310ff",
-      "nickname": "刺頭",
-      "weightPct": 0.0467899891186073,
-      "fatPct": 0.03496503496503496,
       "passed": false,
       "rank": 12
     },
