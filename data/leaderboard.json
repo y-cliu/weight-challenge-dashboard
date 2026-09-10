@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.23,
+    "reportRateToday": 0.26,
     "updatedAt": "2026-09-10",
-    "generatedAt": "2026-09-10 22:32"
+    "generatedAt": "2026-09-11 00:11"
   },
   "leaderboard": [
     {
@@ -175,18 +175,18 @@
       "rank": 20
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.038461538461538526,
-      "fatPct": 0.010380622837370145,
+      "pid": "22195f75",
+      "nickname": "肥龍在天",
+      "weightPct": -0.012004801920768308,
+      "fatPct": 0.06093189964157704,
       "passed": false,
       "rank": 21
     },
     {
-      "pid": "22195f75",
-      "nickname": "肥龍在天",
-      "weightPct": -0.01320528211284524,
-      "fatPct": 0.06093189964157704,
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.038461538461538526,
+      "fatPct": 0.010380622837370145,
       "passed": false,
       "rank": 22
     },
@@ -199,12 +199,20 @@
       "rank": 23
     },
     {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.042735042735042736,
+      "fatPct": "",
+      "passed": false,
+      "rank": 24
+    },
+    {
       "pid": "ab3fd63c",
       "nickname": "DD",
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.03717472118959108,
       "passed": false,
-      "rank": 24
+      "rank": 25
     },
     {
       "pid": "8c77daee",
@@ -212,21 +220,13 @@
       "weightPct": 0.039836567926455624,
       "fatPct": 0,
       "passed": false,
-      "rank": 25
+      "rank": 26
     },
     {
       "pid": "e94023cf",
       "nickname": "胖胖虎虎",
       "weightPct": 0.036482694106641775,
       "fatPct": 0.0028490028490028895,
-      "passed": false,
-      "rank": 26
-    },
-    {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.0384615384615384,
-      "fatPct": "",
       "passed": false,
       "rank": 27
     },
@@ -553,7 +553,7 @@
     {
       "pid": "6e63de1a",
       "nickname": "我會變瘦",
-      "weightPct": -0.01495972382048328,
+      "weightPct": -0.01841196777905632,
       "fatPct": "",
       "passed": false,
       "rank": 68
