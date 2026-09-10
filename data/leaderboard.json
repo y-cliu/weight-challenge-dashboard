@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.16,
+    "reportRateToday": 0.18,
     "updatedAt": "2026-09-10",
-    "generatedAt": "2026-09-10 18:33"
+    "generatedAt": "2026-09-10 19:33"
   },
   "leaderboard": [
     {
@@ -183,20 +183,12 @@
       "rank": 21
     },
     {
-      "pid": "e94023cf",
-      "nickname": "胖胖虎虎",
-      "weightPct": 0.04583723105706273,
-      "fatPct": 0.0028490028490028895,
-      "passed": false,
-      "rank": 22
-    },
-    {
       "pid": "22195f75",
       "nickname": "肥龍在天",
       "weightPct": -0.01320528211284524,
       "fatPct": 0.06093189964157704,
       "passed": false,
-      "rank": 23
+      "rank": 22
     },
     {
       "pid": "e989771e",
@@ -204,7 +196,7 @@
       "weightPct": 0.03281677301732004,
       "fatPct": 0.014084507042253521,
       "passed": false,
-      "rank": 24
+      "rank": 23
     },
     {
       "pid": "ab3fd63c",
@@ -212,13 +204,21 @@
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.03717472118959108,
       "passed": false,
-      "rank": 25
+      "rank": 24
     },
     {
       "pid": "8c77daee",
       "nickname": "火蜥蜴",
       "weightPct": 0.039836567926455624,
       "fatPct": 0,
+      "passed": false,
+      "rank": 25
+    },
+    {
+      "pid": "e94023cf",
+      "nickname": "胖胖虎虎",
+      "weightPct": 0.036482694106641775,
+      "fatPct": 0.0028490028490028895,
       "passed": false,
       "rank": 26
     },
@@ -433,8 +433,8 @@
     {
       "pid": "43519314",
       "nickname": "可以自己取名",
-      "weightPct": 0.006637168141593014,
-      "fatPct": 0,
+      "weightPct": 0.009955752212389443,
+      "fatPct": -0.003831417624520991,
       "passed": false,
       "rank": 53
     },
