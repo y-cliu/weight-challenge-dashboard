@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-09-11",
-    "generatedAt": "2026-09-11 06:31"
+    "generatedAt": "2026-09-11 07:32"
   },
   "leaderboard": [
     {
@@ -447,20 +447,12 @@
       "rank": 54
     },
     {
-      "pid": "8affee5d",
-      "nickname": "麻麻",
-      "weightPct": -0.010248901903367538,
-      "fatPct": 0.016233766233766232,
-      "passed": false,
-      "rank": 55
-    },
-    {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
       "weightPct": 0.01981230448383739,
       "fatPct": -0.015564202334630434,
       "passed": false,
-      "rank": 56
+      "rank": 55
     },
     {
       "pid": "60382873",
@@ -468,13 +460,21 @@
       "weightPct": 0.00423728813559328,
       "fatPct": "",
       "passed": false,
-      "rank": 57
+      "rank": 56
     },
     {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.007238883143743566,
       "fatPct": -0.0034129692832763777,
+      "passed": false,
+      "rank": 57
+    },
+    {
+      "pid": "8affee5d",
+      "nickname": "麻麻",
+      "weightPct": -0.013177159590044007,
+      "fatPct": 0.016233766233766232,
       "passed": false,
       "rank": 58
     },
