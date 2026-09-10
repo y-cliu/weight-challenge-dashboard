@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.19,
+    "reportRateToday": 0.23,
     "updatedAt": "2026-09-10",
-    "generatedAt": "2026-09-10 21:32"
+    "generatedAt": "2026-09-10 22:32"
   },
   "leaderboard": [
     {
@@ -153,8 +153,8 @@
     {
       "pid": "6cf7d516",
       "nickname": "翔",
-      "weightPct": 0.056928034371643364,
-      "fatPct": 0.003484320557491215,
+      "weightPct": 0.05477980665950585,
+      "fatPct": 0.006968641114982554,
       "passed": false,
       "rank": 18
     },
