@@ -4,16 +4,16 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 0,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-11",
-    "generatedAt": "2026-09-11 07:32"
+    "generatedAt": "2026-09-11 08:32"
   },
   "leaderboard": [
     {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
-      "weightPct": 0.02843601895734593,
-      "fatPct": 0.15512465373961223,
+      "weightPct": 0.037914691943127944,
+      "fatPct": 0.16343490304709146,
       "passed": false,
       "rank": 1,
       "histKey": "791ce45319e80db7fe70bae9d457d9a27214e0c0ef166dfccbfe656d2e8e85bb"
@@ -447,20 +447,12 @@
       "rank": 54
     },
     {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.01981230448383739,
-      "fatPct": -0.015564202334630434,
-      "passed": false,
-      "rank": 55
-    },
-    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.00423728813559328,
       "fatPct": "",
       "passed": false,
-      "rank": 56
+      "rank": 55
     },
     {
       "pid": "b7405e59",
@@ -468,7 +460,7 @@
       "weightPct": 0.007238883143743566,
       "fatPct": -0.0034129692832763777,
       "passed": false,
-      "rank": 57
+      "rank": 56
     },
     {
       "pid": "8affee5d",
@@ -476,7 +468,7 @@
       "weightPct": -0.013177159590044007,
       "fatPct": 0.016233766233766232,
       "passed": false,
-      "rank": 58
+      "rank": 57
     },
     {
       "pid": "e625a85d",
@@ -484,7 +476,7 @@
       "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
-      "rank": 59
+      "rank": 58
     },
     {
       "pid": "ac03691c",
@@ -492,13 +484,21 @@
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 60
+      "rank": 59
     },
     {
       "pid": "4714ed9a",
       "nickname": "明天再減肥",
       "weightPct": 0,
       "fatPct": "",
+      "passed": false,
+      "rank": 60
+    },
+    {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.01459854014598546,
+      "fatPct": -0.015564202334630434,
       "passed": false,
       "rank": 61
     },
