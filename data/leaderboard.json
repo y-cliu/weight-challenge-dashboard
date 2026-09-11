@@ -1,22 +1,22 @@
 {
   "meta": {
-    "day": 19,
+    "day": 20,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.27,
-    "updatedAt": "2026-09-11",
-    "generatedAt": "2026-09-12 00:12"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-09-12",
+    "generatedAt": "2026-09-12 06:31"
   },
   "leaderboard": [
     {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
-      "weightPct": 0.037914691943127944,
-      "fatPct": 0.16343490304709146,
+      "weightPct": 0.031595576619273306,
+      "fatPct": 0.15512465373961223,
       "passed": true,
       "rank": 1,
-      "histKey": "791ce45319e80db7fe70bae9d457d9a27214e0c0ef166dfccbfe656d2e8e85bb"
+      "histKey": "24941eda2e8845dfdaf6b54cbaafac71b30a6f29df5bc50dd43c02566ca9baf6"
     },
     {
       "pid": "f805593c",
@@ -25,7 +25,7 @@
       "fatPct": 0.21212121212121213,
       "passed": true,
       "rank": 2,
-      "histKey": "7fe72cdc6638fb2743934f872df1b5ec70db7d971a75c20f4b65a92b7e833857"
+      "histKey": "a12e1cf3895936ab8bd5266da1bdd54bac97230774af13586511d9ec75c7a77e"
     },
     {
       "pid": "3089de40",
@@ -34,7 +34,7 @@
       "fatPct": 0.2794117647058823,
       "passed": true,
       "rank": 3,
-      "histKey": "aeb6660102e6babc38bc36f93eabe3bebf7eebabed32b5e00e1ca9655323d2c5"
+      "histKey": "d6de3a3da0d6afc4ecd8629b0f532666400324a9c0c3c70e95a816eade8f6673"
     },
     {
       "pid": "86f28999",
@@ -43,7 +43,7 @@
       "fatPct": 0.11504424778761067,
       "passed": true,
       "rank": 4,
-      "histKey": "13b0af146c9269034d71ff6ba2dec5d1e38e4070bbcf5b3a6eb821038e7dc071"
+      "histKey": "1fc9cf5e3b0948f43ea399baa35c41282ba0470e92337b48ce61f3a398d307fe"
     },
     {
       "pid": "91c8b675",
@@ -52,7 +52,7 @@
       "fatPct": 0.08745247148288976,
       "passed": true,
       "rank": 5,
-      "histKey": "477e416d32d09565d9c419bc0c74d82862884dfd30f84492fbcf7e915ca5c47c"
+      "histKey": "a05c9403f6fc70b6973c9e9befdf219ad17e6240dd930916b15d023a10180354"
     },
     {
       "pid": "27f80350",
