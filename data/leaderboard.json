@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 09:32"
+    "generatedAt": "2026-09-12 10:32"
   },
   "leaderboard": [
     {
@@ -135,12 +135,20 @@
       "rank": 15
     },
     {
+      "pid": "1ed92c63",
+      "nickname": "Wen",
+      "weightPct": 0.044270833333333225,
+      "fatPct": 0.031007751937984523,
+      "passed": false,
+      "rank": 16
+    },
+    {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
       "weightPct": 0.025081788440567035,
       "fatPct": 0.04980842911877397,
       "passed": false,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "ab987f10",
@@ -148,7 +156,7 @@
       "weightPct": 0.02743902439024393,
       "fatPct": 0.044673539518900365,
       "passed": false,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "3730d919",
@@ -156,7 +164,7 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "32de19f4",
@@ -164,7 +172,7 @@
       "weightPct": 0.017400204708290713,
       "fatPct": 0.0444444444444444,
       "passed": false,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "e989771e",
@@ -172,7 +180,7 @@
       "weightPct": 0.039197812215132154,
       "fatPct": 0.01971830985915501,
       "passed": false,
-      "rank": 20
+      "rank": 21
     },
     {
       "pid": "6cf7d516",
@@ -180,7 +188,7 @@
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 21
+      "rank": 22
     },
     {
       "pid": "22195f75",
@@ -188,7 +196,7 @@
       "weightPct": -0.010804321728691545,
       "fatPct": 0.06451612903225797,
       "passed": true,
-      "rank": 22
+      "rank": 23
     },
     {
       "pid": "641c4f3b",
@@ -196,7 +204,7 @@
       "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
-      "rank": 23
+      "rank": 24
     },
     {
       "pid": "704bb612",
@@ -204,7 +212,7 @@
       "weightPct": 0.025515210991167894,
       "fatPct": 0.020172910662824287,
       "passed": false,
-      "rank": 24
+      "rank": 25
     },
     {
       "pid": "16981caf",
@@ -212,7 +220,7 @@
       "weightPct": 0.043803418803418745,
       "fatPct": "",
       "passed": false,
-      "rank": 25
+      "rank": 26
     },
     {
       "pid": "ab3fd63c",
@@ -220,7 +228,7 @@
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.03717472118959108,
       "passed": false,
-      "rank": 26
+      "rank": 27
     },
     {
       "pid": "8c77daee",
@@ -228,7 +236,7 @@
       "weightPct": 0.039836567926455624,
       "fatPct": 0,
       "passed": false,
-      "rank": 27
+      "rank": 28
     },
     {
       "pid": "e94023cf",
@@ -236,21 +244,13 @@
       "weightPct": 0.036482694106641775,
       "fatPct": 0.0028490028490028895,
       "passed": false,
-      "rank": 28
+      "rank": 29
     },
     {
       "pid": "9d3c0d53",
       "nickname": "火日立",
       "weightPct": 0.020053475935828877,
       "fatPct": 0.016216216216216255,
-      "passed": false,
-      "rank": 29
-    },
-    {
-      "pid": "1ed92c63",
-      "nickname": "Wen",
-      "weightPct": 0.03580729166666667,
-      "fatPct": 0,
       "passed": false,
       "rank": 30
     },
