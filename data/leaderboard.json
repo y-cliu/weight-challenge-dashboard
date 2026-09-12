@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 14:32"
+    "generatedAt": "2026-09-12 15:32"
   },
   "leaderboard": [
     {
@@ -151,12 +151,20 @@
       "rank": 17
     },
     {
+      "pid": "e989771e",
+      "nickname": "品質就是道德",
+      "weightPct": 0.042844120328167756,
+      "fatPct": 0.030985915492957785,
+      "passed": false,
+      "rank": 18
+    },
+    {
       "pid": "ab987f10",
       "nickname": "白王",
       "weightPct": 0.02743902439024393,
       "fatPct": 0.044673539518900365,
       "passed": false,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "3730d919",
@@ -164,21 +172,13 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.017400204708290713,
       "fatPct": 0.0444444444444444,
-      "passed": false,
-      "rank": 20
-    },
-    {
-      "pid": "e989771e",
-      "nickname": "品質就是道德",
-      "weightPct": 0.039197812215132154,
-      "fatPct": 0.01971830985915501,
       "passed": false,
       "rank": 21
     },
