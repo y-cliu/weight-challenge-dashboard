@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 16:32"
+    "generatedAt": "2026-09-12 17:32"
   },
   "leaderboard": [
     {
@@ -119,19 +119,19 @@
       "rank": 13
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.049773755656108656,
+      "fatPct": 0.03806228373702415,
+      "passed": false,
+      "rank": 14
+    },
+    {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 14
-    },
-    {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.04524886877828054,
-      "fatPct": 0.03806228373702415,
-      "passed": false,
       "rank": 15
     },
     {
@@ -479,18 +479,18 @@
       "rank": 58
     },
     {
-      "pid": "4714ed9a",
-      "nickname": "明天再減肥",
-      "weightPct": 0,
-      "fatPct": "",
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.01668404588112626,
+      "fatPct": -0.015564202334630434,
       "passed": false,
       "rank": 59
     },
     {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.01459854014598546,
-      "fatPct": -0.015564202334630434,
+      "pid": "4714ed9a",
+      "nickname": "明天再減肥",
+      "weightPct": 0,
+      "fatPct": "",
       "passed": false,
       "rank": 60
     },
