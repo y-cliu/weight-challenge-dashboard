@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.15,
+    "reportRateToday": 0.16,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 19:32"
+    "generatedAt": "2026-09-12 20:32"
   },
   "leaderboard": [
     {
@@ -178,7 +178,7 @@
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.017400204708290713,
-      "fatPct": 0.0444444444444444,
+      "fatPct": 0.047619047619047616,
       "passed": false,
       "rank": 21
     },
