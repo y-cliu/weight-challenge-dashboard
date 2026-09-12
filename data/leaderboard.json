@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.1,
+    "reportRateToday": 0.13,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 17:32"
+    "generatedAt": "2026-09-12 18:32"
   },
   "leaderboard": [
     {
@@ -39,7 +39,7 @@
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
-      "weightPct": 0.04069050554870527,
+      "weightPct": 0.04562268803945732,
       "fatPct": 0.11504424778761067,
       "passed": true,
       "rank": 4,
@@ -311,25 +311,25 @@
       "rank": 37
     },
     {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.022896698615548515,
+      "fatPct": "",
+      "passed": false,
+      "rank": 38
+    },
+    {
       "pid": "6955ceea",
       "nickname": "凝視之眼",
       "weightPct": 0.02283653846153853,
       "fatPct": 0,
       "passed": false,
-      "rank": 38
+      "rank": 39
     },
     {
       "pid": "fbcf9cdb",
       "nickname": "帆帆",
       "weightPct": 0.02207505518763797,
-      "fatPct": "",
-      "passed": false,
-      "rank": 39
-    },
-    {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.021831735889243996,
       "fatPct": "",
       "passed": false,
       "rank": 40
@@ -423,12 +423,20 @@
       "rank": 51
     },
     {
+      "pid": "60382873",
+      "nickname": "salmon",
+      "weightPct": 0.01483050847457633,
+      "fatPct": "",
+      "passed": false,
+      "rank": 52
+    },
+    {
       "pid": "9466cc32",
       "nickname": "吃頓飯壓壓驚",
       "weightPct": 0.01248581157775249,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 53
     },
     {
       "pid": "1b9abb75",
@@ -436,21 +444,13 @@
       "weightPct": 0.009541984732824428,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 54
     },
     {
       "pid": "8affee5d",
       "nickname": "麻麻",
       "weightPct": -0.010248901903367538,
       "fatPct": 0.016233766233766232,
-      "passed": false,
-      "rank": 54
-    },
-    {
-      "pid": "60382873",
-      "nickname": "salmon",
-      "weightPct": 0.00423728813559328,
-      "fatPct": "",
       "passed": false,
       "rank": 55
     },
