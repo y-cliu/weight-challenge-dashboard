@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.22,
+    "reportRateToday": 0.24,
     "updatedAt": "2026-09-12",
-    "generatedAt": "2026-09-12 21:33"
+    "generatedAt": "2026-09-12 22:32"
   },
   "leaderboard": [
     {
@@ -498,7 +498,7 @@
       "pid": "3d6d2ba0",
       "nickname": "小邱邱",
       "weightPct": -0.0012468827930173854,
-      "fatPct": 0,
+      "fatPct": -0.00330033003300323,
       "passed": false,
       "rank": 61
     },
