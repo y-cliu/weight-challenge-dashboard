@@ -3,17 +3,17 @@
     "day": 21,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 16,
-    "reportRateToday": 0,
+    "passedCount": 17,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-09-13",
-    "generatedAt": "2026-09-13 07:32"
+    "generatedAt": "2026-09-13 08:32"
   },
   "leaderboard": [
     {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
-      "weightPct": 0.031595576619273306,
-      "fatPct": 0.15512465373961223,
+      "weightPct": 0.03317535545023688,
+      "fatPct": 0.16343490304709146,
       "passed": true,
       "rank": 1,
       "histKey": "4b850d25d402dae492f6af1e8dbda11907c913c18494766b424916b37d014d70"
@@ -127,26 +127,26 @@
       "rank": 14
     },
     {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.014176663031624832,
+      "fatPct": 0.07279693486590046,
+      "passed": true,
+      "rank": 15
+    },
+    {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "1ed92c63",
       "nickname": "Wen",
       "weightPct": 0.044270833333333225,
       "fatPct": 0.031007751937984523,
-      "passed": false,
-      "rank": 16
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.025081788440567035,
-      "fatPct": 0.04980842911877397,
       "passed": false,
       "rank": 17
     },
