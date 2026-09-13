@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 17,
-    "reportRateToday": 0.15,
+    "reportRateToday": 0.19,
     "updatedAt": "2026-09-13",
-    "generatedAt": "2026-09-13 18:32"
+    "generatedAt": "2026-09-13 19:32"
   },
   "leaderboard": [
     {
@@ -217,7 +217,7 @@
     {
       "pid": "16981caf",
       "nickname": "A5和牛",
-      "weightPct": 0.043803418803418745,
+      "weightPct": 0.044871794871794754,
       "fatPct": "",
       "passed": false,
       "rank": 26
