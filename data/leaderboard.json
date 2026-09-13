@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 17,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-13",
-    "generatedAt": "2026-09-13 16:32"
+    "generatedAt": "2026-09-13 17:33"
   },
   "leaderboard": [
     {
@@ -119,20 +119,12 @@
       "rank": 13
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.049773755656108656,
-      "fatPct": 0.03806228373702415,
-      "passed": false,
-      "rank": 14
-    },
-    {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
       "weightPct": 0.014176663031624832,
       "fatPct": 0.07279693486590046,
       "passed": true,
-      "rank": 15
+      "rank": 14
     },
     {
       "pid": "1c738cd4",
@@ -140,7 +132,7 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 16
+      "rank": 15
     },
     {
       "pid": "1ed92c63",
@@ -148,7 +140,7 @@
       "weightPct": 0.043619791666666595,
       "fatPct": 0.031007751937984523,
       "passed": false,
-      "rank": 17
+      "rank": 16
     },
     {
       "pid": "e989771e",
@@ -156,7 +148,7 @@
       "weightPct": 0.042844120328167756,
       "fatPct": 0.030985915492957785,
       "passed": false,
-      "rank": 18
+      "rank": 17
     },
     {
       "pid": "ab987f10",
@@ -164,7 +156,7 @@
       "weightPct": 0.02743902439024393,
       "fatPct": 0.044673539518900365,
       "passed": false,
-      "rank": 19
+      "rank": 18
     },
     {
       "pid": "3730d919",
@@ -172,13 +164,21 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 20
+      "rank": 19
     },
     {
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.017400204708290713,
       "fatPct": 0.047619047619047616,
+      "passed": false,
+      "rank": 20
+    },
+    {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.05203619909502272,
+      "fatPct": 0.010380622837370145,
       "passed": false,
       "rank": 21
     },
@@ -545,7 +545,7 @@
     {
       "pid": "6e63de1a",
       "nickname": "我會變瘦",
-      "weightPct": -0.01841196777905632,
+      "weightPct": -0.01726121979286536,
       "fatPct": "",
       "passed": false,
       "rank": 67
