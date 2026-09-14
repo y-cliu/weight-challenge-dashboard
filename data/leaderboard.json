@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.21,
+    "reportRateToday": 0.25,
     "updatedAt": "2026-09-14",
-    "generatedAt": "2026-09-14 19:32"
+    "generatedAt": "2026-09-14 20:32"
   },
   "leaderboard": [
     {
@@ -46,13 +46,21 @@
       "histKey": "f48f3ccf8c10565e045cace40a8be3ac5f6eb99a60037f086915721fdd7b704d"
     },
     {
+      "pid": "2d81ddb8",
+      "nickname": "鯊魚",
+      "weightPct": 0.026288117770767616,
+      "fatPct": 0.13741496598639452,
+      "passed": true,
+      "rank": 5,
+      "histKey": "3b1c9150a9083b294cf3d0b1d3cd2f9e3a18b74224e8f07a12d5d0e85dc38ca2"
+    },
+    {
       "pid": "86f28999",
       "nickname": "小胖仔",
       "weightPct": 0.04808877928483344,
       "fatPct": 0.11504424778761067,
       "passed": true,
-      "rank": 5,
-      "histKey": "744a7463d8c56995d064b8ffc281ae4df092a1c0f1fd97971e9d52ed2ce90e5b"
+      "rank": 6
     },
     {
       "pid": "91c8b675",
@@ -61,21 +69,13 @@
       "fatPct": 0.08745247148288976,
       "passed": true,
       "rockets": 3,
-      "rank": 6
+      "rank": 7
     },
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
       "weightPct": 0.057942057942057916,
       "fatPct": 0.08259587020648959,
-      "passed": true,
-      "rank": 7
-    },
-    {
-      "pid": "2d81ddb8",
-      "nickname": "鯊魚",
-      "weightPct": 0.01366982124079913,
-      "fatPct": 0.12176870748299315,
       "passed": true,
       "rank": 8
     },
@@ -444,8 +444,8 @@
     {
       "pid": "43519314",
       "nickname": "可以自己取名",
-      "weightPct": 0.012168141592920447,
-      "fatPct": 0,
+      "weightPct": 0.003318584070796586,
+      "fatPct": 0.0076628352490422545,
       "passed": false,
       "rank": 54
     },
@@ -474,26 +474,26 @@
       "rank": 57
     },
     {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.007238883143743566,
-      "fatPct": -0.0034129692832763777,
-      "passed": false,
-      "rank": 58
-    },
-    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
-      "rank": 59
+      "rank": 58
     },
     {
       "pid": "ac03691c",
       "nickname": "建均",
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
+      "passed": false,
+      "rank": 59
+    },
+    {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.007238883143743566,
+      "fatPct": -0.006825938566552877,
       "passed": false,
       "rank": 60
     },
