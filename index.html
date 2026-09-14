@@ -108,6 +108,11 @@
   .name-row{ display:flex; align-items:center; gap:4px; }
   .nickname{ font-weight:700; font-size:14px; }
   .rocket-badge{ font-size:11px; letter-spacing:-1px; }
+  .surge-badge{
+    font-size:10px; font-weight:700; color:#fff;
+    background: linear-gradient(90deg, var(--orange), var(--red));
+    padding:2px 7px; border-radius:10px; white-space:nowrap;
+  }
   .supervisor{ font-size:11px; color: var(--text-dim); }
   .pct{ font-weight:700; font-size:13px; text-align:right; color: var(--text); }
   .badge{ font-size:11px; text-align:center; padding:4px 6px; border-radius:20px; font-weight:700; }
@@ -211,7 +216,9 @@ function renderRoster(list){
     const row = document.createElement('div');
     row.className = 'row' + (p.rank<=3 ? ' top'+p.rank : '');
     const rankDisplay = p.rank<=3 ? medals[p.rank-1] : String(p.rank).padStart(2,'0');
-    const rocketBadge = p.rockets ? `<span class="rocket-badge">${'🚀'.repeat(p.rockets)}</span>` : '';
+    const rocketBadge = p.rockets
+      ? `<span class="rocket-badge">${'🚀'.repeat(p.rockets)}</span><span class="surge-badge">突飛猛進</span>`
+      : '';
     row.innerHTML = `
       <div class="rank">${rankDisplay}</div>
       <div class="name-cell"><span class="name-row"><span class="nickname">${p.nickname}</span>${rocketBadge}</span></div>
