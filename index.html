@@ -105,6 +105,7 @@
   }
   .rank{ font-family:'ZCOOL KuaiLe', sans-serif; font-size:20px; text-align:center; color: var(--text-dim); }
   .name-cell{ display:flex; flex-direction:column; }
+  .name-row{ display:flex; align-items:center; gap:4px; }
   .nickname{ font-weight:700; font-size:14px; }
   .rocket-badge{ font-size:11px; letter-spacing:-1px; }
   .supervisor{ font-size:11px; color: var(--text-dim); }
@@ -213,7 +214,7 @@ function renderRoster(list){
     const rocketBadge = p.rockets ? `<span class="rocket-badge">${'🚀'.repeat(p.rockets)}</span>` : '';
     row.innerHTML = `
       <div class="rank">${rankDisplay}</div>
-      <div class="name-cell"><span class="nickname">${p.nickname}</span>${rocketBadge}</div>
+      <div class="name-cell"><span class="name-row"><span class="nickname">${p.nickname}</span>${rocketBadge}</span></div>
       <div class="pct">${pct(p.weightPct)}</div>
       <div class="pct">${pct(p.fatPct)}</div>
       <div><span class="badge ${p.passed?'pass':'active'}">${p.passed?'達標':'進行中'}</span></div>
