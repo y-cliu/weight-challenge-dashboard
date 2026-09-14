@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.25,
+    "reportRateToday": 0.28,
     "updatedAt": "2026-09-14",
-    "generatedAt": "2026-09-14 21:32"
+    "generatedAt": "2026-09-14 22:32"
   },
   "leaderboard": [
     {
@@ -226,19 +226,19 @@
       "rank": 26
     },
     {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.04085801838610827,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 27
+    },
+    {
       "pid": "22195f75",
       "nickname": "肥龍在天",
       "weightPct": -0.01320528211284524,
       "fatPct": 0.053763440860215055,
       "passed": true,
-      "rank": 27
-    },
-    {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.039836567926455624,
-      "fatPct": 0,
-      "passed": false,
       "rank": 28
     },
     {
