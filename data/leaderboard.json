@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0.28,
+    "reportRateToday": 0.29,
     "updatedAt": "2026-09-14",
-    "generatedAt": "2026-09-14 22:32"
+    "generatedAt": "2026-09-14 23:32"
   },
   "leaderboard": [
     {
@@ -201,20 +201,20 @@
       "rank": 23
     },
     {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.044871794871794754,
-      "fatPct": "",
-      "passed": false,
-      "rank": 24
-    },
-    {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
       "weightPct": 0.017448200654307616,
       "fatPct": 0.026819923371647618,
       "passed": false,
       "rockets": 2,
+      "rank": 24
+    },
+    {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.043803418803418745,
+      "fatPct": "",
+      "passed": false,
       "rank": 25
     },
     {
