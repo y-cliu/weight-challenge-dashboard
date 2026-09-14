@@ -6,7 +6,7 @@
     "passedCount": 17,
     "reportRateToday": 0.01,
     "updatedAt": "2026-09-14",
-    "generatedAt": "2026-09-14 07:58"
+    "generatedAt": "2026-09-14 08:01"
   },
   "leaderboard": [
     {
@@ -60,6 +60,7 @@
       "weightPct": 0.060240963855421686,
       "fatPct": 0.08745247148288976,
       "passed": true,
+      "rockets": 3,
       "rank": 6
     },
     {
@@ -124,6 +125,7 @@
       "weightPct": 0.014176663031624832,
       "fatPct": 0.07279693486590046,
       "passed": true,
+      "rockets": 2,
       "rank": 14
     },
     {
@@ -196,6 +198,7 @@
       "weightPct": 0.04812206572769963,
       "fatPct": 0.006451612903225784,
       "passed": false,
+      "rockets": 1,
       "rank": 23
     },
     {
