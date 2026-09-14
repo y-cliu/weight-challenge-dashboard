@@ -4,28 +4,28 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 17,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-09-14",
-    "generatedAt": "2026-09-14 08:01"
+    "generatedAt": "2026-09-14 08:32"
   },
   "leaderboard": [
-    {
-      "pid": "e7cde42c",
-      "nickname": "飛常努力",
-      "weightPct": 0.03317535545023688,
-      "fatPct": 0.16343490304709146,
-      "passed": true,
-      "rank": 1,
-      "histKey": "d03372f7b78bb9c6cb1334a19565d93398dd74196383132124ad5b44873a6249"
-    },
     {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.029268292682926897,
       "fatPct": 0.21212121212121213,
       "passed": true,
-      "rank": 2,
+      "rank": 1,
       "histKey": "08f210341e5a82c15931acd52ab274a751bdc9f3f9c710f2ebdfd8f0be5a84f4"
+    },
+    {
+      "pid": "e7cde42c",
+      "nickname": "飛常努力",
+      "weightPct": 0.02843601895734593,
+      "fatPct": 0.14681440443213298,
+      "passed": true,
+      "rank": 2,
+      "histKey": "d03372f7b78bb9c6cb1334a19565d93398dd74196383132124ad5b44873a6249"
     },
     {
       "pid": "3089de40",
