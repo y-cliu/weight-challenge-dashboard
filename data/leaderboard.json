@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 16,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-09-15",
-    "generatedAt": "2026-09-15 08:32"
+    "generatedAt": "2026-09-15 09:33"
   },
   "leaderboard": [
     {
@@ -160,12 +160,21 @@
       "rank": 18
     },
     {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.023991275899672877,
+      "fatPct": 0.04214559386973185,
+      "passed": false,
+      "rockets": 2,
+      "rank": 19
+    },
+    {
       "pid": "3730d919",
       "nickname": "羊羊愛吃飯",
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "32de19f4",
@@ -173,7 +182,7 @@
       "weightPct": 0.017400204708290713,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 20
+      "rank": 21
     },
     {
       "pid": "6cf7d516",
@@ -181,7 +190,7 @@
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 21
+      "rank": 22
     },
     {
       "pid": "84eac3ab",
@@ -190,7 +199,7 @@
       "fatPct": 0.006451612903225784,
       "passed": false,
       "rockets": 1,
-      "rank": 22
+      "rank": 23
     },
     {
       "pid": "641c4f3b",
@@ -198,15 +207,6 @@
       "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
-      "rank": 23
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.017448200654307616,
-      "fatPct": 0.026819923371647618,
-      "passed": false,
-      "rockets": 2,
       "rank": 24
     },
     {
