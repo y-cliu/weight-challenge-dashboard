@@ -3,10 +3,10 @@
     "day": 23,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 17,
-    "reportRateToday": 0.04,
+    "passedCount": 18,
+    "reportRateToday": 0.09,
     "updatedAt": "2026-09-15",
-    "generatedAt": "2026-09-15 16:32"
+    "generatedAt": "2026-09-15 17:32"
   },
   "leaderboard": [
     {
@@ -82,7 +82,7 @@
     {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
-      "weightPct": 0.055429864253393725,
+      "weightPct": 0.05429864253393678,
       "fatPct": 0.04498269896193762,
       "passed": false,
       "rank": 9
@@ -131,15 +131,15 @@
       "pid": "e989771e",
       "nickname": "品質就是道德",
       "weightPct": 0.042844120328167756,
-      "fatPct": 0.047887323943662054,
-      "passed": false,
+      "fatPct": 0.050704225352112595,
+      "passed": true,
       "rank": 15
     },
     {
       "pid": "0b09504d",
       "nickname": "腰瘦瘦",
-      "weightPct": -0.004497751124437738,
-      "fatPct": 0.09366391184573,
+      "weightPct": 0.00299850074962523,
+      "fatPct": 0.08815426997245168,
       "passed": true,
       "rank": 16
     },
@@ -242,20 +242,12 @@
       "rank": 28
     },
     {
-      "pid": "22195f75",
-      "nickname": "肥龍在天",
-      "weightPct": -0.01320528211284524,
-      "fatPct": 0.053763440860215055,
-      "passed": true,
-      "rank": 29
-    },
-    {
       "pid": "e94023cf",
       "nickname": "胖胖虎虎",
       "weightPct": 0.036482694106641775,
       "fatPct": 0.0028490028490028895,
       "passed": false,
-      "rank": 30
+      "rank": 29
     },
     {
       "pid": "9d3c0d53",
@@ -263,6 +255,14 @@
       "weightPct": 0.020053475935828877,
       "fatPct": 0.016216216216216255,
       "passed": false,
+      "rank": 30
+    },
+    {
+      "pid": "22195f75",
+      "nickname": "肥龍在天",
+      "weightPct": -0.014405762304922003,
+      "fatPct": 0.050179211469534,
+      "passed": true,
       "rank": 31
     },
     {
