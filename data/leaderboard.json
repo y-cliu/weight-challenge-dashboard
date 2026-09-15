@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 18,
-    "reportRateToday": 0.25,
+    "reportRateToday": 0.27,
     "updatedAt": "2026-09-15",
-    "generatedAt": "2026-09-15 22:32"
+    "generatedAt": "2026-09-15 23:32"
   },
   "leaderboard": [
     {
@@ -370,12 +370,20 @@
       "rank": 44
     },
     {
+      "pid": "4fbd0dd1",
+      "nickname": "初心者",
+      "weightPct": 0.004362050163576943,
+      "fatPct": 0.015384615384615385,
+      "passed": false,
+      "rank": 45
+    },
+    {
       "pid": "47dba6e3",
       "nickname": "楊哲嘉",
       "weightPct": 0.01827956989247315,
       "fatPct": "",
       "passed": false,
-      "rank": 45
+      "rank": 46
     },
     {
       "pid": "628995ff",
@@ -383,21 +391,13 @@
       "weightPct": 0.021052631578947368,
       "fatPct": -0.003095975232198187,
       "passed": false,
-      "rank": 46
+      "rank": 47
     },
     {
       "pid": "c15a7522",
       "nickname": "10天就破功",
       "weightPct": 0.01769911504424788,
       "fatPct": "",
-      "passed": false,
-      "rank": 47
-    },
-    {
-      "pid": "4fbd0dd1",
-      "nickname": "初心者",
-      "weightPct": 0.0021810250817884715,
-      "fatPct": 0.015384615384615385,
       "passed": false,
       "rank": 48
     },
