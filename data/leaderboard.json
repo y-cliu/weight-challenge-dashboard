@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 20,
-    "reportRateToday": 0,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-09-17",
-    "generatedAt": "2026-09-17 06:31"
+    "generatedAt": "2026-09-17 07:33"
   },
   "leaderboard": [
     {
@@ -450,12 +450,20 @@
       "rank": 54
     },
     {
+      "pid": "8affee5d",
+      "nickname": "麻麻",
+      "weightPct": -0.0014641288433383387,
+      "fatPct": 0.016233766233766232,
+      "passed": false,
+      "rank": 55
+    },
+    {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.012409513960703234,
       "fatPct": 0,
       "passed": false,
-      "rank": 55
+      "rank": 56
     },
     {
       "pid": "1b9abb75",
@@ -463,21 +471,13 @@
       "weightPct": 0.009541984732824428,
       "fatPct": "",
       "passed": false,
-      "rank": 56
+      "rank": 57
     },
     {
       "pid": "33df67af",
       "nickname": "豪",
       "weightPct": 0.009227220299884627,
       "fatPct": 0,
-      "passed": false,
-      "rank": 57
-    },
-    {
-      "pid": "8affee5d",
-      "nickname": "麻麻",
-      "weightPct": -0.010248901903367538,
-      "fatPct": 0.016233766233766232,
       "passed": false,
       "rank": 58
     },
@@ -570,12 +570,20 @@
       "rank": 69
     },
     {
+      "pid": "9fafa607",
+      "nickname": "白",
+      "weightPct": 0.008372093023255867,
+      "fatPct": -0.04843304843304831,
+      "passed": false,
+      "rank": 70
+    },
+    {
       "pid": "4c856b4e",
       "nickname": "阿翔",
       "weightPct": 0,
       "fatPct": -0.04558823529411772,
       "passed": false,
-      "rank": 70
+      "rank": 71
     },
     {
       "pid": "a353441e",
@@ -583,21 +591,13 @@
       "weightPct": 0.006849315068493086,
       "fatPct": -0.05498281786941573,
       "passed": false,
-      "rank": 71
+      "rank": 72
     },
     {
       "pid": "9440021b",
       "nickname": "菱角頭",
       "weightPct": 0.007858546168958714,
       "fatPct": -0.058020477815699634,
-      "passed": false,
-      "rank": 72
-    },
-    {
-      "pid": "9fafa607",
-      "nickname": "白",
-      "weightPct": -0.004651162790697674,
-      "fatPct": -0.04843304843304831,
       "passed": false,
       "rank": 73
     },
