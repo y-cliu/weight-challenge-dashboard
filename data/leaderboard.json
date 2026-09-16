@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 19,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-16",
-    "generatedAt": "2026-09-16 16:32"
+    "generatedAt": "2026-09-16 17:32"
   },
   "leaderboard": [
     {
@@ -88,11 +88,11 @@
       "rank": 9
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.05429864253393678,
-      "fatPct": 0.04498269896193762,
-      "passed": false,
+      "pid": "0b09504d",
+      "nickname": "腰瘦瘦",
+      "weightPct": 0.011994002998500706,
+      "fatPct": 0.12121212121212119,
+      "passed": true,
       "rank": 10
     },
     {
@@ -128,26 +128,26 @@
       "rank": 14
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.04864253393665171,
+      "fatPct": 0.04498269896193762,
+      "passed": false,
+      "rank": 15
+    },
+    {
       "pid": "e989771e",
       "nickname": "品質就是道德",
       "weightPct": 0.042844120328167756,
       "fatPct": 0.050704225352112595,
       "passed": true,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "40b1f679",
       "nickname": "Nnnnnn",
       "weightPct": 0.021255060728744883,
       "fatPct": 0.07209302325581399,
-      "passed": true,
-      "rank": 16
-    },
-    {
-      "pid": "0b09504d",
-      "nickname": "腰瘦瘦",
-      "weightPct": 0.00299850074962523,
-      "fatPct": 0.08815426997245168,
       "passed": true,
       "rank": 17
     },
