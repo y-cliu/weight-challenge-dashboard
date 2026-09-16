@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 20,
-    "reportRateToday": 0.2,
+    "reportRateToday": 0.25,
     "updatedAt": "2026-09-16",
-    "generatedAt": "2026-09-16 21:33"
+    "generatedAt": "2026-09-16 22:32"
   },
   "leaderboard": [
     {
@@ -450,12 +450,20 @@
       "rank": 54
     },
     {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.012409513960703234,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 55
+    },
+    {
       "pid": "1b9abb75",
       "nickname": "阿德",
       "weightPct": 0.009541984732824428,
       "fatPct": "",
       "passed": false,
-      "rank": 55
+      "rank": 56
     },
     {
       "pid": "33df67af",
@@ -463,7 +471,7 @@
       "weightPct": 0.009227220299884627,
       "fatPct": 0,
       "passed": false,
-      "rank": 56
+      "rank": 57
     },
     {
       "pid": "8affee5d",
@@ -471,7 +479,7 @@
       "weightPct": -0.010248901903367538,
       "fatPct": 0.016233766233766232,
       "passed": false,
-      "rank": 57
+      "rank": 58
     },
     {
       "pid": "e625a85d",
@@ -479,7 +487,15 @@
       "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
-      "rank": 58
+      "rank": 59
+    },
+    {
+      "pid": "3d6d2ba0",
+      "nickname": "小邱邱",
+      "weightPct": -0.0012468827930173854,
+      "fatPct": 0.003300330033003347,
+      "passed": false,
+      "rank": 60
     },
     {
       "pid": "ac03691c",
@@ -487,15 +503,7 @@
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 59
-    },
-    {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.007238883143743566,
-      "fatPct": -0.006825938566552877,
-      "passed": false,
-      "rank": 60
+      "rank": 61
     },
     {
       "pid": "4714ed9a",
@@ -503,23 +511,7 @@
       "weightPct": 0,
       "fatPct": "",
       "passed": false,
-      "rank": 61
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.003318584070796586,
-      "fatPct": -0.007662835249042118,
-      "passed": false,
       "rank": 62
-    },
-    {
-      "pid": "3d6d2ba0",
-      "nickname": "小邱邱",
-      "weightPct": -0.0012468827930173854,
-      "fatPct": -0.00330033003300323,
-      "passed": false,
-      "rank": 63
     },
     {
       "pid": "daa4c7c4",
@@ -527,7 +519,7 @@
       "weightPct": -0.0055248618784530384,
       "fatPct": 0,
       "passed": false,
-      "rank": 64
+      "rank": 63
     },
     {
       "pid": "e7e4b5b0",
@@ -535,13 +527,21 @@
       "weightPct": -0.0062893081761005686,
       "fatPct": "",
       "passed": false,
-      "rank": 65
+      "rank": 64
     },
     {
       "pid": "4e937ca1",
       "nickname": "喇叭勢在必得",
       "weightPct": -0.009101251422070501,
       "fatPct": "",
+      "passed": false,
+      "rank": 65
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": -0.0022123893805308477,
+      "fatPct": -0.007662835249042118,
       "passed": false,
       "rank": 66
     },
