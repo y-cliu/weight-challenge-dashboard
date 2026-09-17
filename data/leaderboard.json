@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.07,
+    "reportRateToday": 0.09,
     "updatedAt": "2026-09-17",
-    "generatedAt": "2026-09-17 17:32"
+    "generatedAt": "2026-09-17 18:32"
   },
   "leaderboard": [
     {
@@ -282,12 +282,20 @@
       "rank": 33
     },
     {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.03301384451544205,
+      "fatPct": "",
+      "passed": false,
+      "rank": 34
+    },
+    {
       "pid": "5e73f6c4",
       "nickname": "大威",
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
       "passed": false,
-      "rank": 34
+      "rank": 35
     },
     {
       "pid": "24a64d66",
@@ -295,20 +303,12 @@
       "weightPct": -0.019334049409237504,
       "fatPct": 0.05066666666666663,
       "passed": true,
-      "rank": 35
+      "rank": 36
     },
     {
       "pid": "6f376100",
       "nickname": "每月欠薪15",
       "weightPct": 0.02950152594099686,
-      "fatPct": "",
-      "passed": false,
-      "rank": 36
-    },
-    {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.028753993610223672,
       "fatPct": "",
       "passed": false,
       "rank": 37
