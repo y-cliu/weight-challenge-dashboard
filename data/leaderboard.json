@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-17",
-    "generatedAt": "2026-09-17 15:32"
+    "generatedAt": "2026-09-17 16:32"
   },
   "leaderboard": [
     {
@@ -91,7 +91,7 @@
       "pid": "0b09504d",
       "nickname": "腰瘦瘦",
       "weightPct": 0.011994002998500706,
-      "fatPct": 0.12121212121212119,
+      "fatPct": 0.12947658402203846,
       "passed": true,
       "rank": 10
     },
