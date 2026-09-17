@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-17",
-    "generatedAt": "2026-09-17 16:32"
+    "generatedAt": "2026-09-17 17:32"
   },
   "leaderboard": [
     {
@@ -152,19 +152,19 @@
       "rank": 17
     },
     {
+      "pid": "40b1f679",
+      "nickname": "Nnnnnn",
+      "weightPct": 0.02327935222672062,
+      "fatPct": 0.07209302325581399,
+      "passed": true,
+      "rank": 18
+    },
+    {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
       "weightPct": 0.04864253393665171,
       "fatPct": 0.04498269896193762,
       "passed": false,
-      "rank": 18
-    },
-    {
-      "pid": "40b1f679",
-      "nickname": "Nnnnnn",
-      "weightPct": 0.021255060728744883,
-      "fatPct": 0.07209302325581399,
-      "passed": true,
       "rank": 19
     },
     {
@@ -458,12 +458,20 @@
       "rank": 55
     },
     {
+      "pid": "e625a85d",
+      "nickname": "tung",
+      "weightPct": 0.012605042016806753,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 56
+    },
+    {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.012409513960703234,
       "fatPct": 0,
       "passed": false,
-      "rank": 56
+      "rank": 57
     },
     {
       "pid": "1b9abb75",
@@ -471,20 +479,12 @@
       "weightPct": 0.009541984732824428,
       "fatPct": "",
       "passed": false,
-      "rank": 57
+      "rank": 58
     },
     {
       "pid": "33df67af",
       "nickname": "豪",
       "weightPct": 0.009227220299884627,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 58
-    },
-    {
-      "pid": "e625a85d",
-      "nickname": "tung",
-      "weightPct": 0.0021008403361344836,
       "fatPct": 0,
       "passed": false,
       "rank": 59
