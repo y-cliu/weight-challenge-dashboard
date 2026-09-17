@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 25,
+    "day": 26,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.21,
-    "updatedAt": "2026-09-17",
-    "generatedAt": "2026-09-18 00:13"
+    "reportRateToday": 0.03,
+    "updatedAt": "2026-09-18",
+    "generatedAt": "2026-09-18 06:31"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.2013274336283186,
       "passed": true,
       "rank": 1,
-      "histKey": "fac728b175bac9c005d6742e204b44a73828b12afba346f26bcb8010df8d042a"
+      "histKey": "08cfa8423dd29bed5fea4fdca19f8092b114b9d1dad651fe06cf4b07a898927e"
     },
     {
       "pid": "1ed92c63",
@@ -25,7 +25,7 @@
       "fatPct": 0.1976744186046512,
       "passed": true,
       "rank": 2,
-      "histKey": "da861c9749b7b4b5fddbaba313a63955380f963508cacdb53f84298603138959"
+      "histKey": "8dd6ecc5bd9c31194c7c1e52d7d9344b53e5dd37d34d45aed3a289c289bdcd32"
     },
     {
       "pid": "f805593c",
@@ -34,7 +34,7 @@
       "fatPct": 0.20606060606060608,
       "passed": true,
       "rank": 3,
-      "histKey": "c8b7229ec82d65ba67ed13ecdf957db24d7fa93d75645088780e4ca7979d5ee4"
+      "histKey": "6fed8a6281a649761bdb3627cde9e55bc537c44798e67eba01825bf8ee59a8af"
     },
     {
       "pid": "07cce5f3",
@@ -43,7 +43,7 @@
       "fatPct": 0.18387096774193545,
       "passed": true,
       "rank": 4,
-      "histKey": "feec43b6a604bd57be9ec4a0aba4983b0f57d297ac3b8b7374be03b491c01c32"
+      "histKey": "f709ec1ebc7a205f7a0e8fbf1ee809a67c3b18c6aec756850408d62a07346f74"
     },
     {
       "pid": "e7cde42c",
@@ -52,7 +52,7 @@
       "fatPct": 0.14681440443213298,
       "passed": true,
       "rank": 5,
-      "histKey": "d74b1fe1d8ff0a7cc81c69e55f64dac6f87131afc71d81c5a124282ef6d6f014"
+      "histKey": "f3d16b101c7e4f0b269b07835ab7bbbfcb57e8552c42d4c5f32d4a45ecc13640"
     },
     {
       "pid": "3089de40",
@@ -394,18 +394,18 @@
       "rank": 47
     },
     {
-      "pid": "47dba6e3",
-      "nickname": "楊哲嘉",
-      "weightPct": 0.01827956989247315,
-      "fatPct": "",
+      "pid": "628995ff",
+      "nickname": "第一名是我的",
+      "weightPct": 0.021578947368421024,
+      "fatPct": -0.003095975232198187,
       "passed": false,
       "rank": 48
     },
     {
-      "pid": "628995ff",
-      "nickname": "第一名是我的",
-      "weightPct": 0.021052631578947368,
-      "fatPct": -0.003095975232198187,
+      "pid": "47dba6e3",
+      "nickname": "楊哲嘉",
+      "weightPct": 0.01827956989247315,
+      "fatPct": "",
       "passed": false,
       "rank": 49
     },
