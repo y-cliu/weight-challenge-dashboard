@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.07,
+    "reportRateToday": 0.08,
     "updatedAt": "2026-09-18",
-    "generatedAt": "2026-09-18 10:32"
+    "generatedAt": "2026-09-18 11:32"
   },
   "leaderboard": [
     {
@@ -201,20 +201,20 @@
       "rank": 23
     },
     {
+      "pid": "84eac3ab",
+      "nickname": "夜露死苦",
+      "weightPct": 0.06220657276995302,
+      "fatPct": 0,
+      "passed": false,
+      "rockets": 1,
+      "rank": 24
+    },
+    {
       "pid": "6cf7d516",
       "nickname": "翔",
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 24
-    },
-    {
-      "pid": "84eac3ab",
-      "nickname": "夜露死苦",
-      "weightPct": 0.04812206572769963,
-      "fatPct": 0.006451612903225784,
-      "passed": false,
-      "rockets": 1,
       "rank": 25
     },
     {
