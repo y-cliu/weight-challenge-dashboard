@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.19,
+    "reportRateToday": 0.24,
     "updatedAt": "2026-09-18",
-    "generatedAt": "2026-09-18 21:32"
+    "generatedAt": "2026-09-18 22:33"
   },
   "leaderboard": [
     {
@@ -90,8 +90,8 @@
     {
       "pid": "0b09504d",
       "nickname": "腰瘦瘦",
-      "weightPct": 0.011994002998500706,
-      "fatPct": 0.12947658402203846,
+      "weightPct": 0.010494752623688198,
+      "fatPct": 0.11845730027548203,
       "passed": true,
       "rank": 10
     },
@@ -226,26 +226,26 @@
       "rank": 26
     },
     {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.04800817160367725,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 27
+    },
+    {
       "pid": "dc9ec1fb",
       "nickname": "郭阿斌",
       "weightPct": 0.04550758459743297,
       "fatPct": "",
       "passed": false,
-      "rank": 27
+      "rank": 28
     },
     {
       "pid": "ab3fd63c",
       "nickname": "DD",
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.03717472118959108,
-      "passed": false,
-      "rank": 28
-    },
-    {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.039836567926455624,
-      "fatPct": 0,
       "passed": false,
       "rank": 29
     },
@@ -394,12 +394,20 @@
       "rank": 47
     },
     {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.022750775594622574,
+      "fatPct": -0.0034129692832763777,
+      "passed": false,
+      "rank": 48
+    },
+    {
       "pid": "628995ff",
       "nickname": "第一名是我的",
       "weightPct": 0.021578947368421024,
       "fatPct": -0.003095975232198187,
       "passed": false,
-      "rank": 48
+      "rank": 49
     },
     {
       "pid": "47dba6e3",
@@ -407,7 +415,7 @@
       "weightPct": 0.01827956989247315,
       "fatPct": "",
       "passed": false,
-      "rank": 49
+      "rank": 50
     },
     {
       "pid": "c15a7522",
@@ -415,7 +423,7 @@
       "weightPct": 0.01769911504424788,
       "fatPct": "",
       "passed": false,
-      "rank": 50
+      "rank": 51
     },
     {
       "pid": "1e81557b",
@@ -423,7 +431,7 @@
       "weightPct": 0.017142857142857144,
       "fatPct": 0,
       "passed": false,
-      "rank": 51
+      "rank": 52
     },
     {
       "pid": "7e191fc7",
@@ -431,7 +439,7 @@
       "weightPct": 0.01690821256038637,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 53
     },
     {
       "pid": "6013e654",
@@ -439,7 +447,7 @@
       "weightPct": 0.01682242990654203,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 54
     },
     {
       "pid": "adc3b0b2",
@@ -447,7 +455,7 @@
       "weightPct": 0.01635991820040894,
       "fatPct": 0,
       "passed": false,
-      "rank": 54
+      "rank": 55
     },
     {
       "pid": "8d5cd12d",
@@ -455,7 +463,7 @@
       "weightPct": 0.012096774193548416,
       "fatPct": 0.0033222591362126715,
       "passed": false,
-      "rank": 55
+      "rank": 56
     },
     {
       "pid": "8affee5d",
@@ -463,7 +471,15 @@
       "weightPct": -0.0014641288433383387,
       "fatPct": 0.016233766233766232,
       "passed": false,
-      "rank": 56
+      "rank": 57
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.0022123893805310046,
+      "fatPct": 0.011494252873563244,
+      "passed": false,
+      "rank": 58
     },
     {
       "pid": "e625a85d",
@@ -471,15 +487,7 @@
       "weightPct": 0.012605042016806753,
       "fatPct": 0,
       "passed": false,
-      "rank": 57
-    },
-    {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.012409513960703234,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 58
+      "rank": 59
     },
     {
       "pid": "1b9abb75",
@@ -487,21 +495,13 @@
       "weightPct": 0.009541984732824428,
       "fatPct": "",
       "passed": false,
-      "rank": 59
+      "rank": 60
     },
     {
       "pid": "33df67af",
       "nickname": "豪",
       "weightPct": 0.009227220299884627,
       "fatPct": 0,
-      "passed": false,
-      "rank": 60
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": -0.0022123893805308477,
-      "fatPct": 0.0076628352490422545,
       "passed": false,
       "rank": 61
     },
