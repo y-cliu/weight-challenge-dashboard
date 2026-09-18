@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.1,
+    "reportRateToday": 0.14,
     "updatedAt": "2026-09-18",
-    "generatedAt": "2026-09-18 17:32"
+    "generatedAt": "2026-09-18 18:32"
   },
   "leaderboard": [
     {
@@ -258,12 +258,28 @@
       "rank": 30
     },
     {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.039403620873269464,
+      "fatPct": "",
+      "passed": false,
+      "rank": 31
+    },
+    {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.022419186652763354,
+      "fatPct": 0.015564202334630295,
+      "passed": false,
+      "rank": 32
+    },
+    {
       "pid": "9d3c0d53",
       "nickname": "火日立",
       "weightPct": 0.020053475935828877,
       "fatPct": 0.016216216216216255,
       "passed": false,
-      "rank": 31
+      "rank": 33
     },
     {
       "pid": "9466cc32",
@@ -271,7 +287,7 @@
       "weightPct": 0.035187287173666225,
       "fatPct": "",
       "passed": false,
-      "rank": 32
+      "rank": 34
     },
     {
       "pid": "cb4c10e9",
@@ -279,28 +295,12 @@
       "weightPct": 0.004420866489832007,
       "fatPct": 0.03012048192771084,
       "passed": false,
-      "rank": 33
-    },
-    {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.01876955161626706,
-      "fatPct": 0.015564202334630295,
-      "passed": false,
-      "rank": 34
+      "rank": 35
     },
     {
       "pid": "43651bb4",
       "nickname": "江77",
       "weightPct": 0.033412887828162256,
-      "fatPct": "",
-      "passed": false,
-      "rank": 35
-    },
-    {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.03301384451544205,
       "fatPct": "",
       "passed": false,
       "rank": 36
