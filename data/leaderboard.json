@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-09-19",
-    "generatedAt": "2026-09-19 07:32"
+    "generatedAt": "2026-09-19 08:32"
   },
   "leaderboard": [
     {
@@ -28,12 +28,21 @@
       "histKey": "3ceaf0fee31b2ff26f3cac84d7e2f30c76bccc07546fd8642bb0368fe772ea22"
     },
     {
+      "pid": "07cce5f3",
+      "nickname": "姜姜",
+      "weightPct": 0.0425273390036452,
+      "fatPct": 0.1935483870967742,
+      "passed": true,
+      "rank": 3,
+      "histKey": "ae783ba997ffb956a53e6a409380afb7b3bcebf4493a046ba74c1315890333d0"
+    },
+    {
       "pid": "1ed92c63",
       "nickname": "Wen",
       "weightPct": 0.042317708333333336,
       "fatPct": 0.1976744186046512,
       "passed": true,
-      "rank": 3,
+      "rank": 4,
       "histKey": "54452805c7020156853e87dbf884de199e76e33c523bf8feaf4b44dddab66447"
     },
     {
@@ -42,17 +51,8 @@
       "weightPct": 0.04107424960505521,
       "fatPct": 0.15789473684210534,
       "passed": true,
-      "rank": 4,
-      "histKey": "7d457458244544f1f193d6d26378de9ff8405b203999b7499fdf3efb9f95f09e"
-    },
-    {
-      "pid": "07cce5f3",
-      "nickname": "姜姜",
-      "weightPct": 0.038274605103280575,
-      "fatPct": 0.18387096774193545,
-      "passed": true,
       "rank": 5,
-      "histKey": "ae783ba997ffb956a53e6a409380afb7b3bcebf4493a046ba74c1315890333d0"
+      "histKey": "7d457458244544f1f193d6d26378de9ff8405b203999b7499fdf3efb9f95f09e"
     },
     {
       "pid": "3089de40",
