@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-09-20",
-    "generatedAt": "2026-09-20 08:32"
+    "generatedAt": "2026-09-20 09:32"
   },
   "leaderboard": [
     {
@@ -28,12 +28,21 @@
       "histKey": "057d21c4e6ee26a2224a418977bad4a5a66b46dbc92655bd2d44cb499ae2ea60"
     },
     {
+      "pid": "e7cde42c",
+      "nickname": "飛常努力",
+      "weightPct": 0.045813586097946266,
+      "fatPct": 0.15789473684210534,
+      "passed": true,
+      "rank": 3,
+      "histKey": "9616b955c7c2c601b2c75574e43ca0d0ff5f8fcf6681855471217249bf9a81e1"
+    },
+    {
       "pid": "07cce5f3",
       "nickname": "姜姜",
       "weightPct": 0.0425273390036452,
       "fatPct": 0.1935483870967742,
       "passed": true,
-      "rank": 3,
+      "rank": 4,
       "histKey": "d4833abf7c2da1c7119d0ff924668def4de4bf34ade103b111d37a0e902ae20c"
     },
     {
@@ -42,17 +51,8 @@
       "weightPct": 0.042317708333333336,
       "fatPct": 0.1976744186046512,
       "passed": true,
-      "rank": 4,
-      "histKey": "5f23e0c13d87e81d47839f5e8df3eb3ba8b5488ef0b1a1880d5af044eab08fed"
-    },
-    {
-      "pid": "e7cde42c",
-      "nickname": "飛常努力",
-      "weightPct": 0.04107424960505521,
-      "fatPct": 0.15789473684210534,
-      "passed": true,
       "rank": 5,
-      "histKey": "9616b955c7c2c601b2c75574e43ca0d0ff5f8fcf6681855471217249bf9a81e1"
+      "histKey": "5f23e0c13d87e81d47839f5e8df3eb3ba8b5488ef0b1a1880d5af044eab08fed"
     },
     {
       "pid": "3089de40",
