@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-09-20",
-    "generatedAt": "2026-09-20 12:33"
+    "generatedAt": "2026-09-20 13:32"
   },
   "leaderboard": [
     {
@@ -338,12 +338,20 @@
       "rank": 40
     },
     {
+      "pid": "628995ff",
+      "nickname": "第一名是我的",
+      "weightPct": 0.02894736842105263,
+      "fatPct": -0.003095975232198187,
+      "passed": false,
+      "rank": 41
+    },
+    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 41
+      "rank": 42
     },
     {
       "pid": "fbcf9cdb",
@@ -351,7 +359,7 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 42
+      "rank": 43
     },
     {
       "pid": "4fbd0dd1",
@@ -359,7 +367,7 @@
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
       "passed": false,
-      "rank": 43
+      "rank": 44
     },
     {
       "pid": "6fa9a1e3",
@@ -367,7 +375,7 @@
       "weightPct": 0.001680672268907587,
       "fatPct": 0.019736842105263087,
       "passed": false,
-      "rank": 44
+      "rank": 45
     },
     {
       "pid": "276c8876",
@@ -375,7 +383,7 @@
       "weightPct": 0.020707070707070677,
       "fatPct": "",
       "passed": false,
-      "rank": 45
+      "rank": 46
     },
     {
       "pid": "adc3b0b2",
@@ -383,21 +391,13 @@
       "weightPct": 0.0194274028629856,
       "fatPct": 0,
       "passed": false,
-      "rank": 46
+      "rank": 47
     },
     {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.022750775594622574,
       "fatPct": -0.0034129692832763777,
-      "passed": false,
-      "rank": 47
-    },
-    {
-      "pid": "628995ff",
-      "nickname": "第一名是我的",
-      "weightPct": 0.021578947368421024,
-      "fatPct": -0.003095975232198187,
       "passed": false,
       "rank": 48
     },
