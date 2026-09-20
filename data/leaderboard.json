@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 21,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.09,
     "updatedAt": "2026-09-20",
-    "generatedAt": "2026-09-20 17:32"
+    "generatedAt": "2026-09-20 18:32"
   },
   "leaderboard": [
     {
@@ -250,18 +250,18 @@
       "rank": 29
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.039403620873269464,
-      "fatPct": "",
-      "passed": false,
-      "rank": 30
-    },
-    {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
       "weightPct": 0.02189781021897819,
       "fatPct": 0.015564202334630295,
+      "passed": false,
+      "rank": 30
+    },
+    {
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.03727369542066027,
+      "fatPct": "",
       "passed": false,
       "rank": 31
     },
