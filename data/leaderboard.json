@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 22,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-09-21",
-    "generatedAt": "2026-09-21 06:31"
+    "generatedAt": "2026-09-21 07:32"
   },
   "leaderboard": [
     {
@@ -171,7 +171,7 @@
     {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
-      "weightPct": 0.04298642533936664,
+      "weightPct": 0.04411764705882359,
       "fatPct": 0.04498269896193762,
       "passed": false,
       "rank": 20
