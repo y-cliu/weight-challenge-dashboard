@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 29,
+    "day": 30,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.26,
-    "updatedAt": "2026-09-21",
-    "generatedAt": "2026-09-22 00:12"
+    "reportRateToday": 0.02,
+    "updatedAt": "2026-09-22",
+    "generatedAt": "2026-09-22 06:32"
   },
   "leaderboard": [
     {
@@ -17,7 +17,7 @@
       "passed": true,
       "rockets": 1,
       "rank": 1,
-      "histKey": "721fc9501ae641c930967424f2d8c4e8317dc85f41c62f6c1201c34a74f86cb1"
+      "histKey": "d831d6b19d0c19ff953c981d32c6dc449658eb2627fa68187d82decf25f68ec3"
     },
     {
       "pid": "1ed92c63",
@@ -27,7 +27,7 @@
       "passed": true,
       "rockets": 3,
       "rank": 2,
-      "histKey": "5b32f92400d7d7b0c7ac219c70bdc9c0784c0ddcd8af1a6d55d81d52ec96a424"
+      "histKey": "83b4cf6e8975ebacee25408877e9a6f75e6c26c681dc7e01491b2113a656c65b"
     },
     {
       "pid": "f805593c",
@@ -36,7 +36,7 @@
       "fatPct": 0.21212121212121213,
       "passed": true,
       "rank": 3,
-      "histKey": "4620f534cfdc90de13faee6b5bbc4ec60715f4420c2be9d9164dd4d7184332c5"
+      "histKey": "1ddec92ae945dc2c75c9ce92e97d6f6aaef16cc61c105d889696ffbe7c0a6c15"
     },
     {
       "pid": "e7cde42c",
@@ -45,7 +45,7 @@
       "fatPct": 0.15789473684210534,
       "passed": true,
       "rank": 4,
-      "histKey": "be28e357488efcf0435799d2cda7264c089434be994d0fe3a6a0200331fd657b"
+      "histKey": "cd5c048a886824c8c240cec356f47bfabae36e48176a4b9aaf7d22cdea06875d"
     },
     {
       "pid": "07cce5f3",
@@ -54,7 +54,7 @@
       "fatPct": 0.1935483870967742,
       "passed": true,
       "rank": 5,
-      "histKey": "326856a1a12e8edbda29b984de09773094af8f7796298a984f1488d25646568a"
+      "histKey": "14b5e087ddaf21be29f374883718c4af4cbd1a7c20732779a52955c09c397f8b"
     },
     {
       "pid": "3089de40",
@@ -169,20 +169,28 @@
       "rank": 19
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.04411764705882359,
-      "fatPct": 0.04498269896193762,
-      "passed": false,
-      "rank": 20
-    },
-    {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
+      "rank": 20
+    },
+    {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.049773755656108656,
+      "fatPct": 0.03114186851211068,
+      "passed": false,
       "rank": 21
+    },
+    {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.03816793893129771,
+      "fatPct": 0.04214559386973185,
+      "passed": false,
+      "rank": 22
     },
     {
       "pid": "0b09504d",
@@ -190,14 +198,6 @@
       "weightPct": -0.011994002998500706,
       "fatPct": 0.09090909090909084,
       "passed": true,
-      "rank": 22
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.031624863685932446,
-      "fatPct": 0.04214559386973185,
-      "passed": false,
       "rank": 23
     },
     {
