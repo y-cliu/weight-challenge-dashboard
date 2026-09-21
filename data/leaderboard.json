@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 22,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-21",
-    "generatedAt": "2026-09-21 09:32"
+    "generatedAt": "2026-09-21 10:35"
   },
   "leaderboard": [
     {
@@ -20,12 +20,22 @@
       "histKey": "721fc9501ae641c930967424f2d8c4e8317dc85f41c62f6c1201c34a74f86cb1"
     },
     {
+      "pid": "1ed92c63",
+      "nickname": "Wen",
+      "weightPct": 0.05078124999999989,
+      "fatPct": 0.1976744186046512,
+      "passed": true,
+      "rockets": 3,
+      "rank": 2,
+      "histKey": "5b32f92400d7d7b0c7ac219c70bdc9c0784c0ddcd8af1a6d55d81d52ec96a424"
+    },
+    {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.04756097560975617,
       "fatPct": 0.21212121212121213,
       "passed": true,
-      "rank": 2,
+      "rank": 3,
       "histKey": "4620f534cfdc90de13faee6b5bbc4ec60715f4420c2be9d9164dd4d7184332c5"
     },
     {
@@ -34,7 +44,7 @@
       "weightPct": 0.045813586097946266,
       "fatPct": 0.15789473684210534,
       "passed": true,
-      "rank": 3,
+      "rank": 4,
       "histKey": "be28e357488efcf0435799d2cda7264c089434be994d0fe3a6a0200331fd657b"
     },
     {
@@ -43,18 +53,8 @@
       "weightPct": 0.0425273390036452,
       "fatPct": 0.1935483870967742,
       "passed": true,
-      "rank": 4,
-      "histKey": "326856a1a12e8edbda29b984de09773094af8f7796298a984f1488d25646568a"
-    },
-    {
-      "pid": "1ed92c63",
-      "nickname": "Wen",
-      "weightPct": 0.042317708333333336,
-      "fatPct": 0.1976744186046512,
-      "passed": true,
-      "rockets": 3,
       "rank": 5,
-      "histKey": "5b32f92400d7d7b0c7ac219c70bdc9c0784c0ddcd8af1a6d55d81d52ec96a424"
+      "histKey": "326856a1a12e8edbda29b984de09773094af8f7796298a984f1488d25646568a"
     },
     {
       "pid": "3089de40",
