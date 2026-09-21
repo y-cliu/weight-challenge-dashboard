@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.2,
+    "reportRateToday": 0.24,
     "updatedAt": "2026-09-21",
-    "generatedAt": "2026-09-21 21:32"
+    "generatedAt": "2026-09-21 22:32"
   },
   "leaderboard": [
     {
@@ -129,20 +129,12 @@
       "rank": 14
     },
     {
-      "pid": "0b09504d",
-      "nickname": "腰瘦瘦",
-      "weightPct": 0.00299850074962523,
-      "fatPct": 0.09641873278236915,
-      "passed": true,
-      "rank": 15
-    },
-    {
       "pid": "e989771e",
       "nickname": "品質就是道德",
       "weightPct": 0.04557885141294439,
       "fatPct": 0.053521126760563344,
       "passed": true,
-      "rank": 16
+      "rank": 15
     },
     {
       "pid": "0823651e",
@@ -150,7 +142,7 @@
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": true,
-      "rank": 17
+      "rank": 16
     },
     {
       "pid": "58945cc1",
@@ -158,7 +150,7 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
       "passed": true,
-      "rank": 18
+      "rank": 17
     },
     {
       "pid": "4ceee48e",
@@ -166,7 +158,7 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.09090909090909093,
       "passed": true,
-      "rank": 19
+      "rank": 18
     },
     {
       "pid": "40b1f679",
@@ -174,7 +166,7 @@
       "weightPct": 0.02327935222672062,
       "fatPct": 0.07209302325581399,
       "passed": true,
-      "rank": 20
+      "rank": 19
     },
     {
       "pid": "2c754834",
@@ -182,13 +174,21 @@
       "weightPct": 0.04411764705882359,
       "fatPct": 0.04498269896193762,
       "passed": false,
-      "rank": 21
+      "rank": 20
     },
     {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
+      "passed": true,
+      "rank": 21
+    },
+    {
+      "pid": "0b09504d",
+      "nickname": "腰瘦瘦",
+      "weightPct": -0.011994002998500706,
+      "fatPct": 0.09090909090909084,
       "passed": true,
       "rank": 22
     },
