@@ -4,15 +4,15 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.17,
+    "reportRateToday": 0.18,
     "updatedAt": "2026-09-21",
-    "generatedAt": "2026-09-21 19:32"
+    "generatedAt": "2026-09-21 20:34"
   },
   "leaderboard": [
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
-      "weightPct": 0.06411837237977791,
+      "weightPct": 0.05548705302096178,
       "fatPct": 0.2013274336283186,
       "passed": true,
       "rockets": 1,
