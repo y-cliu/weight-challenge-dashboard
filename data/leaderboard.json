@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.16,
+    "reportRateToday": 0.2,
     "updatedAt": "2026-09-22",
-    "generatedAt": "2026-09-22 21:33"
+    "generatedAt": "2026-09-22 22:32"
   },
   "leaderboard": [
     {
@@ -91,7 +91,7 @@
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
-      "weightPct": 0.061938061938061825,
+      "weightPct": 0.05494505494505495,
       "fatPct": 0.08554572271386426,
       "passed": true,
       "rank": 10
@@ -281,17 +281,17 @@
       "rank": 33
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.041533546325878655,
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.03952991452991441,
       "fatPct": "",
       "passed": false,
       "rank": 34
     },
     {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.03952991452991441,
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.038338658146964945,
       "fatPct": "",
       "passed": false,
       "rank": 35
@@ -514,12 +514,20 @@
       "rank": 62
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": -0.006637168141592857,
+      "fatPct": 0.011494252873563244,
+      "passed": false,
+      "rank": 63
+    },
+    {
       "pid": "ac03691c",
       "nickname": "建均",
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 63
+      "rank": 64
     },
     {
       "pid": "4714ed9a",
@@ -527,7 +535,7 @@
       "weightPct": 0,
       "fatPct": "",
       "passed": false,
-      "rank": 64
+      "rank": 65
     },
     {
       "pid": "4061d8e5",
@@ -535,7 +543,7 @@
       "weightPct": -0.0010438413361169992,
       "fatPct": "",
       "passed": false,
-      "rank": 65
+      "rank": 66
     },
     {
       "pid": "3d6d2ba0",
@@ -543,7 +551,7 @@
       "weightPct": -0.0012468827930173854,
       "fatPct": 0,
       "passed": false,
-      "rank": 66
+      "rank": 67
     },
     {
       "pid": "e7e4b5b0",
@@ -551,21 +559,13 @@
       "weightPct": -0.0062893081761005686,
       "fatPct": "",
       "passed": false,
-      "rank": 67
+      "rank": 68
     },
     {
       "pid": "4e937ca1",
       "nickname": "喇叭勢在必得",
       "weightPct": -0.009101251422070501,
       "fatPct": "",
-      "passed": false,
-      "rank": 68
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": -0.009955752212389285,
-      "fatPct": 0,
       "passed": false,
       "rank": 69
     },
