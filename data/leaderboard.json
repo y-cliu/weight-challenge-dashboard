@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-09-23",
-    "generatedAt": "2026-09-23 06:31"
+    "generatedAt": "2026-09-23 07:33"
   },
   "leaderboard": [
     {
@@ -105,12 +105,20 @@
       "rank": 11
     },
     {
+      "pid": "4ceee48e",
+      "nickname": "閃亮亮的頭",
+      "weightPct": 0.01819923371647515,
+      "fatPct": 0.09415584415584423,
+      "passed": true,
+      "rank": 12
+    },
+    {
       "pid": "9d3c0d53",
       "nickname": "火日立",
       "weightPct": 0.012032085561497213,
       "fatPct": 0.09729729729729733,
       "passed": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "e989771e",
@@ -118,7 +126,7 @@
       "weightPct": 0.051959890610756634,
       "fatPct": 0.053521126760563344,
       "passed": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "40b1f679",
@@ -126,7 +134,7 @@
       "weightPct": 0.02834008097165989,
       "fatPct": 0.07209302325581399,
       "passed": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "pid": "61f310ff",
@@ -134,7 +142,7 @@
       "weightPct": 0.06528835690968443,
       "fatPct": 0.03496503496503496,
       "passed": false,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "ab987f10",
@@ -142,7 +150,7 @@
       "weightPct": 0.02439024390243908,
       "fatPct": 0.07560137457044683,
       "passed": true,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "0823651e",
@@ -150,21 +158,13 @@
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": true,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "58945cc1",
       "nickname": "網咖8小",
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
-      "passed": true,
-      "rank": 18
-    },
-    {
-      "pid": "4ceee48e",
-      "nickname": "閃亮亮的頭",
-      "weightPct": 0.004789272030651341,
-      "fatPct": 0.09090909090909093,
       "passed": true,
       "rank": 19
     },
