@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-09-23",
-    "generatedAt": "2026-09-23 15:32"
+    "generatedAt": "2026-09-23 16:32"
   },
   "leaderboard": [
     {
@@ -50,8 +50,8 @@
     {
       "pid": "07cce5f3",
       "nickname": "姜姜",
-      "weightPct": 0.0425273390036452,
-      "fatPct": 0.1935483870967742,
+      "weightPct": 0.04495747266099639,
+      "fatPct": 0.18387096774193545,
       "passed": true,
       "rank": 5,
       "histKey": "f68a60180e577a62697acb6d1a6cd64abee2c90e2de061dc75d280cb3ef5eaa3"
