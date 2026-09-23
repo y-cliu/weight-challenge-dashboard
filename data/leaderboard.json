@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-09-23",
-    "generatedAt": "2026-09-23 10:32"
+    "generatedAt": "2026-09-23 11:32"
   },
   "leaderboard": [
     {
@@ -105,26 +105,26 @@
       "rank": 11
     },
     {
+      "pid": "e989771e",
+      "nickname": "品質就是道德",
+      "weightPct": 0.05651777575205107,
+      "fatPct": 0.05915492957746483,
+      "passed": true,
+      "rank": 12
+    },
+    {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.01819923371647515,
       "fatPct": 0.09415584415584423,
       "passed": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "9d3c0d53",
       "nickname": "火日立",
       "weightPct": 0.012032085561497213,
       "fatPct": 0.09729729729729733,
-      "passed": true,
-      "rank": 13
-    },
-    {
-      "pid": "e989771e",
-      "nickname": "品質就是道德",
-      "weightPct": 0.051959890610756634,
-      "fatPct": 0.053521126760563344,
       "passed": true,
       "rank": 14
     },
