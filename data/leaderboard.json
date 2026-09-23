@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 23,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-09-23",
-    "generatedAt": "2026-09-23 09:32"
+    "generatedAt": "2026-09-23 10:32"
   },
   "leaderboard": [
     {
@@ -22,8 +22,8 @@
     {
       "pid": "1ed92c63",
       "nickname": "Wen",
-      "weightPct": 0.05078124999999989,
-      "fatPct": 0.1976744186046512,
+      "weightPct": 0.05468750000000004,
+      "fatPct": 0.20542635658914732,
       "passed": true,
       "rockets": 3,
       "rank": 2,
