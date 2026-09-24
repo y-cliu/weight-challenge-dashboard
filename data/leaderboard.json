@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 26,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-09-24",
-    "generatedAt": "2026-09-24 13:32"
+    "generatedAt": "2026-09-24 14:32"
   },
   "leaderboard": [
     {
@@ -39,21 +39,12 @@
       "histKey": "95280f3676c3848e2372d8e0fe5f49592ab4cba2171b51075ee1a3a4fccc6edf"
     },
     {
-      "pid": "e7cde42c",
-      "nickname": "飛常努力",
-      "weightPct": 0.045813586097946266,
-      "fatPct": 0.15789473684210534,
-      "passed": true,
-      "rank": 4,
-      "histKey": "ead6053f25c70e4522fdb8b3162237e282a74f18c28910bac68a86706bc5fa51"
-    },
-    {
       "pid": "07cce5f3",
       "nickname": "姜姜",
       "weightPct": 0.04495747266099639,
       "fatPct": 0.18387096774193545,
       "passed": true,
-      "rank": 5,
+      "rank": 4,
       "histKey": "5168f940a9634da8cf61d071a64fe69021a6b04680a66007ca95018f5a4f701c"
     },
     {
@@ -62,13 +53,22 @@
       "weightPct": 0.0623084780388152,
       "fatPct": 0.12666666666666668,
       "passed": true,
-      "rank": 6
+      "rank": 5,
+      "histKey": "1e0f98da97cb3128ffea14b045ffd7456100d04b44fa8cfc29795e6fe63c7688"
     },
     {
       "pid": "adc3b0b2",
       "nickname": "煩",
       "weightPct": 0.03374233128834353,
       "fatPct": 0.26666666666666666,
+      "passed": true,
+      "rank": 6
+    },
+    {
+      "pid": "e7cde42c",
+      "nickname": "飛常努力",
+      "weightPct": 0.02843601895734593,
+      "fatPct": 0.15789473684210534,
       "passed": true,
       "rank": 7
     },
@@ -115,24 +115,24 @@
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
-      "weightPct": 0.05494505494505495,
+      "weightPct": 0.059940059940059943,
       "fatPct": 0.08554572271386426,
       "passed": true,
       "rank": 13
+    },
+    {
+      "pid": "e989771e",
+      "nickname": "品質就是道德",
+      "weightPct": 0.06107566089334551,
+      "fatPct": 0.06478873239436611,
+      "passed": true,
+      "rank": 14
     },
     {
       "pid": "e94023cf",
       "nickname": "胖胖虎虎",
       "weightPct": 0.06454630495790463,
       "fatPct": 0.059829059829059866,
-      "passed": true,
-      "rank": 14
-    },
-    {
-      "pid": "e989771e",
-      "nickname": "品質就是道德",
-      "weightPct": 0.05651777575205107,
-      "fatPct": 0.05915492957746483,
       "passed": true,
       "rank": 15
     },
