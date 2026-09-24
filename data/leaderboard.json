@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 26,
-    "reportRateToday": 0.21,
+    "reportRateToday": 0.22,
     "updatedAt": "2026-09-24",
-    "generatedAt": "2026-09-24 22:32"
+    "generatedAt": "2026-09-24 23:33"
   },
   "leaderboard": [
     {
@@ -315,7 +315,7 @@
     {
       "pid": "43651bb4",
       "nickname": "江77",
-      "weightPct": 0.033412887828162256,
+      "weightPct": 0.03221957040572796,
       "fatPct": "",
       "passed": false,
       "rockets": 2,
