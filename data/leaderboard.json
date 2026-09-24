@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 26,
-    "reportRateToday": 0.18,
+    "reportRateToday": 0.21,
     "updatedAt": "2026-09-24",
-    "generatedAt": "2026-09-24 21:32"
+    "generatedAt": "2026-09-24 22:32"
   },
   "leaderboard": [
     {
@@ -211,7 +211,7 @@
     {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
-      "weightPct": 0.05090497737556561,
+      "weightPct": 0.04864253393665171,
       "fatPct": 0.01730103806228374,
       "passed": false,
       "rank": 25
@@ -466,20 +466,12 @@
       "rank": 56
     },
     {
-      "pid": "8affee5d",
-      "nickname": "麻麻",
-      "weightPct": -0.0029282576866764692,
-      "fatPct": 0.016233766233766232,
-      "passed": false,
-      "rank": 57
-    },
-    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.012605042016806753,
       "fatPct": 0,
       "passed": false,
-      "rank": 58
+      "rank": 57
     },
     {
       "pid": "6955ceea",
@@ -487,7 +479,7 @@
       "weightPct": 0.012019230769230768,
       "fatPct": 0,
       "passed": false,
-      "rank": 59
+      "rank": 58
     },
     {
       "pid": "1b9abb75",
@@ -495,15 +487,7 @@
       "weightPct": 0.01145038167938934,
       "fatPct": "",
       "passed": false,
-      "rank": 60
-    },
-    {
-      "pid": "3d6d2ba0",
-      "nickname": "小邱邱",
-      "weightPct": 0.0012468827930175626,
-      "fatPct": 0.009900990099009924,
-      "passed": false,
-      "rank": 61
+      "rank": 59
     },
     {
       "pid": "daa4c7c4",
@@ -511,13 +495,29 @@
       "weightPct": 0.011049723756906077,
       "fatPct": 0,
       "passed": false,
-      "rank": 62
+      "rank": 60
     },
     {
       "pid": "33df67af",
       "nickname": "豪",
       "weightPct": 0.009227220299884627,
       "fatPct": 0,
+      "passed": false,
+      "rank": 61
+    },
+    {
+      "pid": "8affee5d",
+      "nickname": "麻麻",
+      "weightPct": -0.013177159590044007,
+      "fatPct": 0.016233766233766232,
+      "passed": false,
+      "rank": 62
+    },
+    {
+      "pid": "3d6d2ba0",
+      "nickname": "小邱邱",
+      "weightPct": -0.0012468827930173854,
+      "fatPct": 0.003300330033003347,
       "passed": false,
       "rank": 63
     },
