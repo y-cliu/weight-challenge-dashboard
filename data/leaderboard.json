@@ -3,10 +3,10 @@
     "day": 33,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 28,
-    "reportRateToday": 0.07,
+    "passedCount": 29,
+    "reportRateToday": 0.12,
     "updatedAt": "2026-09-25",
-    "generatedAt": "2026-09-25 17:32"
+    "generatedAt": "2026-09-25 18:33"
   },
   "leaderboard": [
     {
@@ -201,12 +201,20 @@
       "rank": 23
     },
     {
+      "pid": "9466cc32",
+      "nickname": "吃頓飯壓壓驚",
+      "weightPct": 0.035187287173666225,
+      "fatPct": 0.06040268456375841,
+      "passed": true,
+      "rank": 24
+    },
+    {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
       "weightPct": 0.045256270447110204,
       "fatPct": 0.04214559386973185,
       "passed": false,
-      "rank": 24
+      "rank": 25
     },
     {
       "pid": "1c738cd4",
@@ -214,7 +222,7 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 25
+      "rank": 26
     },
     {
       "pid": "0b09504d",
@@ -222,7 +230,7 @@
       "weightPct": -0.013493253373313216,
       "fatPct": 0.09641873278236915,
       "passed": true,
-      "rank": 26
+      "rank": 27
     },
     {
       "pid": "32de19f4",
@@ -230,7 +238,7 @@
       "weightPct": 0.027635619242579353,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 27
+      "rank": 28
     },
     {
       "pid": "3730d919",
@@ -238,7 +246,7 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 28
+      "rank": 29
     },
     {
       "pid": "84eac3ab",
@@ -246,7 +254,7 @@
       "weightPct": 0.06220657276995302,
       "fatPct": 0,
       "passed": false,
-      "rank": 29
+      "rank": 30
     },
     {
       "pid": "6cf7d516",
@@ -254,7 +262,7 @@
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "314d5ce3",
@@ -262,7 +270,7 @@
       "weightPct": 0.03545359749739317,
       "fatPct": 0.015564202334630295,
       "passed": false,
-      "rank": 31
+      "rank": 32
     },
     {
       "pid": "641c4f3b",
@@ -270,7 +278,7 @@
       "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
-      "rank": 32
+      "rank": 33
     },
     {
       "pid": "dc9ec1fb",
@@ -278,7 +286,7 @@
       "weightPct": 0.04550758459743297,
       "fatPct": "",
       "passed": false,
-      "rank": 33
+      "rank": 34
     },
     {
       "pid": "3d34da95",
@@ -286,7 +294,7 @@
       "weightPct": 0.042598509052183174,
       "fatPct": "",
       "passed": false,
-      "rank": 34
+      "rank": 35
     },
     {
       "pid": "ab3fd63c",
@@ -294,7 +302,7 @@
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.03717472118959108,
       "passed": false,
-      "rank": 35
+      "rank": 36
     },
     {
       "pid": "22195f75",
@@ -302,21 +310,13 @@
       "weightPct": -0.012004801920768308,
       "fatPct": 0.053763440860215055,
       "passed": true,
-      "rank": 36
+      "rank": 37
     },
     {
       "pid": "8d5cd12d",
       "nickname": "John",
       "weightPct": 0.03729838709677422,
       "fatPct": 0.0033222591362126715,
-      "passed": false,
-      "rank": 37
-    },
-    {
-      "pid": "9466cc32",
-      "nickname": "吃頓飯壓壓驚",
-      "weightPct": 0.035187287173666225,
-      "fatPct": "",
       "passed": false,
       "rank": 38
     },
