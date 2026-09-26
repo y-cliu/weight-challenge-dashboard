@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.08,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-09-26",
-    "generatedAt": "2026-09-26 18:32"
+    "generatedAt": "2026-09-26 19:32"
   },
   "leaderboard": [
     {
@@ -233,19 +233,19 @@
       "rank": 27
     },
     {
-      "pid": "32de19f4",
-      "nickname": "通資連小鳥胃",
-      "weightPct": 0.027635619242579353,
-      "fatPct": 0.047619047619047616,
-      "passed": false,
-      "rank": 28
-    },
-    {
       "pid": "3730d919",
       "nickname": "羊羊愛吃飯",
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
+      "rank": 28
+    },
+    {
+      "pid": "32de19f4",
+      "nickname": "通資連小鳥胃",
+      "weightPct": 0.017400204708290713,
+      "fatPct": 0.047619047619047616,
+      "passed": false,
       "rank": 29
     },
     {
@@ -265,18 +265,18 @@
       "rank": 31
     },
     {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.03545359749739317,
-      "fatPct": 0.015564202334630295,
-      "passed": false,
-      "rank": 32
-    },
-    {
       "pid": "641c4f3b",
       "nickname": "綠豆蒜",
       "weightPct": 0.049019607843137254,
       "fatPct": "",
+      "passed": false,
+      "rank": 32
+    },
+    {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.03128258602711157,
+      "fatPct": 0.015564202334630295,
       "passed": false,
       "rank": 33
     },
