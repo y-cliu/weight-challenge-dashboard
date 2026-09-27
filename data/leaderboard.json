@@ -4,21 +4,11 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.11,
+    "reportRateToday": 0.15,
     "updatedAt": "2026-09-27",
-    "generatedAt": "2026-09-27 21:33"
+    "generatedAt": "2026-09-27 22:33"
   },
   "leaderboard": [
-    {
-      "pid": "86f28999",
-      "nickname": "小胖仔",
-      "weightPct": 0.06411837237977791,
-      "fatPct": 0.22566371681415934,
-      "passed": true,
-      "rockets": 1,
-      "rank": 1,
-      "histKey": "f0670a456ca01619af1c66f7003f6ff289466c6088845ffe29d02d6780e8be2a"
-    },
     {
       "pid": "1ed92c63",
       "nickname": "Wen",
@@ -26,8 +16,18 @@
       "fatPct": 0.22868217054263573,
       "passed": true,
       "rockets": 3,
-      "rank": 2,
+      "rank": 1,
       "histKey": "dad8b134460c5a1eabc61bdde3357be844c1edc0bcbc2c2e50bf30c95c42bc94"
+    },
+    {
+      "pid": "86f28999",
+      "nickname": "小胖仔",
+      "weightPct": 0.06041923551171383,
+      "fatPct": 0.22566371681415934,
+      "passed": true,
+      "rockets": 1,
+      "rank": 2,
+      "histKey": "f0670a456ca01619af1c66f7003f6ff289466c6088845ffe29d02d6780e8be2a"
     },
     {
       "pid": "07cce5f3",
