@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-27",
-    "generatedAt": "2026-09-27 16:32"
+    "generatedAt": "2026-09-27 17:32"
   },
   "leaderboard": [
     {
@@ -50,8 +50,8 @@
     {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
-      "weightPct": 0.05121951219512198,
-      "fatPct": 0.21212121212121213,
+      "weightPct": 0.04878048780487805,
+      "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 5,
       "histKey": "f39f4643e4c647c1697ebda3f25995e935de95a9b3ab391e58e5b79a8a72f984"
@@ -474,12 +474,20 @@
       "rank": 57
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.003318584070796586,
+      "fatPct": 0.011494252873563244,
+      "passed": false,
+      "rank": 58
+    },
+    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.012605042016806753,
       "fatPct": 0,
       "passed": false,
-      "rank": 58
+      "rank": 59
     },
     {
       "pid": "6955ceea",
@@ -487,7 +495,7 @@
       "weightPct": 0.012019230769230768,
       "fatPct": 0,
       "passed": false,
-      "rank": 59
+      "rank": 60
     },
     {
       "pid": "1b9abb75",
@@ -495,7 +503,7 @@
       "weightPct": 0.01145038167938934,
       "fatPct": "",
       "passed": false,
-      "rank": 60
+      "rank": 61
     },
     {
       "pid": "8affee5d",
@@ -503,21 +511,13 @@
       "weightPct": -0.0058565153733529385,
       "fatPct": 0.016233766233766232,
       "passed": false,
-      "rank": 61
+      "rank": 62
     },
     {
       "pid": "33df67af",
       "nickname": "豪",
       "weightPct": 0.009227220299884627,
       "fatPct": 0,
-      "passed": false,
-      "rank": 62
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.004424778761062009,
-      "fatPct": 0.0038314176245211272,
       "passed": false,
       "rank": 63
     },
