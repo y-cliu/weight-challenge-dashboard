@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 35,
+    "day": 36,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.15,
-    "updatedAt": "2026-09-27",
-    "generatedAt": "2026-09-27 23:32"
+    "reportRateToday": 0,
+    "updatedAt": "2026-09-28",
+    "generatedAt": "2026-09-28 06:31"
   },
   "leaderboard": [
     {
@@ -15,9 +15,8 @@
       "weightPct": 0.06380208333333323,
       "fatPct": 0.22868217054263573,
       "passed": true,
-      "rockets": 3,
       "rank": 1,
-      "histKey": "dad8b134460c5a1eabc61bdde3357be844c1edc0bcbc2c2e50bf30c95c42bc94"
+      "histKey": "04bbd8afa45fac622142b9b97e1392eec8916c354f3fb8d3a0deb73a210cbb19"
     },
     {
       "pid": "86f28999",
@@ -25,9 +24,8 @@
       "weightPct": 0.06041923551171383,
       "fatPct": 0.22566371681415934,
       "passed": true,
-      "rockets": 1,
       "rank": 2,
-      "histKey": "f0670a456ca01619af1c66f7003f6ff289466c6088845ffe29d02d6780e8be2a"
+      "histKey": "76e8fc8291e83d1a5a9f8fb083b893fd7a862fc826e6b97d6160fec6c347ca61"
     },
     {
       "pid": "07cce5f3",
@@ -36,7 +34,7 @@
       "fatPct": 0.21290322580645166,
       "passed": true,
       "rank": 3,
-      "histKey": "30d4eb96b42260d4242d005930e293a4f5dcf45ce39e1870e220ec50e03c93b9"
+      "histKey": "22253d948378f9afffda732e285ffa50b26d67302fbb85cb0b1591acd1b78c36"
     },
     {
       "pid": "704bb612",
@@ -44,8 +42,9 @@
       "weightPct": 0.052993130520117816,
       "fatPct": 0.16714697406340068,
       "passed": true,
+      "rockets": 2,
       "rank": 4,
-      "histKey": "b672627f4fe3faa01afa9b29a003bc080ad2ae637ab66e7f90184e9b2a36a1d9"
+      "histKey": "c00730e8c970d32c31902343b1804f44c85dda3347339b2cb9cf4e4ae75bcac4"
     },
     {
       "pid": "f805593c",
@@ -54,7 +53,7 @@
       "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 5,
-      "histKey": "f39f4643e4c647c1697ebda3f25995e935de95a9b3ab391e58e5b79a8a72f984"
+      "histKey": "f4ecca9a0b735b38effbf8030b25f95b44779ab64440443d3931066c95235570"
     },
     {
       "pid": "adc3b0b2",
@@ -62,6 +61,7 @@
       "weightPct": 0.048057259713701464,
       "fatPct": 0.26666666666666666,
       "passed": true,
+      "rockets": 3,
       "rank": 6
     },
     {
@@ -78,6 +78,7 @@
       "weightPct": 0.06026557711950976,
       "fatPct": 0.12666666666666668,
       "passed": true,
+      "rockets": 1,
       "rank": 8
     },
     {
@@ -334,7 +335,6 @@
       "weightPct": 0.03221957040572796,
       "fatPct": "",
       "passed": false,
-      "rockets": 2,
       "rank": 40
     },
     {
