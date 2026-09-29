@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-09-29",
-    "generatedAt": "2026-09-29 16:32"
+    "generatedAt": "2026-09-29 17:32"
   },
   "leaderboard": [
     {
@@ -242,26 +242,26 @@
       "rank": 28
     },
     {
+      "pid": "32de19f4",
+      "nickname": "通資連小鳥胃",
+      "weightPct": 0.017400204708290713,
+      "fatPct": 0.047619047619047616,
+      "passed": false,
+      "rank": 29
+    },
+    {
       "pid": "84eac3ab",
       "nickname": "夜露死苦",
       "weightPct": 0.06220657276995302,
       "fatPct": 0,
       "passed": false,
-      "rank": 29
+      "rank": 30
     },
     {
       "pid": "6cf7d516",
       "nickname": "翔",
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
-      "passed": false,
-      "rank": 30
-    },
-    {
-      "pid": "32de19f4",
-      "nickname": "通資連小鳥胃",
-      "weightPct": 0.007164790174002076,
-      "fatPct": 0.047619047619047616,
       "passed": false,
       "rank": 31
     },
@@ -484,7 +484,7 @@
     {
       "pid": "43519314",
       "nickname": "可以自己取名",
-      "weightPct": 0.007743362831858438,
+      "weightPct": 0.008849557522124019,
       "fatPct": 0.0076628352490422545,
       "passed": false,
       "rank": 59
