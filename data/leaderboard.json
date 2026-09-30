@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 26,
-    "reportRateToday": 0.19,
+    "reportRateToday": 0.21,
     "updatedAt": "2026-09-30",
-    "generatedAt": "2026-09-30 20:35"
+    "generatedAt": "2026-09-30 21:32"
   },
   "leaderboard": [
     {
@@ -46,21 +46,21 @@
       "histKey": "140c520e2bcba499c21e1518f0762c235c9c30ccfee46c20432d21ec913aecd9"
     },
     {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.0623084780388152,
+      "fatPct": 0.12666666666666668,
+      "passed": true,
+      "rockets": 1,
+      "rank": 5,
+      "histKey": "6d1b627205aabaa9d5072994a9a1eaec16d52265a3285c2dcba8bc9a71b7bd5a"
+    },
+    {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
       "weightPct": 0.037914691943127944,
       "fatPct": 0.15789473684210534,
       "passed": true,
-      "rank": 5,
-      "histKey": "c51ac0b35ee61be91dc207b436a29e80174ab1af978a37054ebe8a83a023fe58"
-    },
-    {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.06026557711950976,
-      "fatPct": 0.12666666666666668,
-      "passed": true,
-      "rockets": 1,
       "rank": 6
     },
     {
@@ -275,7 +275,7 @@
     {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
-      "weightPct": 0.029718456725756084,
+      "weightPct": 0.028154327424400445,
       "fatPct": 0.015564202334630295,
       "passed": false,
       "rank": 33
