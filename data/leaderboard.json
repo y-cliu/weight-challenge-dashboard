@@ -4,16 +4,16 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 27,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-10-01",
-    "generatedAt": "2026-10-01 06:31"
+    "generatedAt": "2026-10-01 07:32"
   },
   "leaderboard": [
     {
       "pid": "1ed92c63",
       "nickname": "Wen",
-      "weightPct": 0.06705729166666656,
-      "fatPct": 0.2403100775193798,
+      "weightPct": 0.07226562499999997,
+      "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 1,
       "histKey": "687c146097863b57a77052e126963b82b74b4264d78504ec0857b3f2870f54b3"
