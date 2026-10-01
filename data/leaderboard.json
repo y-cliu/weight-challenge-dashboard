@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 27,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-10-01",
-    "generatedAt": "2026-10-01 10:33"
+    "generatedAt": "2026-10-01 11:32"
   },
   "leaderboard": [
     {
@@ -353,18 +353,18 @@
       "rank": 42
     },
     {
-      "pid": "6f376100",
-      "nickname": "每月欠薪15",
-      "weightPct": 0.02950152594099686,
-      "fatPct": "",
+      "pid": "628995ff",
+      "nickname": "第一名是我的",
+      "weightPct": 0.03263157894736836,
+      "fatPct": -0.003095975232198187,
       "passed": false,
       "rank": 43
     },
     {
-      "pid": "628995ff",
-      "nickname": "第一名是我的",
-      "weightPct": 0.031578947368421054,
-      "fatPct": -0.003095975232198187,
+      "pid": "6f376100",
+      "nickname": "每月欠薪15",
+      "weightPct": 0.02950152594099686,
+      "fatPct": "",
       "passed": false,
       "rank": 44
     },
