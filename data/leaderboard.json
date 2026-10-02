@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 27,
-    "reportRateToday": 0,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-10-02",
-    "generatedAt": "2026-10-02 16:32"
+    "generatedAt": "2026-10-02 17:32"
   },
   "leaderboard": [
     {
@@ -112,12 +112,20 @@
       "rank": 12
     },
     {
+      "pid": "0b09504d",
+      "nickname": "腰瘦瘦",
+      "weightPct": 0.014992503748125937,
+      "fatPct": 0.1322314049586776,
+      "passed": true,
+      "rank": 13
+    },
+    {
       "pid": "e989771e",
       "nickname": "品質就是道德",
       "weightPct": 0.06107566089334551,
       "fatPct": 0.06478873239436611,
       "passed": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "e94023cf",
@@ -125,7 +133,7 @@
       "weightPct": 0.06454630495790463,
       "fatPct": 0.059829059829059866,
       "passed": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "pid": "4ceee48e",
@@ -133,7 +141,7 @@
       "weightPct": 0.01819923371647515,
       "fatPct": 0.09415584415584423,
       "passed": true,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "9d3c0d53",
@@ -141,7 +149,7 @@
       "weightPct": 0.012032085561497213,
       "fatPct": 0.09729729729729733,
       "passed": true,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "aa6c84c9",
@@ -149,7 +157,7 @@
       "weightPct": 0.04907306434023991,
       "fatPct": 0.05747126436781609,
       "passed": true,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "40b1f679",
@@ -157,7 +165,7 @@
       "weightPct": 0.02834008097165989,
       "fatPct": 0.07209302325581399,
       "passed": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "ab987f10",
@@ -165,7 +173,7 @@
       "weightPct": 0.02439024390243908,
       "fatPct": 0.07560137457044683,
       "passed": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "0823651e",
@@ -173,7 +181,7 @@
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": true,
-      "rank": 20
+      "rank": 21
     },
     {
       "pid": "58945cc1",
@@ -181,7 +189,7 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
       "passed": true,
-      "rank": 21
+      "rank": 22
     },
     {
       "pid": "9466cc32",
@@ -189,21 +197,13 @@
       "weightPct": 0.035187287173666225,
       "fatPct": 0.06040268456375841,
       "passed": true,
-      "rank": 22
+      "rank": 23
     },
     {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
-      "passed": true,
-      "rank": 23
-    },
-    {
-      "pid": "0b09504d",
-      "nickname": "腰瘦瘦",
-      "weightPct": 0.013493253373313427,
-      "fatPct": 0.0661157024793388,
       "passed": true,
       "rank": 24
     },
