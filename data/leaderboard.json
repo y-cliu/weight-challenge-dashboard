@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.11,
+    "reportRateToday": 0.12,
     "updatedAt": "2026-10-03",
-    "generatedAt": "2026-10-03 20:32"
+    "generatedAt": "2026-10-03 21:32"
   },
   "leaderboard": [
     {
@@ -104,12 +104,20 @@
       "rank": 11
     },
     {
+      "pid": "e989771e",
+      "nickname": "品質就是道德",
+      "weightPct": 0.07019143117593439,
+      "fatPct": 0.07887323943661964,
+      "passed": true,
+      "rank": 12
+    },
+    {
       "pid": "91c8b675",
       "nickname": "寶劍",
       "weightPct": 0.060240963855421686,
       "fatPct": 0.08745247148288976,
       "passed": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "0b09504d",
@@ -117,21 +125,13 @@
       "weightPct": 0.014992503748125937,
       "fatPct": 0.1322314049586776,
       "passed": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
       "weightPct": 0.05016357688113422,
       "fatPct": 0.0842911877394637,
-      "passed": true,
-      "rank": 14
-    },
-    {
-      "pid": "e989771e",
-      "nickname": "品質就是道德",
-      "weightPct": 0.06107566089334551,
-      "fatPct": 0.06478873239436611,
       "passed": true,
       "rank": 15
     },
