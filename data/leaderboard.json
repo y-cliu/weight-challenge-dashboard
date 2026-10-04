@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.13,
+    "reportRateToday": 0.15,
     "updatedAt": "2026-10-04",
-    "generatedAt": "2026-10-04 20:32"
+    "generatedAt": "2026-10-04 21:32"
   },
   "leaderboard": [
     {
@@ -96,12 +96,20 @@
       "rank": 10
     },
     {
+      "pid": "9d3c0d53",
+      "nickname": "火日立",
+      "weightPct": 0.02941176470588239,
+      "fatPct": 0.12432432432432436,
+      "passed": true,
+      "rank": 11
+    },
+    {
       "pid": "61f310ff",
       "nickname": "刺頭",
       "weightPct": 0.06855277475516879,
       "fatPct": 0.08391608391608399,
       "passed": true,
-      "rank": 11
+      "rank": 12
     },
     {
       "pid": "e989771e",
@@ -109,7 +117,7 @@
       "weightPct": 0.07019143117593439,
       "fatPct": 0.07887323943661964,
       "passed": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "91c8b675",
@@ -117,7 +125,7 @@
       "weightPct": 0.060240963855421686,
       "fatPct": 0.08745247148288976,
       "passed": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "0b09504d",
@@ -125,7 +133,7 @@
       "weightPct": 0.014992503748125937,
       "fatPct": 0.1322314049586776,
       "passed": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "pid": "aa6c84c9",
@@ -133,7 +141,7 @@
       "weightPct": 0.042529989094874654,
       "fatPct": 0.09195402298850583,
       "passed": true,
-      "rank": 15
+      "rank": 16
     },
     {
       "pid": "e94023cf",
@@ -141,7 +149,7 @@
       "weightPct": 0.06454630495790463,
       "fatPct": 0.059829059829059866,
       "passed": true,
-      "rank": 16
+      "rank": 17
     },
     {
       "pid": "adc3b0b2",
@@ -150,21 +158,13 @@
       "fatPct": 0.060000000000000026,
       "passed": true,
       "rockets": 3,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.01819923371647515,
       "fatPct": 0.09415584415584423,
-      "passed": true,
-      "rank": 18
-    },
-    {
-      "pid": "9d3c0d53",
-      "nickname": "火日立",
-      "weightPct": 0.012032085561497213,
-      "fatPct": 0.09729729729729733,
       "passed": true,
       "rank": 19
     },
