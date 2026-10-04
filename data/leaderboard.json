@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-10-04",
-    "generatedAt": "2026-10-04 16:32"
+    "generatedAt": "2026-10-04 17:33"
   },
   "leaderboard": [
     {
@@ -30,7 +30,7 @@
     {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
-      "weightPct": 0.054878048780487805,
+      "weightPct": 0.06097560975609756,
       "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 3,
@@ -209,12 +209,20 @@
       "rank": 24
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.053167420814479664,
+      "fatPct": 0.03114186851211068,
+      "passed": false,
+      "rank": 25
+    },
+    {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 25
+      "rank": 26
     },
     {
       "pid": "ab3fd63c",
@@ -222,7 +230,7 @@
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.06691449814126384,
       "passed": true,
-      "rank": 26
+      "rank": 27
     },
     {
       "pid": "3730d919",
@@ -230,21 +238,13 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 27
+      "rank": 28
     },
     {
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.017400204708290713,
       "fatPct": 0.047619047619047616,
-      "passed": false,
-      "rank": 28
-    },
-    {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.04638009049773765,
-      "fatPct": 0.01730103806228374,
       "passed": false,
       "rank": 29
     },
@@ -385,12 +385,20 @@
       "rank": 46
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.003318584070796586,
+      "fatPct": 0.02298850574712649,
+      "passed": false,
+      "rank": 47
+    },
+    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 47
+      "rank": 48
     },
     {
       "pid": "fbcf9cdb",
@@ -398,7 +406,7 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 48
+      "rank": 49
     },
     {
       "pid": "4fbd0dd1",
@@ -406,7 +414,7 @@
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
       "passed": false,
-      "rank": 49
+      "rank": 50
     },
     {
       "pid": "6013e654",
@@ -414,7 +422,7 @@
       "weightPct": 0.02149532710280371,
       "fatPct": "",
       "passed": false,
-      "rank": 50
+      "rank": 51
     },
     {
       "pid": "6fa9a1e3",
@@ -422,7 +430,7 @@
       "weightPct": 0.001680672268907587,
       "fatPct": 0.019736842105263087,
       "passed": false,
-      "rank": 51
+      "rank": 52
     },
     {
       "pid": "276c8876",
@@ -430,7 +438,7 @@
       "weightPct": 0.020707070707070677,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 53
     },
     {
       "pid": "704bb612",
@@ -439,7 +447,7 @@
       "fatPct": -0.008645533141210292,
       "passed": false,
       "rockets": 2,
-      "rank": 53
+      "rank": 54
     },
     {
       "pid": "47dba6e3",
@@ -447,7 +455,7 @@
       "weightPct": 0.01827956989247315,
       "fatPct": "",
       "passed": false,
-      "rank": 54
+      "rank": 55
     },
     {
       "pid": "c15a7522",
@@ -455,7 +463,7 @@
       "weightPct": 0.01769911504424788,
       "fatPct": "",
       "passed": false,
-      "rank": 55
+      "rank": 56
     },
     {
       "pid": "1e81557b",
@@ -463,21 +471,13 @@
       "weightPct": 0.017142857142857144,
       "fatPct": 0,
       "passed": false,
-      "rank": 56
+      "rank": 57
     },
     {
       "pid": "7e191fc7",
       "nickname": "牧牧",
       "weightPct": 0.01690821256038637,
       "fatPct": "",
-      "passed": false,
-      "rank": 57
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.001106194690265581,
-      "fatPct": 0.015325670498084372,
       "passed": false,
       "rank": 58
     },
