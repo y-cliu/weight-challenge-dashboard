@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.1,
+    "reportRateToday": 0.12,
     "updatedAt": "2026-10-04",
-    "generatedAt": "2026-10-04 18:32"
+    "generatedAt": "2026-10-04 19:32"
   },
   "leaderboard": [
     {
@@ -323,7 +323,7 @@
     {
       "pid": "22195f75",
       "nickname": "肥龍在天",
-      "weightPct": -0.010804321728691545,
+      "weightPct": -0.012004801920768308,
       "fatPct": 0.046594982078852945,
       "passed": false,
       "rank": 39
