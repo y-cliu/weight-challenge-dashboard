@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 43,
+    "day": 44,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.18,
-    "updatedAt": "2026-10-05",
-    "generatedAt": "2026-10-05 23:33"
+    "reportRateToday": 0.03,
+    "updatedAt": "2026-10-06",
+    "generatedAt": "2026-10-06 06:31"
   },
   "leaderboard": [
     {
@@ -17,7 +17,7 @@
       "passed": true,
       "rockets": 1,
       "rank": 1,
-      "histKey": "ab3d777c905f3b21f7b9ca4b45e3fcb8631685b7563a263fb3c0aa3c6863a1cf"
+      "histKey": "d5055e8ac12e533cc859e64844c4fd16afc258dcaa2343dc02a810dbaf14db9e"
     },
     {
       "pid": "86f28999",
@@ -26,7 +26,7 @@
       "fatPct": 0.19469026548672574,
       "passed": true,
       "rank": 2,
-      "histKey": "d2dc024f83545bd49d95af9e1c3a989e5c9764886a8c04fb02df4c5515070604"
+      "histKey": "d8a787794988c834c612dc06d6954cac78fd0dfd9233fad181e53765235e60dc"
     },
     {
       "pid": "f805593c",
@@ -35,7 +35,7 @@
       "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 3,
-      "histKey": "18487666b8234a16cf5f2beafb063ba671044b43f6e4b50010597c44860afe10"
+      "histKey": "2a6c704f9a54a46b2cdba9c88b301412be89d4e4ff476fb4f9ca1c5ca40b37b5"
     },
     {
       "pid": "07cce5f3",
@@ -44,16 +44,7 @@
       "fatPct": 0.21612903225806449,
       "passed": true,
       "rank": 4,
-      "histKey": "c3f2f02bcdc3a660116734e7ba35179364fd3809838e924072b8d44c883dd4f7"
-    },
-    {
-      "pid": "e7cde42c",
-      "nickname": "飛常努力",
-      "weightPct": 0.0521327014218009,
-      "fatPct": 0.1689750692520776,
-      "passed": true,
-      "rank": 5,
-      "histKey": "1fce85b1b5bd343c5c81868498aa14a926d898d7ab41fd59cf9c007caf769bed"
+      "histKey": "158499944bb0b24c59e98d7cceca7a2e5742c60c32411cd6466a849492aab299"
     },
     {
       "pid": "8c77daee",
@@ -61,13 +52,22 @@
       "weightPct": 0.06026557711950976,
       "fatPct": 0.12666666666666668,
       "passed": true,
-      "rank": 6
+      "rank": 5,
+      "histKey": "390e49e98f89e36a6406dd2c7c8284b10049fbb41f79a9358bfc732d83bc8bda"
     },
     {
       "pid": "b7405e59",
       "nickname": "傑",
       "weightPct": 0.027921406411582243,
       "fatPct": 0.1467576791808874,
+      "passed": true,
+      "rank": 6
+    },
+    {
+      "pid": "e7cde42c",
+      "nickname": "飛常努力",
+      "weightPct": 0.023696682464454978,
+      "fatPct": 0.1689750692520776,
       "passed": true,
       "rank": 7
     },
@@ -131,7 +131,7 @@
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
-      "weightPct": 0.04580152671755728,
+      "weightPct": 0.05452562704471101,
       "fatPct": 0.09195402298850583,
       "passed": true,
       "rockets": 2,
@@ -146,26 +146,26 @@
       "rank": 16
     },
     {
+      "pid": "40b1f679",
+      "nickname": "Nnnnnn",
+      "weightPct": 0.04858299595141698,
+      "fatPct": 0.07441860465116286,
+      "passed": true,
+      "rank": 17
+    },
+    {
       "pid": "0b09504d",
       "nickname": "腰瘦瘦",
       "weightPct": -0.004497751124437738,
       "fatPct": 0.11845730027548203,
       "passed": true,
-      "rank": 17
+      "rank": 18
     },
     {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.01819923371647515,
       "fatPct": 0.09415584415584423,
-      "passed": true,
-      "rank": 18
-    },
-    {
-      "pid": "40b1f679",
-      "nickname": "Nnnnnn",
-      "weightPct": 0.02834008097165989,
-      "fatPct": 0.07209302325581399,
       "passed": true,
       "rank": 19
     },
