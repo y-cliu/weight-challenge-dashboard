@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-10-06",
-    "generatedAt": "2026-10-06 08:32"
+    "generatedAt": "2026-10-06 09:32"
   },
   "leaderboard": [
     {
@@ -154,18 +154,18 @@
       "rank": 17
     },
     {
-      "pid": "0b09504d",
-      "nickname": "腰瘦瘦",
-      "weightPct": -0.004497751124437738,
-      "fatPct": 0.11845730027548203,
+      "pid": "4ceee48e",
+      "nickname": "閃亮亮的頭",
+      "weightPct": 0.029693486590038395,
+      "fatPct": 0.09090909090909093,
       "passed": true,
       "rank": 18
     },
     {
-      "pid": "4ceee48e",
-      "nickname": "閃亮亮的頭",
-      "weightPct": 0.01819923371647515,
-      "fatPct": 0.09415584415584423,
+      "pid": "0b09504d",
+      "nickname": "腰瘦瘦",
+      "weightPct": -0.004497751124437738,
+      "fatPct": 0.11845730027548203,
       "passed": true,
       "rank": 19
     },
