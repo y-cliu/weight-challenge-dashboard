@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-10-08",
-    "generatedAt": "2026-10-08 16:32"
+    "generatedAt": "2026-10-08 18:32"
   },
   "leaderboard": [
     {
@@ -378,20 +378,12 @@
       "rank": 45
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0,
-      "fatPct": 0.026819923371647618,
-      "passed": false,
-      "rank": 46
-    },
-    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 47
+      "rank": 46
     },
     {
       "pid": "6013e654",
@@ -399,7 +391,7 @@
       "weightPct": 0.02242990654205613,
       "fatPct": "",
       "passed": false,
-      "rank": 48
+      "rank": 47
     },
     {
       "pid": "fbcf9cdb",
@@ -407,7 +399,7 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 49
+      "rank": 48
     },
     {
       "pid": "4fbd0dd1",
@@ -415,7 +407,7 @@
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
       "passed": false,
-      "rank": 50
+      "rank": 49
     },
     {
       "pid": "6fa9a1e3",
@@ -423,13 +415,21 @@
       "weightPct": 0.001680672268907587,
       "fatPct": 0.019736842105263087,
       "passed": false,
-      "rank": 51
+      "rank": 50
     },
     {
       "pid": "276c8876",
       "nickname": "小悅",
       "weightPct": 0.020707070707070677,
       "fatPct": "",
+      "passed": false,
+      "rank": 51
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.001106194690265581,
+      "fatPct": 0.019157088122605363,
       "passed": false,
       "rank": 52
     },
