@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.07,
+    "reportRateToday": 0.08,
     "updatedAt": "2026-10-09",
-    "generatedAt": "2026-10-09 20:35"
+    "generatedAt": "2026-10-09 21:32"
   },
   "leaderboard": [
     {
@@ -386,17 +386,17 @@
       "rank": 46
     },
     {
-      "pid": "60382873",
-      "nickname": "salmon",
-      "weightPct": 0.02542372881355938,
+      "pid": "6013e654",
+      "nickname": "King",
+      "weightPct": 0.026168224299065394,
       "fatPct": "",
       "passed": false,
       "rank": 47
     },
     {
-      "pid": "6013e654",
-      "nickname": "King",
-      "weightPct": 0.02242990654205613,
+      "pid": "60382873",
+      "nickname": "salmon",
+      "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
       "rank": 48
