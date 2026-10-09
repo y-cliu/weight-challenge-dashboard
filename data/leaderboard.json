@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-10-10",
-    "generatedAt": "2026-10-10 06:32"
+    "generatedAt": "2026-10-10 07:32"
   },
   "leaderboard": [
     {
@@ -80,21 +80,12 @@
       "rank": 8
     },
     {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.06215921483097059,
-      "fatPct": 0.10344827586206908,
-      "passed": true,
-      "rockets": 2,
-      "rank": 9
-    },
-    {
       "pid": "2d81ddb8",
       "nickname": "鯊魚",
       "weightPct": 0.026288117770767616,
       "fatPct": 0.13741496598639452,
       "passed": true,
-      "rank": 10
+      "rank": 9
     },
     {
       "pid": "27f80350",
@@ -102,7 +93,7 @@
       "weightPct": 0.06893106893106885,
       "fatPct": 0.08554572271386426,
       "passed": true,
-      "rank": 11
+      "rank": 10
     },
     {
       "pid": "9d3c0d53",
@@ -111,7 +102,7 @@
       "fatPct": 0.12432432432432436,
       "passed": true,
       "rockets": 3,
-      "rank": 12
+      "rank": 11
     },
     {
       "pid": "61f310ff",
@@ -119,6 +110,15 @@
       "weightPct": 0.06855277475516879,
       "fatPct": 0.08391608391608399,
       "passed": true,
+      "rank": 12
+    },
+    {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.057797164667393645,
+      "fatPct": 0.09195402298850583,
+      "passed": true,
+      "rockets": 2,
       "rank": 13
     },
     {
