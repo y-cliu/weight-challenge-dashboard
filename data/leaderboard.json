@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-10-10",
-    "generatedAt": "2026-10-10 16:32"
+    "generatedAt": "2026-10-10 17:32"
   },
   "leaderboard": [
     {
@@ -154,18 +154,18 @@
       "rank": 17
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.06334841628959285,
-      "fatPct": 0.058823529411764684,
-      "passed": true,
-      "rank": 18
-    },
-    {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
       "weightPct": 0.029693486590038395,
       "fatPct": 0.09090909090909093,
+      "passed": true,
+      "rank": 18
+    },
+    {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.06674208144796386,
+      "fatPct": 0.051903114186851215,
       "passed": true,
       "rank": 19
     },
