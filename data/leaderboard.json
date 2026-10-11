@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-10-11",
-    "generatedAt": "2026-10-11 07:32"
+    "generatedAt": "2026-10-11 08:32"
   },
   "leaderboard": [
     {
@@ -105,20 +105,20 @@
       "rank": 11
     },
     {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.05016357688113422,
+      "fatPct": 0.10344827586206908,
+      "passed": true,
+      "rockets": 2,
+      "rank": 12
+    },
+    {
       "pid": "61f310ff",
       "nickname": "刺頭",
       "weightPct": 0.06855277475516879,
       "fatPct": 0.08391608391608399,
       "passed": true,
-      "rank": 12
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.057797164667393645,
-      "fatPct": 0.09195402298850583,
-      "passed": true,
-      "rockets": 2,
       "rank": 13
     },
     {
