@@ -3,10 +3,10 @@
     "day": 49,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 29,
-    "reportRateToday": 0.02,
+    "passedCount": 28,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-10-11",
-    "generatedAt": "2026-10-11 17:32"
+    "generatedAt": "2026-10-11 18:32"
   },
   "leaderboard": [
     {
@@ -162,20 +162,12 @@
       "rank": 18
     },
     {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.06674208144796386,
-      "fatPct": 0.051903114186851215,
-      "passed": true,
-      "rank": 19
-    },
-    {
       "pid": "0b09504d",
       "nickname": "腰瘦瘦",
       "weightPct": -0.004497751124437738,
       "fatPct": 0.11845730027548203,
       "passed": true,
-      "rank": 20
+      "rank": 19
     },
     {
       "pid": "ab987f10",
@@ -183,6 +175,14 @@
       "weightPct": 0.03353658536585377,
       "fatPct": 0.07560137457044683,
       "passed": true,
+      "rank": 20
+    },
+    {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.06561085972850692,
+      "fatPct": 0.041522491349480946,
+      "passed": false,
       "rank": 21
     },
     {
@@ -370,18 +370,18 @@
       "rank": 44
     },
     {
-      "pid": "6f376100",
-      "nickname": "每月欠薪15",
-      "weightPct": 0.02950152594099686,
-      "fatPct": "",
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.003318584070796586,
+      "fatPct": 0.026819923371647618,
       "passed": false,
       "rank": 45
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.003318584070796586,
-      "fatPct": 0.02298850574712649,
+      "pid": "6f376100",
+      "nickname": "每月欠薪15",
+      "weightPct": 0.02950152594099686,
+      "fatPct": "",
       "passed": false,
       "rank": 46
     },
