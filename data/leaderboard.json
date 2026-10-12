@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.11,
+    "reportRateToday": 0.12,
     "updatedAt": "2026-10-12",
-    "generatedAt": "2026-10-12 21:36"
+    "generatedAt": "2026-10-12 22:32"
   },
   "leaderboard": [
     {
@@ -57,20 +57,12 @@
       "histKey": "09d887e1991b08369293b45bd9714c7b4c225014f84b37702153bd9d6044e674"
     },
     {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.03826266804550158,
-      "fatPct": 0.1467576791808874,
-      "passed": true,
-      "rank": 6
-    },
-    {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
       "weightPct": 0.023696682464454978,
       "fatPct": 0.1689750692520776,
       "passed": true,
-      "rank": 7
+      "rank": 6
     },
     {
       "pid": "3089de40",
@@ -78,7 +70,7 @@
       "weightPct": 0.023653088042049897,
       "fatPct": 0.2794117647058823,
       "passed": true,
-      "rank": 8
+      "rank": 7
     },
     {
       "pid": "27f80350",
@@ -86,7 +78,7 @@
       "weightPct": 0.0729270729270729,
       "fatPct": 0.09734513274336275,
       "passed": true,
-      "rank": 9
+      "rank": 8
     },
     {
       "pid": "2d81ddb8",
@@ -94,7 +86,7 @@
       "weightPct": 0.026288117770767616,
       "fatPct": 0.13741496598639452,
       "passed": true,
-      "rank": 10
+      "rank": 9
     },
     {
       "pid": "aa6c84c9",
@@ -102,13 +94,21 @@
       "weightPct": 0.05561613958560532,
       "fatPct": 0.10344827586206908,
       "passed": true,
-      "rank": 11
+      "rank": 10
     },
     {
       "pid": "9d3c0d53",
       "nickname": "火日立",
       "weightPct": 0.02941176470588239,
       "fatPct": 0.12432432432432436,
+      "passed": true,
+      "rank": 11
+    },
+    {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.023784901758014447,
+      "fatPct": 0.12969283276450513,
       "passed": true,
       "rank": 12
     },
