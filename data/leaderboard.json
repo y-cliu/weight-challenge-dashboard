@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.12,
+    "reportRateToday": 0.13,
     "updatedAt": "2026-10-12",
-    "generatedAt": "2026-10-12 22:32"
+    "generatedAt": "2026-10-12 23:32"
   },
   "leaderboard": [
     {
@@ -42,7 +42,7 @@
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.06097560975609756,
-      "fatPct": 0.24242424242424243,
+      "fatPct": 0.22727272727272727,
       "passed": true,
       "rank": 4,
       "histKey": "406d58f6a43beb88d544665df4c58bbf4d3033985cd6c169293c95337ef2ec37"
