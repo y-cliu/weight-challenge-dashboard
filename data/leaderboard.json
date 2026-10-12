@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-10-12",
-    "generatedAt": "2026-10-12 16:32"
+    "generatedAt": "2026-10-12 17:32"
   },
   "leaderboard": [
     {
@@ -370,20 +370,12 @@
       "rank": 44
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.003318584070796586,
-      "fatPct": 0.026819923371647618,
-      "passed": false,
-      "rank": 45
-    },
-    {
       "pid": "6f376100",
       "nickname": "每月欠薪15",
       "weightPct": 0.02950152594099686,
       "fatPct": "",
       "passed": false,
-      "rank": 46
+      "rank": 45
     },
     {
       "pid": "6013e654",
@@ -391,13 +383,21 @@
       "weightPct": 0.026168224299065394,
       "fatPct": "",
       "passed": false,
-      "rank": 47
+      "rank": 46
     },
     {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
+      "passed": false,
+      "rank": 47
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.001106194690265581,
+      "fatPct": 0.02298850574712649,
       "passed": false,
       "rank": 48
     },
