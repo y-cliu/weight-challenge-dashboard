@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-10-13",
-    "generatedAt": "2026-10-13 09:34"
+    "generatedAt": "2026-10-13 10:32"
   },
   "leaderboard": [
     {
@@ -242,12 +242,20 @@
       "rank": 28
     },
     {
+      "pid": "dc9ec1fb",
+      "nickname": "郭阿斌",
+      "weightPct": 0.06767794632438737,
+      "fatPct": "",
+      "passed": false,
+      "rank": 29
+    },
+    {
       "pid": "3730d919",
       "nickname": "羊羊愛吃飯",
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 29
+      "rank": 30
     },
     {
       "pid": "32de19f4",
@@ -255,7 +263,7 @@
       "weightPct": 0.017400204708290713,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "84eac3ab",
@@ -263,7 +271,7 @@
       "weightPct": 0.06220657276995302,
       "fatPct": 0,
       "passed": false,
-      "rank": 31
+      "rank": 32
     },
     {
       "pid": "3d34da95",
@@ -271,7 +279,7 @@
       "weightPct": 0.06070287539936105,
       "fatPct": "",
       "passed": false,
-      "rank": 32
+      "rank": 33
     },
     {
       "pid": "6cf7d516",
@@ -279,20 +287,12 @@
       "weightPct": 0.05477980665950585,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 33
+      "rank": 34
     },
     {
       "pid": "641c4f3b",
       "nickname": "綠豆蒜",
       "weightPct": 0.049019607843137254,
-      "fatPct": "",
-      "passed": false,
-      "rank": 34
-    },
-    {
-      "pid": "dc9ec1fb",
-      "nickname": "郭阿斌",
-      "weightPct": 0.04550758459743297,
       "fatPct": "",
       "passed": false,
       "rank": 35
