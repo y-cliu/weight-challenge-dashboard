@@ -3,10 +3,10 @@
     "day": 51,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 29,
-    "reportRateToday": 0.07,
+    "passedCount": 28,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-10-13",
-    "generatedAt": "2026-10-13 17:32"
+    "generatedAt": "2026-10-13 18:32"
   },
   "leaderboard": [
     {
@@ -178,20 +178,12 @@
       "rank": 20
     },
     {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.04588112617309703,
-      "fatPct": 0.05447470817120617,
-      "passed": true,
-      "rank": 21
-    },
-    {
       "pid": "2c754834",
       "nickname": "熱量精算大師",
       "weightPct": 0.06900452488687792,
       "fatPct": 0.03114186851211068,
       "passed": false,
-      "rank": 22
+      "rank": 21
     },
     {
       "pid": "0823651e",
@@ -199,7 +191,7 @@
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": true,
-      "rank": 23
+      "rank": 22
     },
     {
       "pid": "58945cc1",
@@ -207,7 +199,7 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
       "passed": true,
-      "rank": 24
+      "rank": 23
     },
     {
       "pid": "9466cc32",
@@ -215,7 +207,7 @@
       "weightPct": 0.035187287173666225,
       "fatPct": 0.06040268456375841,
       "passed": true,
-      "rank": 25
+      "rank": 24
     },
     {
       "pid": "adc3b0b2",
@@ -223,7 +215,7 @@
       "weightPct": 0.03476482617586903,
       "fatPct": 0.060000000000000026,
       "passed": true,
-      "rank": 26
+      "rank": 25
     },
     {
       "pid": "1c738cd4",
@@ -231,6 +223,14 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
+      "rank": 26
+    },
+    {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.042752867570385905,
+      "fatPct": 0.03501945525291823,
+      "passed": false,
       "rank": 27
     },
     {
