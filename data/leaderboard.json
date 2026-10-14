@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 52,
+    "day": 53,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.13,
-    "updatedAt": "2026-10-14",
-    "generatedAt": "2026-10-15 00:11"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-10-15",
+    "generatedAt": "2026-10-15 06:31"
   },
   "leaderboard": [
     {
@@ -17,7 +17,7 @@
       "passed": true,
       "rockets": 3,
       "rank": 1,
-      "histKey": "e02735b3e225807f687fe281079cdb4873f05dd262a8c2b2994415a714adfa63"
+      "histKey": "ce6d8442e7484e8f03959c966b8a62d2806d6a6743529849fbfa973be6067309"
     },
     {
       "pid": "1ed92c63",
@@ -26,7 +26,7 @@
       "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 2,
-      "histKey": "8aaf6b6e5e70a91987cdbb69b575525689fc8f70c46a437206996a0eaf34948b"
+      "histKey": "038fce7b68e5c8d1f6bb569e4890aeb96396faa508a4a708a98ded50c91aefcd"
     },
     {
       "pid": "f805593c",
@@ -35,7 +35,7 @@
       "fatPct": 0.23939393939393935,
       "passed": true,
       "rank": 3,
-      "histKey": "e2a2fd8654bc041e8b424333e4e93646d2bb22fd7e9a99ecdb839f32f35023c3"
+      "histKey": "1243b3d416ecbf708dde2208a7734b8d9e93d5f117c0ae922e5308e2306c7ad2"
     },
     {
       "pid": "8c77daee",
@@ -45,7 +45,7 @@
       "passed": true,
       "rockets": 2,
       "rank": 4,
-      "histKey": "5a079ad1d1e17ecaa9afc4105bf52ad3434a1901f7ae249f280391b2d3f1aea4"
+      "histKey": "cb9a856475a527dbf87529e5fb3094f5593b10962c13b308c8849bc3610c3560"
     },
     {
       "pid": "07cce5f3",
@@ -54,7 +54,15 @@
       "fatPct": 0.21612903225806449,
       "passed": true,
       "rank": 5,
-      "histKey": "1fd15d9e748627b548a63efd4e065736bfcfe2dd8068644c8a574ffffe500990"
+      "histKey": "162d5e48a3af973f9e14015ac09bdd4f1f3649f39ea630426cee5cf126839a7a"
+    },
+    {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.0714285714285714,
+      "fatPct": 0.10344827586206908,
+      "passed": true,
+      "rank": 6
     },
     {
       "pid": "b7405e59",
@@ -62,7 +70,7 @@
       "weightPct": 0.027921406411582243,
       "fatPct": 0.1467576791808874,
       "passed": true,
-      "rank": 6
+      "rank": 7
     },
     {
       "pid": "e7cde42c",
@@ -70,21 +78,13 @@
       "weightPct": 0.023696682464454978,
       "fatPct": 0.1689750692520776,
       "passed": true,
-      "rank": 7
+      "rank": 8
     },
     {
       "pid": "3089de40",
       "nickname": "大心臟的男人",
       "weightPct": 0.023653088042049897,
       "fatPct": 0.2794117647058823,
-      "passed": true,
-      "rank": 8
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.06870229007633584,
-      "fatPct": 0.10344827586206908,
       "passed": true,
       "rank": 9
     },
