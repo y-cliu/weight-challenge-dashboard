@@ -4,16 +4,16 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.11,
     "updatedAt": "2026-10-14",
-    "generatedAt": "2026-10-14 17:32"
+    "generatedAt": "2026-10-14 18:33"
   },
   "leaderboard": [
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
       "weightPct": 0.07521578298397034,
-      "fatPct": 0.22787610619469034,
+      "fatPct": 0.25884955752212396,
       "passed": true,
       "rockets": 3,
       "rank": 1,
@@ -29,23 +29,23 @@
       "histKey": "8aaf6b6e5e70a91987cdbb69b575525689fc8f70c46a437206996a0eaf34948b"
     },
     {
+      "pid": "f805593c",
+      "nickname": "體脂消滅官",
+      "weightPct": 0.06951219512195125,
+      "fatPct": 0.23939393939393935,
+      "passed": true,
+      "rank": 3,
+      "histKey": "e2a2fd8654bc041e8b424333e4e93646d2bb22fd7e9a99ecdb839f32f35023c3"
+    },
+    {
       "pid": "8c77daee",
       "nickname": "火蜥蜴",
       "weightPct": 0.06639427987742594,
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rockets": 2,
-      "rank": 3,
-      "histKey": "5a079ad1d1e17ecaa9afc4105bf52ad3434a1901f7ae249f280391b2d3f1aea4"
-    },
-    {
-      "pid": "f805593c",
-      "nickname": "體脂消滅官",
-      "weightPct": 0.06097560975609756,
-      "fatPct": 0.23030303030303034,
-      "passed": true,
       "rank": 4,
-      "histKey": "e2a2fd8654bc041e8b424333e4e93646d2bb22fd7e9a99ecdb839f32f35023c3"
+      "histKey": "5a079ad1d1e17ecaa9afc4105bf52ad3434a1901f7ae249f280391b2d3f1aea4"
     },
     {
       "pid": "07cce5f3",
@@ -218,19 +218,19 @@
       "rank": 25
     },
     {
+      "pid": "314d5ce3",
+      "nickname": "第一海軍大臣",
+      "weightPct": 0.05109489051094896,
+      "fatPct": 0.03501945525291823,
+      "passed": false,
+      "rank": 26
+    },
+    {
       "pid": "1c738cd4",
       "nickname": "吸收好",
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 26
-    },
-    {
-      "pid": "314d5ce3",
-      "nickname": "第一海軍大臣",
-      "weightPct": 0.042752867570385905,
-      "fatPct": 0.03501945525291823,
-      "passed": false,
       "rank": 27
     },
     {
@@ -268,7 +268,7 @@
     {
       "pid": "3d34da95",
       "nickname": "生命鬥士",
-      "weightPct": 0.05963791267305653,
+      "weightPct": 0.06017039403620879,
       "fatPct": "",
       "passed": false,
       "rank": 32
