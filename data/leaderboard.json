@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 28,
-    "reportRateToday": 0.12,
+    "reportRateToday": 0.13,
     "updatedAt": "2026-10-14",
-    "generatedAt": "2026-10-14 21:34"
+    "generatedAt": "2026-10-14 22:35"
   },
   "leaderboard": [
     {
@@ -322,20 +322,12 @@
       "rank": 38
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.0022123893805310046,
-      "fatPct": 0.03065134099616861,
-      "passed": false,
-      "rank": 39
-    },
-    {
       "pid": "7e191fc7",
       "nickname": "牧牧",
       "weightPct": 0.03260869565217395,
       "fatPct": "",
       "passed": false,
-      "rank": 40
+      "rank": 39
     },
     {
       "pid": "33df67af",
@@ -343,7 +335,7 @@
       "weightPct": 0.03229527104959627,
       "fatPct": 0,
       "passed": false,
-      "rank": 41
+      "rank": 40
     },
     {
       "pid": "5e73f6c4",
@@ -351,7 +343,7 @@
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
       "passed": false,
-      "rank": 42
+      "rank": 41
     },
     {
       "pid": "24a64d66",
@@ -359,7 +351,7 @@
       "weightPct": -0.019334049409237504,
       "fatPct": 0.05066666666666663,
       "passed": true,
-      "rank": 43
+      "rank": 42
     },
     {
       "pid": "6f376100",
@@ -367,13 +359,21 @@
       "weightPct": 0.02950152594099686,
       "fatPct": "",
       "passed": false,
-      "rank": 44
+      "rank": 43
     },
     {
       "pid": "22195f75",
       "nickname": "肥龍在天",
       "weightPct": -0.014405762304922003,
       "fatPct": 0.04301075268817202,
+      "passed": false,
+      "rank": 44
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0,
+      "fatPct": 0.026819923371647618,
       "passed": false,
       "rank": 45
     },
