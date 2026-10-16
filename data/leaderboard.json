@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-10-16",
-    "generatedAt": "2026-10-16 17:32"
+    "generatedAt": "2026-10-16 18:34"
   },
   "leaderboard": [
     {
@@ -276,7 +276,7 @@
     {
       "pid": "3d34da95",
       "nickname": "生命鬥士",
-      "weightPct": 0.05910543130990427,
+      "weightPct": 0.06176783812566572,
       "fatPct": "",
       "passed": false,
       "rank": 33
@@ -314,20 +314,12 @@
       "rank": 37
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.0022123893805310046,
-      "fatPct": 0.038314176245210725,
-      "passed": false,
-      "rank": 38
-    },
-    {
       "pid": "628995ff",
       "nickname": "第一名是我的",
       "weightPct": 0.03999999999999997,
       "fatPct": -0.003095975232198187,
       "passed": false,
-      "rank": 39
+      "rank": 38
     },
     {
       "pid": "cb4c10e9",
@@ -335,7 +327,7 @@
       "weightPct": 0.004420866489832007,
       "fatPct": 0.03012048192771084,
       "passed": false,
-      "rank": 40
+      "rank": 39
     },
     {
       "pid": "7e191fc7",
@@ -343,7 +335,7 @@
       "weightPct": 0.03260869565217395,
       "fatPct": "",
       "passed": false,
-      "rank": 41
+      "rank": 40
     },
     {
       "pid": "33df67af",
@@ -351,13 +343,21 @@
       "weightPct": 0.03229527104959627,
       "fatPct": 0,
       "passed": false,
-      "rank": 42
+      "rank": 41
     },
     {
       "pid": "5e73f6c4",
       "nickname": "大威",
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
+      "passed": false,
+      "rank": 42
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.001106194690265581,
+      "fatPct": 0.03065134099616861,
       "passed": false,
       "rank": 43
     },
