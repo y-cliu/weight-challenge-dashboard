@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.1,
+    "reportRateToday": 0.11,
     "updatedAt": "2026-10-17",
-    "generatedAt": "2026-10-17 22:32"
+    "generatedAt": "2026-10-17 23:34"
   },
   "leaderboard": [
     {
@@ -474,26 +474,26 @@
       "rank": 57
     },
     {
-      "pid": "daa4c7c4",
-      "nickname": "阿正",
-      "weightPct": 0.016574585635359115,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 58
-    },
-    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.012605042016806753,
       "fatPct": 0,
       "passed": false,
-      "rank": 59
+      "rank": 58
     },
     {
       "pid": "1b9abb75",
       "nickname": "阿德",
       "weightPct": 0.01145038167938934,
       "fatPct": "",
+      "passed": false,
+      "rank": 59
+    },
+    {
+      "pid": "daa4c7c4",
+      "nickname": "阿正",
+      "weightPct": 0.011049723756906077,
+      "fatPct": 0,
       "passed": false,
       "rank": 60
     },
