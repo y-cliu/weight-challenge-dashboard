@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 30,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-10-18",
-    "generatedAt": "2026-10-18 17:36"
+    "generatedAt": "2026-10-18 18:32"
   },
   "leaderboard": [
     {
@@ -330,12 +330,20 @@
       "rank": 39
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.0022123893805310046,
+      "fatPct": 0.03065134099616861,
+      "passed": false,
+      "rank": 40
+    },
+    {
       "pid": "7e191fc7",
       "nickname": "牧牧",
       "weightPct": 0.03260869565217395,
       "fatPct": "",
       "passed": false,
-      "rank": 40
+      "rank": 41
     },
     {
       "pid": "33df67af",
@@ -343,21 +351,13 @@
       "weightPct": 0.03229527104959627,
       "fatPct": 0,
       "passed": false,
-      "rank": 41
+      "rank": 42
     },
     {
       "pid": "5e73f6c4",
       "nickname": "大威",
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
-      "passed": false,
-      "rank": 42
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.001106194690265581,
-      "fatPct": 0.03065134099616861,
       "passed": false,
       "rank": 43
     },
@@ -378,26 +378,26 @@
       "rank": 45
     },
     {
+      "pid": "22195f75",
+      "nickname": "肥龍在天",
+      "weightPct": -0.014405762304922003,
+      "fatPct": 0.04301075268817202,
+      "passed": false,
+      "rank": 46
+    },
+    {
       "pid": "6013e654",
       "nickname": "King",
       "weightPct": 0.026168224299065394,
       "fatPct": "",
       "passed": false,
-      "rank": 46
+      "rank": 47
     },
     {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
-      "passed": false,
-      "rank": 47
-    },
-    {
-      "pid": "22195f75",
-      "nickname": "肥龍在天",
-      "weightPct": -0.014405762304922003,
-      "fatPct": 0.03942652329749097,
       "passed": false,
       "rank": 48
     },
