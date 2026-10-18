@@ -3,10 +3,10 @@
     "day": 56,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 29,
-    "reportRateToday": 0.01,
+    "passedCount": 30,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-10-18",
-    "generatedAt": "2026-10-18 16:36"
+    "generatedAt": "2026-10-18 17:36"
   },
   "leaderboard": [
     {
@@ -32,7 +32,7 @@
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.06951219512195125,
-      "fatPct": 0.23939393939393935,
+      "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 3,
       "histKey": "1f3ce51f929e327b097331df9468bf621370bf281cc49b39db5dac3a4cb8f2b8"
@@ -153,12 +153,20 @@
       "rank": 17
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.07918552036199095,
+      "fatPct": 0.051903114186851215,
+      "passed": true,
+      "rank": 18
+    },
+    {
       "pid": "e94023cf",
       "nickname": "胖胖虎虎",
       "weightPct": 0.06454630495790463,
       "fatPct": 0.059829059829059866,
       "passed": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "40b1f679",
@@ -167,7 +175,7 @@
       "fatPct": 0.07441860465116286,
       "passed": true,
       "rockets": 1,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "0b09504d",
@@ -175,14 +183,6 @@
       "weightPct": -0.004497751124437738,
       "fatPct": 0.11845730027548203,
       "passed": true,
-      "rank": 20
-    },
-    {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.07466063348416299,
-      "fatPct": 0.03806228373702415,
-      "passed": false,
       "rank": 21
     },
     {
