@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 29,
-    "reportRateToday": 0.09,
+    "reportRateToday": 0.11,
     "updatedAt": "2026-10-19",
-    "generatedAt": "2026-10-19 20:36"
+    "generatedAt": "2026-10-19 21:36"
   },
   "leaderboard": [
     {
@@ -89,12 +89,20 @@
       "rank": 9
     },
     {
+      "pid": "b7405e59",
+      "nickname": "傑",
+      "weightPct": 0.027921406411582243,
+      "fatPct": 0.13651877133105803,
+      "passed": true,
+      "rank": 10
+    },
+    {
       "pid": "2d81ddb8",
       "nickname": "鯊魚",
       "weightPct": 0.026288117770767616,
       "fatPct": 0.13741496598639452,
       "passed": true,
-      "rank": 10
+      "rank": 11
     },
     {
       "pid": "27f80350",
@@ -102,7 +110,7 @@
       "weightPct": 0.06793206793206791,
       "fatPct": 0.09144542772861351,
       "passed": true,
-      "rank": 11
+      "rank": 12
     },
     {
       "pid": "61f310ff",
@@ -110,7 +118,7 @@
       "weightPct": 0.06855277475516879,
       "fatPct": 0.08391608391608399,
       "passed": true,
-      "rank": 12
+      "rank": 13
     },
     {
       "pid": "e989771e",
@@ -118,7 +126,7 @@
       "weightPct": 0.07019143117593439,
       "fatPct": 0.07887323943661964,
       "passed": true,
-      "rank": 13
+      "rank": 14
     },
     {
       "pid": "91c8b675",
@@ -126,21 +134,13 @@
       "weightPct": 0.060240963855421686,
       "fatPct": 0.08745247148288976,
       "passed": true,
-      "rank": 14
+      "rank": 15
     },
     {
       "pid": "79dec2d6",
       "nickname": "邱吉",
       "weightPct": 0.053061224489795944,
       "fatPct": 0.09063444108761329,
-      "passed": true,
-      "rank": 15
-    },
-    {
-      "pid": "b7405e59",
-      "nickname": "傑",
-      "weightPct": 0.027921406411582243,
-      "fatPct": 0.11262798634812289,
       "passed": true,
       "rank": 16
     },
