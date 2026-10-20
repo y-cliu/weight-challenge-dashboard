@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 58,
+    "day": 59,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 30,
-    "reportRateToday": 0.12,
-    "updatedAt": "2026-10-20",
-    "generatedAt": "2026-10-20 23:32"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-10-21",
+    "generatedAt": "2026-10-21 06:32"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "e47f748f24d7fbddbe9fd023372972c3e687e978f9f64a3d2474abd4fcdb47c6"
+      "histKey": "a33e00e6801b3ec1fae130f07b6de45db2005435e00e5f5d5dadd967f2160601"
     },
     {
       "pid": "86f28999",
@@ -25,7 +25,7 @@
       "fatPct": 0.25884955752212396,
       "passed": true,
       "rank": 2,
-      "histKey": "354f05941ca9446769a3f263c1d24c5d3315932af29d01bb5d29961b3fd9ef3e"
+      "histKey": "35a1aec7a481a06cf6d38384d0f0d6f7f64985aea1220f3c4c684390ed4fae21"
     },
     {
       "pid": "1ed92c63",
@@ -34,7 +34,7 @@
       "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 3,
-      "histKey": "d2491f0d30c50727820d5da93c25dd344c660780fd608808788ed8c8f3c81fad"
+      "histKey": "1ffe17e671a9877f78f40ae358eb9c1c887c60ef73c3ac46c1357ed6582590a3"
     },
     {
       "pid": "8c77daee",
@@ -43,7 +43,7 @@
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 4,
-      "histKey": "82d40518926742a3c04a7447c3f6d33ae99269182eb4e37461252df99b90b84a"
+      "histKey": "af4b1b4ddfc8228d439320d13b9271a9b290722725cc3cca1015c0a86980b86b"
     },
     {
       "pid": "f805593c",
@@ -52,12 +52,12 @@
       "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 5,
-      "histKey": "461fdae1be1bc40162df06c3472bb2a0fccf4ed00f146c9f4151735824b50a75"
+      "histKey": "f55f7e3452763b1d76985f7f4ba676f41df32dd522a9022b0022c79bb82a63f8"
     },
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
-      "weightPct": 0.07360959651035986,
+      "weightPct": 0.08015267175572528,
       "fatPct": 0.13409961685823754,
       "passed": true,
       "rockets": 2,
