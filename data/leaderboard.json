@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 60,
+    "day": 61,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 30,
-    "reportRateToday": 0.11,
-    "updatedAt": "2026-10-22",
-    "generatedAt": "2026-10-23 00:11"
+    "reportRateToday": 0,
+    "updatedAt": "2026-10-23",
+    "generatedAt": "2026-10-23 06:32"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "ff0170ee46aad9a1eb66bc3816871560eaabfa96dd570450596abfdf8ac16372"
+      "histKey": "0fb906aa772bad95104e333f0aec9c8be2ed59f70fe626599f91d89a6d643776"
     },
     {
       "pid": "86f28999",
@@ -25,7 +25,7 @@
       "fatPct": 0.25884955752212396,
       "passed": true,
       "rank": 2,
-      "histKey": "100e974cba177c34b10791ac5a3065032d2e360e055daee0ae7cd200f0ee8281"
+      "histKey": "5bf9a6690cda966b223291d92cb16bf39868eb84c87f8b85cbd9b3f7ad61bf57"
     },
     {
       "pid": "1ed92c63",
@@ -34,7 +34,7 @@
       "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 3,
-      "histKey": "5460cd6879f3fcf0568609b79ae2519362beef8aa457976af58cd6bf6d888937"
+      "histKey": "4cbe14f74e387172a9e01a7ed165e15c90c597815aa4bcdcc8e6fdd5a239c21f"
     },
     {
       "pid": "f805593c",
@@ -43,7 +43,7 @@
       "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 4,
-      "histKey": "528e6df0ff151e17cc673cc4fe3f1212330549c20b071229f8e63cb09a2f5cd4"
+      "histKey": "400a7e5de5e3a3ed00933a4b3abec62c07a21a18e3807551d28a2752db74adfb"
     },
     {
       "pid": "8c77daee",
@@ -52,7 +52,7 @@
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 5,
-      "histKey": "3fbb2675f86c3df2e4cd5d96c6f5a036c4efa52f0b5bfbd0af0a802f4d4c5f42"
+      "histKey": "fc582e47e40f5b45609c5f5c9b0a8c08d16ca5863b1fcd997853568745a482de"
     },
     {
       "pid": "aa6c84c9",
