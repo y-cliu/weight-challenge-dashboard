@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 31,
-    "reportRateToday": 0.07,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-10-24",
-    "generatedAt": "2026-10-24 21:32"
+    "generatedAt": "2026-10-24 22:32"
   },
   "leaderboard": [
     {
@@ -84,7 +84,7 @@
       "pid": "27f80350",
       "nickname": "松阪豬",
       "weightPct": 0.07592407592407587,
-      "fatPct": 0.10324483775811209,
+      "fatPct": 0.10029498525073742,
       "passed": true,
       "rank": 9
     },
