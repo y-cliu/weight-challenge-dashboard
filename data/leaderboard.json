@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 31,
-    "reportRateToday": 0.1,
+    "reportRateToday": 0.11,
     "updatedAt": "2026-10-24",
-    "generatedAt": "2026-10-24 23:32"
+    "generatedAt": "2026-10-25 00:11"
   },
   "leaderboard": [
     {
@@ -450,20 +450,12 @@
       "rank": 54
     },
     {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.02029914529914521,
-      "fatPct": "",
-      "passed": false,
-      "rank": 55
-    },
-    {
       "pid": "704bb612",
       "nickname": "儒儒米",
       "weightPct": 0.028459273797841075,
       "fatPct": -0.008645533141210292,
       "passed": false,
-      "rank": 56
+      "rank": 55
     },
     {
       "pid": "22195f75",
@@ -471,12 +463,20 @@
       "weightPct": -0.0168067226890757,
       "fatPct": 0.03584229390681004,
       "passed": false,
-      "rank": 57
+      "rank": 56
     },
     {
       "pid": "47dba6e3",
       "nickname": "楊哲嘉",
       "weightPct": 0.01827956989247315,
+      "fatPct": "",
+      "passed": false,
+      "rank": 57
+    },
+    {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.018162393162393042,
       "fatPct": "",
       "passed": false,
       "rank": 58
