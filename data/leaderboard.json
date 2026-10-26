@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 64,
+    "day": 65,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 30,
-    "reportRateToday": 0.12,
-    "updatedAt": "2026-10-26",
-    "generatedAt": "2026-10-26 23:32"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-10-27",
+    "generatedAt": "2026-10-27 06:31"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "c5ad3aad35e45b41cc2754c8d1c1037949b455bd9114b78e694986e1820dbc9c"
+      "histKey": "850681d3a1ae1cea4605741194e112477970bdd8e42b23b95f3c1a68a6b4d2e5"
     },
     {
       "pid": "86f28999",
@@ -25,7 +25,7 @@
       "fatPct": 0.25884955752212396,
       "passed": true,
       "rank": 2,
-      "histKey": "8034053f2425daaf588339c0ed54b31cc6f61d7d021f7c70c7fcd11ff33cd88b"
+      "histKey": "330aec6767c9240588011edbdb6a6bf7d9e0256d19418b9e3cbf9b06d6432c4f"
     },
     {
       "pid": "1ed92c63",
@@ -34,7 +34,7 @@
       "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 3,
-      "histKey": "5b23771b70a62b3e778a08fce266e9c4057e8b4d406ee66e62146ddeaeb9323d"
+      "histKey": "0fb9babc482a3ea28647d4eaeccb9817658325b066f5c94f2c7ed4d5e1c21d4c"
     },
     {
       "pid": "8c77daee",
@@ -43,7 +43,7 @@
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 4,
-      "histKey": "ac7701a2f4b0053358b9aeb696eed327d2a630edca566f7ad04d2d5ce2ff685f"
+      "histKey": "00f1993917aae7fee84b0df844cd8689c577a1b88b99b351b4f36e830fa286cc"
     },
     {
       "pid": "f805593c",
@@ -53,12 +53,12 @@
       "passed": true,
       "rockets": 3,
       "rank": 5,
-      "histKey": "2124aea8a5be4ccaa3b38804ab68d900d6ef143456d500579ec415e38551b57b"
+      "histKey": "86ef3de7a957c3f40a20d5d8871857dba06f0f5590b386b2621542ca9eca9b84"
     },
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
-      "weightPct": 0.08069792802617236,
+      "weightPct": 0.08287895310796083,
       "fatPct": 0.12643678160919541,
       "passed": true,
       "rank": 6
