@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-10-28",
-    "generatedAt": "2026-10-28 16:32"
+    "generatedAt": "2026-10-28 18:32"
   },
   "leaderboard": [
     {
@@ -346,20 +346,12 @@
       "rank": 41
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.009955752212389443,
-      "fatPct": 0.03065134099616861,
-      "passed": false,
-      "rank": 42
-    },
-    {
       "pid": "628995ff",
       "nickname": "第一名是我的",
       "weightPct": 0.03999999999999997,
       "fatPct": -0.003095975232198187,
       "passed": false,
-      "rank": 43
+      "rank": 42
     },
     {
       "pid": "cb4c10e9",
@@ -367,7 +359,7 @@
       "weightPct": 0.004420866489832007,
       "fatPct": 0.03012048192771084,
       "passed": false,
-      "rank": 44
+      "rank": 43
     },
     {
       "pid": "7e191fc7",
@@ -375,7 +367,7 @@
       "weightPct": 0.03260869565217395,
       "fatPct": "",
       "passed": false,
-      "rank": 45
+      "rank": 44
     },
     {
       "pid": "33df67af",
@@ -383,7 +375,7 @@
       "weightPct": 0.03229527104959627,
       "fatPct": 0,
       "passed": false,
-      "rank": 46
+      "rank": 45
     },
     {
       "pid": "5e73f6c4",
@@ -391,7 +383,7 @@
       "weightPct": 0.011299435028248614,
       "fatPct": 0.02077151335311581,
       "passed": false,
-      "rank": 47
+      "rank": 46
     },
     {
       "pid": "24a64d66",
@@ -399,6 +391,14 @@
       "weightPct": -0.019334049409237504,
       "fatPct": 0.05066666666666663,
       "passed": true,
+      "rank": 47
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.012168141592920447,
+      "fatPct": 0.019157088122605363,
+      "passed": false,
       "rank": 48
     },
     {
