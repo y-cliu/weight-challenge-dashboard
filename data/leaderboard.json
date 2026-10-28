@@ -3,10 +3,10 @@
     "day": 66,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 32,
-    "reportRateToday": 0.07,
+    "passedCount": 33,
+    "reportRateToday": 0.08,
     "updatedAt": "2026-10-28",
-    "generatedAt": "2026-10-28 18:32"
+    "generatedAt": "2026-10-28 19:32"
   },
   "leaderboard": [
     {
@@ -152,12 +152,21 @@
       "rank": 17
     },
     {
+      "pid": "2c754834",
+      "nickname": "熱量精算大師",
+      "weightPct": 0.08597285067873313,
+      "fatPct": 0.058823529411764684,
+      "passed": true,
+      "rockets": 1,
+      "rank": 18
+    },
+    {
       "pid": "79dec2d6",
       "nickname": "邱吉",
       "weightPct": 0.053061224489795944,
       "fatPct": 0.09063444108761329,
       "passed": true,
-      "rank": 18
+      "rank": 19
     },
     {
       "pid": "adc3b0b2",
@@ -165,7 +174,7 @@
       "weightPct": 0.06748466257668706,
       "fatPct": 0.0733333333333333,
       "passed": true,
-      "rank": 19
+      "rank": 20
     },
     {
       "pid": "4ceee48e",
@@ -173,15 +182,6 @@
       "weightPct": 0.047892720306513405,
       "fatPct": 0.09090909090909093,
       "passed": true,
-      "rank": 20
-    },
-    {
-      "pid": "2c754834",
-      "nickname": "熱量精算大師",
-      "weightPct": 0.08597285067873313,
-      "fatPct": 0.04498269896193762,
-      "passed": false,
-      "rockets": 1,
       "rank": 21
     },
     {
