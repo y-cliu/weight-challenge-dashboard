@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-10-29",
-    "generatedAt": "2026-10-29 18:32"
+    "generatedAt": "2026-10-29 19:32"
   },
   "leaderboard": [
     {
@@ -308,7 +308,7 @@
     {
       "pid": "3d34da95",
       "nickname": "生命鬥士",
-      "weightPct": 0.05963791267305653,
+      "weightPct": 0.058572949946751864,
       "fatPct": "",
       "passed": false,
       "rank": 37
