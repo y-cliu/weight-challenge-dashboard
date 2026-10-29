@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 67,
+    "day": 68,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.07,
-    "updatedAt": "2026-10-29",
-    "generatedAt": "2026-10-30 00:11"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-10-30",
+    "generatedAt": "2026-10-30 06:31"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "eb7cedb171de636644ef151a60813332d52e9879afb8042a5a04213608a79c89"
+      "histKey": "5b304abf11712222e22a64a4cc4f3f95654bbdd829e2d029e2c2277159a6f430"
     },
     {
       "pid": "8c77daee",
@@ -25,7 +25,7 @@
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 2,
-      "histKey": "47203ee2ae91643a29b69a42d57f9cd8a1af780c1f1bea8d490af3d2cdb73eda"
+      "histKey": "2d2f9ff7c238136dbfa886c0d6718629066cd85a22fd4d2128246dce6739f06d"
     },
     {
       "pid": "86f28999",
@@ -34,7 +34,7 @@
       "fatPct": 0.25884955752212396,
       "passed": true,
       "rank": 3,
-      "histKey": "9c395116d5ff947dbb244353ad2ea7913e776f1702eaae465b3ae1ec8a038197"
+      "histKey": "2059164996758940e187ef398c4b2531d6c6fb3519e8779fec9aa305e66ee2e9"
     },
     {
       "pid": "1ed92c63",
@@ -43,7 +43,7 @@
       "fatPct": 0.25193798449612403,
       "passed": true,
       "rank": 4,
-      "histKey": "cb01e2e0133aa08267a4a3541b4c00738e3dbb30ea4f8b9980d61562b43f612d"
+      "histKey": "4beb280e206400f01f7d572ca6d21089e9a47fb57045c6fa2cab43f7b289b4a9"
     },
     {
       "pid": "f805593c",
@@ -53,7 +53,7 @@
       "passed": true,
       "rockets": 3,
       "rank": 5,
-      "histKey": "a8c2df41bb39866a0c68b3673b130af4634d10351d651c3813b5ef29edbdef55"
+      "histKey": "951f8ccb5dfcb0808de24d310db36719696d9d1d922f347b982710e1e5491eb0"
     },
     {
       "pid": "dc9ec1fb",
@@ -66,7 +66,7 @@
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
-      "weightPct": 0.08451472191930207,
+      "weightPct": 0.08669574700109053,
       "fatPct": 0.12643678160919541,
       "passed": true,
       "rank": 7
