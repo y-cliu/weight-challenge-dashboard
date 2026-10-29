@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-10-29",
-    "generatedAt": "2026-10-29 16:32"
+    "generatedAt": "2026-10-29 17:32"
   },
   "leaderboard": [
     {
@@ -394,20 +394,12 @@
       "rank": 47
     },
     {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.012168141592920447,
-      "fatPct": 0.019157088122605363,
-      "passed": false,
-      "rank": 48
-    },
-    {
       "pid": "6f376100",
       "nickname": "每月欠薪15",
       "weightPct": 0.02950152594099686,
       "fatPct": "",
       "passed": false,
-      "rank": 49
+      "rank": 48
     },
     {
       "pid": "6013e654",
@@ -415,7 +407,7 @@
       "weightPct": 0.026168224299065394,
       "fatPct": "",
       "passed": false,
-      "rank": 50
+      "rank": 49
     },
     {
       "pid": "60382873",
@@ -423,7 +415,7 @@
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 51
+      "rank": 50
     },
     {
       "pid": "16981caf",
@@ -431,7 +423,7 @@
       "weightPct": 0.023504273504273383,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 51
     },
     {
       "pid": "fbcf9cdb",
@@ -439,7 +431,7 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 52
     },
     {
       "pid": "4fbd0dd1",
@@ -447,7 +439,7 @@
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
       "passed": false,
-      "rank": 54
+      "rank": 53
     },
     {
       "pid": "6fa9a1e3",
@@ -455,7 +447,7 @@
       "weightPct": 0.001680672268907587,
       "fatPct": 0.019736842105263087,
       "passed": false,
-      "rank": 55
+      "rank": 54
     },
     {
       "pid": "276c8876",
@@ -463,7 +455,7 @@
       "weightPct": 0.020707070707070677,
       "fatPct": "",
       "passed": false,
-      "rank": 56
+      "rank": 55
     },
     {
       "pid": "704bb612",
@@ -471,7 +463,7 @@
       "weightPct": 0.028459273797841075,
       "fatPct": -0.008645533141210292,
       "passed": false,
-      "rank": 57
+      "rank": 56
     },
     {
       "pid": "22195f75",
@@ -479,7 +471,7 @@
       "weightPct": -0.0168067226890757,
       "fatPct": 0.03584229390681004,
       "passed": false,
-      "rank": 58
+      "rank": 57
     },
     {
       "pid": "47dba6e3",
@@ -487,7 +479,7 @@
       "weightPct": 0.01827956989247315,
       "fatPct": "",
       "passed": false,
-      "rank": 59
+      "rank": 58
     },
     {
       "pid": "c15a7522",
@@ -495,13 +487,21 @@
       "weightPct": 0.01769911504424788,
       "fatPct": "",
       "passed": false,
-      "rank": 60
+      "rank": 59
     },
     {
       "pid": "1e81557b",
       "nickname": "喇叭是我的",
       "weightPct": 0.017142857142857144,
       "fatPct": 0,
+      "passed": false,
+      "rank": 60
+    },
+    {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.0055309734513274336,
+      "fatPct": 0.011494252873563244,
       "passed": false,
       "rank": 61
     },
