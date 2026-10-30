@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-10-30",
-    "generatedAt": "2026-10-30 07:32"
+    "generatedAt": "2026-10-30 08:32"
   },
   "leaderboard": [
     {
@@ -88,26 +88,26 @@
       "rank": 9
     },
     {
+      "pid": "27f80350",
+      "nickname": "松阪豬",
+      "weightPct": 0.0829170829170829,
+      "fatPct": 0.10619469026548667,
+      "passed": true,
+      "rank": 10
+    },
+    {
       "pid": "e7cde42c",
       "nickname": "飛常努力",
       "weightPct": 0.023696682464454978,
       "fatPct": 0.1689750692520776,
       "passed": true,
-      "rank": 10
+      "rank": 11
     },
     {
       "pid": "3089de40",
       "nickname": "大心臟的男人",
       "weightPct": 0.023653088042049897,
       "fatPct": 0.2794117647058823,
-      "passed": true,
-      "rank": 11
-    },
-    {
-      "pid": "27f80350",
-      "nickname": "松阪豬",
-      "weightPct": 0.07392607392607385,
-      "fatPct": 0.09734513274336275,
       "passed": true,
       "rank": 12
     },
