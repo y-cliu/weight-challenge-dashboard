@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-10-31",
-    "generatedAt": "2026-10-31 06:31"
+    "generatedAt": "2026-10-31 07:32"
   },
   "leaderboard": [
     {
@@ -19,12 +19,21 @@
       "histKey": "cf6ed9330969b51f5322a458e25b5ed85b72a8247e66d61420c3b42d8aa727a7"
     },
     {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.09160305343511456,
+      "fatPct": 0.1494252873563219,
+      "passed": true,
+      "rank": 2,
+      "histKey": "c2ad7bc43aecb2b8c29ae6075508dc3b824afea847132c1d448fa4a9fac0dfd0"
+    },
+    {
       "pid": "8c77daee",
       "nickname": "火蜥蜴",
       "weightPct": 0.08682328907048008,
       "fatPct": 0.15333333333333338,
       "passed": true,
-      "rank": 2,
+      "rank": 3,
       "histKey": "01b355dd50061cc610e17cc80ec55e09663dc6b66eebff699f73ac38fe5a792f"
     },
     {
@@ -33,7 +42,7 @@
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
       "passed": true,
-      "rank": 3,
+      "rank": 4,
       "histKey": "4f12f51e3ee7e5dd095a387aafa17683e9fdb9fd80972b0f848a701a31489c5c"
     },
     {
@@ -42,7 +51,7 @@
       "weightPct": 0.07226562499999997,
       "fatPct": 0.25193798449612403,
       "passed": true,
-      "rank": 4,
+      "rank": 5,
       "histKey": "f57a8c0fd357e35a1ece5667f2297c6d300b21b366e2659cd67c8b83b4cfb0c1"
     },
     {
@@ -52,22 +61,13 @@
       "fatPct": 0.23939393939393935,
       "passed": true,
       "rockets": 3,
-      "rank": 5,
-      "histKey": "9f34f87cfe82248cc81c78ea378f10b38f26e0cd2f4c856b1c1081f06ea14b7a"
+      "rank": 6
     },
     {
       "pid": "dc9ec1fb",
       "nickname": "郭阿斌",
       "weightPct": 0.0665110851808635,
       "fatPct": 0.15481171548117154,
-      "passed": true,
-      "rank": 6
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.08669574700109053,
-      "fatPct": 0.12643678160919541,
       "passed": true,
       "rank": 7
     },
