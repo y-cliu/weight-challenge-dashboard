@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.04,
     "updatedAt": "2026-10-31",
-    "generatedAt": "2026-10-31 18:32"
+    "generatedAt": "2026-10-31 19:32"
   },
   "leaderboard": [
     {
@@ -250,12 +250,20 @@
       "rank": 29
     },
     {
+      "pid": "6cf7d516",
+      "nickname": "翔",
+      "weightPct": 0.08485499462943064,
+      "fatPct": 0.003484320557491215,
+      "passed": false,
+      "rank": 30
+    },
+    {
       "pid": "32de19f4",
       "nickname": "通資連小鳥胃",
       "weightPct": 0.03787103377686799,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "1c738cd4",
@@ -263,7 +271,7 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 31
+      "rank": 32
     },
     {
       "pid": "314d5ce3",
@@ -271,7 +279,7 @@
       "weightPct": 0.04692387904066736,
       "fatPct": 0.03501945525291823,
       "passed": false,
-      "rank": 32
+      "rank": 33
     },
     {
       "pid": "3d6d2ba0",
@@ -279,14 +287,6 @@
       "weightPct": 0.022443890274314177,
       "fatPct": 0.05940594059405943,
       "passed": true,
-      "rank": 33
-    },
-    {
-      "pid": "6cf7d516",
-      "nickname": "翔",
-      "weightPct": 0.07626208378088072,
-      "fatPct": 0.003484320557491215,
-      "passed": false,
       "rank": 34
     },
     {
