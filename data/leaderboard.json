@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 70,
+    "day": 71,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.08,
-    "updatedAt": "2026-11-01",
-    "generatedAt": "2026-11-02 00:10"
+    "reportRateToday": 0,
+    "updatedAt": "2026-11-02",
+    "generatedAt": "2026-11-02 06:32"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "a5aae713510fbdeb252fa51a6ed26a8041a66b5daa80287b512f415d24b89506"
+      "histKey": "44dfc970e899a22eca7ca7d8284e6a127e6d127bb48e9011d35c710e63c000e2"
     },
     {
       "pid": "8c77daee",
@@ -25,7 +25,7 @@
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 2,
-      "histKey": "d39f07fe1a515a934b127d84d161ef2607b7e2154946de264c9a8be2e15f87cc"
+      "histKey": "fe79056d491101ef6fbb0e22cc5027132406be942f8785abd0e1627d028dcfff"
     },
     {
       "pid": "aa6c84c9",
@@ -33,8 +33,9 @@
       "weightPct": 0.08615049073064346,
       "fatPct": 0.16858237547892727,
       "passed": true,
+      "rockets": 3,
       "rank": 3,
-      "histKey": "dd9021b9ec6afd7bea543e5037f9d9fd862d4cffc2bb22c1231015817bd5ecd9"
+      "histKey": "6bf07a8a9b0059104ba6331e769e6e80dad46dd0ed4892c8c18879fe4262f117"
     },
     {
       "pid": "f805593c",
@@ -42,9 +43,8 @@
       "weightPct": 0.07560975609756102,
       "fatPct": 0.2454545454545455,
       "passed": true,
-      "rockets": 3,
       "rank": 4,
-      "histKey": "5b0b321118f2bf05ec60e4c5b0a5cc209cbeb76c4e843d4e9026d25e81538444"
+      "histKey": "cc48664023424f873f4cef0879f9e418e9403e6ffeba10c8e02f2063a5aa789d"
     },
     {
       "pid": "86f28999",
@@ -53,7 +53,7 @@
       "fatPct": 0.25884955752212396,
       "passed": true,
       "rank": 5,
-      "histKey": "835c4861f1182c5a9aa446fde83cf36b8003f2b1b0939261771b835ba227da26"
+      "histKey": "558a0a4cb556ae4800f5807e8f45bfe20b7d451c06f7167fca7ae8dcf1ced50f"
     },
     {
       "pid": "1ed92c63",
@@ -157,7 +157,6 @@
       "weightPct": 0.08597285067873313,
       "fatPct": 0.058823529411764684,
       "passed": true,
-      "rockets": 1,
       "rank": 18
     },
     {
@@ -222,7 +221,6 @@
       "weightPct": 0.0772532188841202,
       "fatPct": 0.021406727828746263,
       "passed": false,
-      "rockets": 2,
       "rank": 26
     },
     {
@@ -287,6 +285,7 @@
       "weightPct": 0.022443890274314177,
       "fatPct": 0.05940594059405943,
       "passed": true,
+      "rockets": 2,
       "rank": 34
     },
     {
@@ -343,6 +342,7 @@
       "weightPct": 0.03952991452991441,
       "fatPct": "",
       "passed": false,
+      "rockets": 1,
       "rank": 41
     },
     {
