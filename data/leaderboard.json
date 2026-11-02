@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-11-02",
-    "generatedAt": "2026-11-02 16:32"
+    "generatedAt": "2026-11-02 17:35"
   },
   "leaderboard": [
     {
@@ -274,7 +274,7 @@
     {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
-      "weightPct": 0.04692387904066736,
+      "weightPct": 0.04900938477580816,
       "fatPct": 0.03501945525291823,
       "passed": false,
       "rank": 33
