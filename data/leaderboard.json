@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-11-04",
-    "generatedAt": "2026-11-04 16:32"
+    "generatedAt": "2026-11-04 17:32"
   },
   "leaderboard": [
     {
@@ -362,26 +362,26 @@
       "rank": 43
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.008849557522124019,
+      "fatPct": 0.026819923371647618,
+      "passed": false,
+      "rank": 44
+    },
+    {
       "pid": "cb4c10e9",
       "nickname": "叫我第一名",
       "weightPct": 0.004420866489832007,
       "fatPct": 0.03012048192771084,
       "passed": false,
-      "rank": 44
+      "rank": 45
     },
     {
       "pid": "7e191fc7",
       "nickname": "牧牧",
       "weightPct": 0.03260869565217395,
       "fatPct": "",
-      "passed": false,
-      "rank": 45
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.0055309734513274336,
-      "fatPct": 0.026819923371647618,
       "passed": false,
       "rank": 46
     },
