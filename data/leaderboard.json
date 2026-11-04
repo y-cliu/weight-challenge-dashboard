@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.08,
+    "reportRateToday": 0.1,
     "updatedAt": "2026-11-04",
-    "generatedAt": "2026-11-04 20:34"
+    "generatedAt": "2026-11-04 21:32"
   },
   "leaderboard": [
     {
@@ -90,8 +90,8 @@
     {
       "pid": "27f80350",
       "nickname": "松阪豬",
-      "weightPct": 0.0829170829170829,
-      "fatPct": 0.10619469026548667,
+      "weightPct": 0.08491508491508493,
+      "fatPct": 0.10914454277286134,
       "passed": true,
       "rank": 10
     },
@@ -418,20 +418,12 @@
       "rank": 50
     },
     {
-      "pid": "6013e654",
-      "nickname": "King",
-      "weightPct": 0.026168224299065394,
-      "fatPct": "",
-      "passed": false,
-      "rank": 51
-    },
-    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 51
     },
     {
       "pid": "fbcf9cdb",
@@ -439,13 +431,21 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 52
     },
     {
       "pid": "4fbd0dd1",
       "nickname": "初心者",
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
+      "passed": false,
+      "rank": 53
+    },
+    {
+      "pid": "6013e654",
+      "nickname": "King",
+      "weightPct": 0.02149532710280371,
+      "fatPct": "",
       "passed": false,
       "rank": 54
     },
