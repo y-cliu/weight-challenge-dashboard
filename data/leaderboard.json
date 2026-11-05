@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-11-05",
-    "generatedAt": "2026-11-05 08:32"
+    "generatedAt": "2026-11-05 09:36"
   },
   "leaderboard": [
     {
@@ -530,20 +530,12 @@
       "rank": 64
     },
     {
-      "pid": "daa4c7c4",
-      "nickname": "阿正",
-      "weightPct": 0.0055248618784530384,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 65
-    },
-    {
       "pid": "ac03691c",
       "nickname": "建均",
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
       "passed": false,
-      "rank": 66
+      "rank": 65
     },
     {
       "pid": "6955ceea",
@@ -551,7 +543,7 @@
       "weightPct": 0,
       "fatPct": 0,
       "passed": false,
-      "rank": 67
+      "rank": 66
     },
     {
       "pid": "4714ed9a",
@@ -559,13 +551,21 @@
       "weightPct": 0,
       "fatPct": "",
       "passed": false,
-      "rank": 68
+      "rank": 67
     },
     {
       "pid": "4061d8e5",
       "nickname": "晉",
       "weightPct": -0.0010438413361169992,
       "fatPct": "",
+      "passed": false,
+      "rank": 68
+    },
+    {
+      "pid": "daa4c7c4",
+      "nickname": "阿正",
+      "weightPct": -0.0055248618784530384,
+      "fatPct": 0,
       "passed": false,
       "rank": 69
     },
