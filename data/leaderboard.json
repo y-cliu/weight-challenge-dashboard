@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.08,
     "updatedAt": "2026-11-06",
-    "generatedAt": "2026-11-06 21:32"
+    "generatedAt": "2026-11-06 22:33"
   },
   "leaderboard": [
     {
@@ -418,20 +418,12 @@
       "rank": 50
     },
     {
-      "pid": "6013e654",
-      "nickname": "King",
-      "weightPct": 0.026168224299065394,
-      "fatPct": "",
-      "passed": false,
-      "rank": 51
-    },
-    {
       "pid": "60382873",
       "nickname": "salmon",
       "weightPct": 0.02542372881355938,
       "fatPct": "",
       "passed": false,
-      "rank": 52
+      "rank": 51
     },
     {
       "pid": "fbcf9cdb",
@@ -439,13 +431,21 @@
       "weightPct": 0.02207505518763797,
       "fatPct": "",
       "passed": false,
-      "rank": 53
+      "rank": 52
     },
     {
       "pid": "4fbd0dd1",
       "nickname": "初心者",
       "weightPct": 0.006543075245365414,
       "fatPct": 0.015384615384615385,
+      "passed": false,
+      "rank": 53
+    },
+    {
+      "pid": "6013e654",
+      "nickname": "King",
+      "weightPct": 0.02149532710280371,
+      "fatPct": "",
       "passed": false,
       "rank": 54
     },
@@ -506,12 +506,20 @@
       "rank": 61
     },
     {
+      "pid": "6955ceea",
+      "nickname": "凝視之眼",
+      "weightPct": 0.013221153846153948,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 62
+    },
+    {
       "pid": "e625a85d",
       "nickname": "tung",
       "weightPct": 0.012605042016806753,
       "fatPct": 0,
       "passed": false,
-      "rank": 62
+      "rank": 63
     },
     {
       "pid": "1b9abb75",
@@ -519,7 +527,7 @@
       "weightPct": 0.01145038167938934,
       "fatPct": "",
       "passed": false,
-      "rank": 63
+      "rank": 64
     },
     {
       "pid": "8affee5d",
@@ -527,21 +535,13 @@
       "weightPct": -0.010248901903367538,
       "fatPct": 0.016233766233766232,
       "passed": false,
-      "rank": 64
+      "rank": 65
     },
     {
       "pid": "ac03691c",
       "nickname": "建均",
       "weightPct": -0.0022246941045604963,
       "fatPct": 0.003663003663003715,
-      "passed": false,
-      "rank": 65
-    },
-    {
-      "pid": "6955ceea",
-      "nickname": "凝視之眼",
-      "weightPct": 0,
-      "fatPct": 0,
       "passed": false,
       "rank": 66
     },
