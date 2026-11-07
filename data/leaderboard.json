@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-11-07",
-    "generatedAt": "2026-11-07 22:33"
+    "generatedAt": "2026-11-07 23:33"
   },
   "leaderboard": [
     {
@@ -305,17 +305,17 @@
       "rank": 36
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.05324813631522896,
+      "pid": "641c4f3b",
+      "nickname": "綠豆蒜",
+      "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
       "rank": 37
     },
     {
-      "pid": "641c4f3b",
-      "nickname": "綠豆蒜",
-      "weightPct": 0.049019607843137254,
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.04792332268370607,
       "fatPct": "",
       "passed": false,
       "rank": 38
