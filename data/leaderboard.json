@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 32,
-    "reportRateToday": 0,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-11-08",
-    "generatedAt": "2026-11-08 17:32"
+    "generatedAt": "2026-11-08 18:32"
   },
   "leaderboard": [
     {
@@ -305,12 +305,21 @@
       "rank": 36
     },
     {
+      "pid": "16981caf",
+      "nickname": "A5和牛",
+      "weightPct": 0.0502136752136751,
+      "fatPct": "",
+      "passed": false,
+      "rockets": 1,
+      "rank": 37
+    },
+    {
       "pid": "641c4f3b",
       "nickname": "綠豆蒜",
       "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
-      "rank": 37
+      "rank": 38
     },
     {
       "pid": "3d34da95",
@@ -318,7 +327,7 @@
       "weightPct": 0.04792332268370607,
       "fatPct": "",
       "passed": false,
-      "rank": 38
+      "rank": 39
     },
     {
       "pid": "43519314",
@@ -326,7 +335,7 @@
       "weightPct": 0.019911504424778886,
       "fatPct": 0.026819923371647618,
       "passed": false,
-      "rank": 39
+      "rank": 40
     },
     {
       "pid": "43651bb4",
@@ -334,7 +343,7 @@
       "weightPct": 0.04534606205250594,
       "fatPct": "",
       "passed": false,
-      "rank": 40
+      "rank": 41
     },
     {
       "pid": "8d5cd12d",
@@ -342,15 +351,6 @@
       "weightPct": 0.03729838709677422,
       "fatPct": 0.0033222591362126715,
       "passed": false,
-      "rank": 41
-    },
-    {
-      "pid": "16981caf",
-      "nickname": "A5和牛",
-      "weightPct": 0.03952991452991441,
-      "fatPct": "",
-      "passed": false,
-      "rockets": 1,
       "rank": 42
     },
     {
