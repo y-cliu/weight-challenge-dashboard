@@ -3,10 +3,10 @@
     "day": 78,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 32,
-    "reportRateToday": 0.03,
+    "passedCount": 33,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-11-09",
-    "generatedAt": "2026-11-09 21:32"
+    "generatedAt": "2026-11-09 22:32"
   },
   "leaderboard": [
     {
@@ -247,12 +247,20 @@
       "rank": 29
     },
     {
+      "pid": "3d6d2ba0",
+      "nickname": "小邱邱",
+      "weightPct": 0.027431421446384073,
+      "fatPct": 0.06270627062706277,
+      "passed": true,
+      "rank": 30
+    },
+    {
       "pid": "6cf7d516",
       "nickname": "翔",
       "weightPct": 0.08485499462943064,
       "fatPct": 0.003484320557491215,
       "passed": false,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "32de19f4",
@@ -260,7 +268,7 @@
       "weightPct": 0.03787103377686799,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 31
+      "rank": 32
     },
     {
       "pid": "1c738cd4",
@@ -268,21 +276,13 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 32
+      "rank": 33
     },
     {
       "pid": "314d5ce3",
       "nickname": "第一海軍大臣",
       "weightPct": 0.04900938477580816,
       "fatPct": 0.03501945525291823,
-      "passed": false,
-      "rank": 33
-    },
-    {
-      "pid": "3d6d2ba0",
-      "nickname": "小邱邱",
-      "weightPct": 0.027431421446384073,
-      "fatPct": 0.04620462046204627,
       "passed": false,
       "rank": 34
     },
@@ -337,8 +337,8 @@
     {
       "pid": "43519314",
       "nickname": "可以自己取名",
-      "weightPct": 0.011061946902654867,
-      "fatPct": 0.03065134099616861,
+      "weightPct": 0.01769911504424788,
+      "fatPct": 0.026819923371647618,
       "passed": false,
       "rockets": 2,
       "rank": 41
