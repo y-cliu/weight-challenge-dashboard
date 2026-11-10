@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-11-10",
-    "generatedAt": "2026-11-10 10:32"
+    "generatedAt": "2026-11-10 11:32"
   },
   "leaderboard": [
     {
@@ -177,7 +177,7 @@
     {
       "pid": "4ceee48e",
       "nickname": "閃亮亮的頭",
-      "weightPct": 0.047892720306513405,
+      "weightPct": 0.04406130268199242,
       "fatPct": 0.09090909090909093,
       "passed": true,
       "rank": 21
