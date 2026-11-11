@@ -1,12 +1,12 @@
 {
   "meta": {
-    "day": 80,
+    "day": 81,
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 33,
-    "reportRateToday": 0.09,
-    "updatedAt": "2026-11-11",
-    "generatedAt": "2026-11-12 00:11"
+    "reportRateToday": 0.01,
+    "updatedAt": "2026-11-12",
+    "generatedAt": "2026-11-12 06:33"
   },
   "leaderboard": [
     {
@@ -16,7 +16,7 @@
       "fatPct": 0.1496598639455782,
       "passed": true,
       "rank": 1,
-      "histKey": "987fd847fb4acaf2ea3e4c078d2835924c19d3d62bda869efd3c5beac23315ea"
+      "histKey": "587f02507258bfda2f71e2c3490d4f746e4bd04d24804dc9bd84f27c9396f0b3"
     },
     {
       "pid": "aa6c84c9",
@@ -25,7 +25,16 @@
       "fatPct": 0.18007662835249053,
       "passed": true,
       "rank": 2,
-      "histKey": "cd124e511dd6bc61954cbcc9afad9155858dee263468fd3c7de0863d4731a85b"
+      "histKey": "84f09aa0acd298113d23bb113d5838fefd1b812fe9f4132d2740e7badadaec6b"
+    },
+    {
+      "pid": "dc9ec1fb",
+      "nickname": "郭阿斌",
+      "weightPct": 0.08751458576429405,
+      "fatPct": 0.15481171548117154,
+      "passed": true,
+      "rank": 3,
+      "histKey": "cb23f0d81119051991c035262f7055b306133afbe1f2aca19e07e9b2467e307f"
     },
     {
       "pid": "8c77daee",
@@ -33,8 +42,8 @@
       "weightPct": 0.08069458631256389,
       "fatPct": 0.15333333333333338,
       "passed": true,
-      "rank": 3,
-      "histKey": "36bb72c7106efb8a35367b305f3e648ae8e6040f7d0dd787353942eb36b31886"
+      "rank": 4,
+      "histKey": "b007b7e64f84ba64f0c41166afec4f9423b73760d9a08a7fee8605dbc1d3da08"
     },
     {
       "pid": "f805593c",
@@ -42,8 +51,8 @@
       "weightPct": 0.07560975609756102,
       "fatPct": 0.2454545454545455,
       "passed": true,
-      "rank": 4,
-      "histKey": "61ff168a6cf269c897e57d9afaef853225d0ca2e2da1f4ab0d2f5b0c08e4a48c"
+      "rank": 5,
+      "histKey": "355b9466cd9053e8af3c77749a132bd5336bf7cfe50487b97e99e1199172cb9b"
     },
     {
       "pid": "86f28999",
@@ -51,22 +60,13 @@
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
       "passed": true,
-      "rank": 5,
-      "histKey": "b5b11a34488c71e769a3ece1669fb50ff991ac04a73b10dc0507d576afaee2a3"
+      "rank": 6
     },
     {
       "pid": "1ed92c63",
       "nickname": "Wen",
       "weightPct": 0.07226562499999997,
       "fatPct": 0.25193798449612403,
-      "passed": true,
-      "rank": 6
-    },
-    {
-      "pid": "dc9ec1fb",
-      "nickname": "郭阿斌",
-      "weightPct": 0.0665110851808635,
-      "fatPct": 0.15481171548117154,
       "passed": true,
       "rank": 7
     },
