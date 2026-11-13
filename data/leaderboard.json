@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-11-13",
-    "generatedAt": "2026-11-13 17:32"
+    "generatedAt": "2026-11-13 18:32"
   },
   "leaderboard": [
     {
@@ -19,22 +19,22 @@
       "histKey": "2faf579bed44da714b62529f4c83bfb69d9153d2ddd315ff87f739b7e52139f6"
     },
     {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.10141766630316246,
+      "fatPct": 0.18007662835249053,
+      "passed": true,
+      "rank": 2,
+      "histKey": "daa0eec1e69932a9b4efe90d58c54c02b2cd293430b3b17ce270f0ef19a9ac14"
+    },
+    {
       "pid": "8ac2b59c",
       "nickname": "阿傑",
       "weightPct": 0.10089686098654709,
       "fatPct": 0.1496598639455782,
       "passed": true,
-      "rank": 2,
-      "histKey": "d98a4fb613560ecfe455e039441375135916ed59836cab389060866832051102"
-    },
-    {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.0932388222464558,
-      "fatPct": 0.18007662835249053,
-      "passed": true,
       "rank": 3,
-      "histKey": "daa0eec1e69932a9b4efe90d58c54c02b2cd293430b3b17ce270f0ef19a9ac14"
+      "histKey": "d98a4fb613560ecfe455e039441375135916ed59836cab389060866832051102"
     },
     {
       "pid": "dc9ec1fb",
@@ -46,27 +46,27 @@
       "histKey": "36edb3bd61d3194a83f7b1483eaf3f14c61b2a6b1a0d62682b6d92dc0256ca09"
     },
     {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.07865168539325845,
+      "fatPct": 0.15333333333333338,
+      "passed": true,
+      "rank": 5,
+      "histKey": "778aac18b3e3cdd68893c3412639f24f650ff8dd184aa3ce7e098cf2b7d2b719"
+    },
+    {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.07560975609756102,
       "fatPct": 0.2454545454545455,
       "passed": true,
-      "rank": 5,
-      "histKey": "be6bf525458198276ba57fe48f0fb320a828a17c4b9bd43e01e7535c38aadd25"
+      "rank": 6
     },
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
-      "passed": true,
-      "rank": 6
-    },
-    {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.0653728294177733,
-      "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 7
     },
