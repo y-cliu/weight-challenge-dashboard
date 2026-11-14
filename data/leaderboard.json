@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.04,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-11-14",
-    "generatedAt": "2026-11-14 20:32"
+    "generatedAt": "2026-11-14 22:34"
   },
   "leaderboard": [
     {
@@ -303,13 +303,22 @@
       "rank": 36
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.019911504424778886,
+      "fatPct": 0.038314176245210725,
+      "passed": false,
+      "rockets": 2,
+      "rank": 37
+    },
+    {
       "pid": "84eac3ab",
       "nickname": "夜露死苦",
       "weightPct": 0.11267605633802827,
       "fatPct": -0.054838709677419446,
       "passed": true,
       "rockets": 3,
-      "rank": 37
+      "rank": 38
     },
     {
       "pid": "16981caf",
@@ -317,7 +326,7 @@
       "weightPct": 0.0502136752136751,
       "fatPct": "",
       "passed": false,
-      "rank": 38
+      "rank": 39
     },
     {
       "pid": "641c4f3b",
@@ -325,7 +334,7 @@
       "weightPct": 0.049019607843137254,
       "fatPct": "",
       "passed": false,
-      "rank": 39
+      "rank": 40
     },
     {
       "pid": "3d34da95",
@@ -333,15 +342,6 @@
       "weightPct": 0.04685835995740155,
       "fatPct": "",
       "passed": false,
-      "rank": 40
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.018805309734513304,
-      "fatPct": 0.026819923371647618,
-      "passed": false,
-      "rockets": 2,
       "rank": 41
     },
     {
