@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-11-15",
-    "generatedAt": "2026-11-15 21:32"
+    "generatedAt": "2026-11-15 22:32"
   },
   "leaderboard": [
     {
@@ -652,7 +652,7 @@
     {
       "pid": "9fafa607",
       "nickname": "白",
-      "weightPct": 0.03627906976744191,
+      "weightPct": 0.07906976744186046,
       "fatPct": -0.14529914529914534,
       "passed": false,
       "rank": 80
