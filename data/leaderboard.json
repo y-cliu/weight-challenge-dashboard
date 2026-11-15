@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-11-15",
-    "generatedAt": "2026-11-15 20:32"
+    "generatedAt": "2026-11-15 21:32"
   },
   "leaderboard": [
     {
@@ -19,22 +19,22 @@
       "histKey": "ef7f676ceb0acf0a61ad62a07d48895c5d6276a216990df812e8e3037bb9eee4"
     },
     {
-      "pid": "aa6c84c9",
-      "nickname": "胖胖班峻毓",
-      "weightPct": 0.10087241003271537,
-      "fatPct": 0.18007662835249053,
-      "passed": true,
-      "rank": 2,
-      "histKey": "51df42735420d98b5021ed2dfec661750b934bca7f311595f2b57d247e2a7c5d"
-    },
-    {
       "pid": "8ac2b59c",
       "nickname": "阿傑",
       "weightPct": 0.10089686098654709,
       "fatPct": 0.1496598639455782,
       "passed": true,
-      "rank": 3,
+      "rank": 2,
       "histKey": "51225dbff75eeeb771f07476328e62ba85c091c43ddfca00daf8047fcf9fd1cb"
+    },
+    {
+      "pid": "aa6c84c9",
+      "nickname": "胖胖班峻毓",
+      "weightPct": 0.09596510359869136,
+      "fatPct": 0.18007662835249053,
+      "passed": true,
+      "rank": 3,
+      "histKey": "51df42735420d98b5021ed2dfec661750b934bca7f311595f2b57d247e2a7c5d"
     },
     {
       "pid": "dc9ec1fb",
