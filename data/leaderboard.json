@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-11-16",
-    "generatedAt": "2026-11-16 09:36"
+    "generatedAt": "2026-11-16 10:32"
   },
   "leaderboard": [
     {
@@ -47,27 +47,27 @@
       "histKey": "919e117641cd06167fd1d019d16362882b3314ddf92e63f49191b438aa3b7f4f"
     },
     {
-      "pid": "8c77daee",
-      "nickname": "火蜥蜴",
-      "weightPct": 0.0776302349336058,
-      "fatPct": 0.15333333333333338,
-      "passed": true,
-      "rank": 5,
-      "histKey": "51426462354790aec9ba99279b08a4e8b8a70611f1c41d1e86bf99f034fa8888"
-    },
-    {
       "pid": "f805593c",
       "nickname": "體脂消滅官",
       "weightPct": 0.07560975609756102,
       "fatPct": 0.2454545454545455,
       "passed": true,
-      "rank": 6
+      "rank": 5,
+      "histKey": "b28d2e9ddc8a7cfd9544b08b72764a013cf5b478eaff4dbdef161b111b9d7b0f"
     },
     {
       "pid": "86f28999",
       "nickname": "小胖仔",
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
+      "passed": true,
+      "rank": 6
+    },
+    {
+      "pid": "8c77daee",
+      "nickname": "火蜥蜴",
+      "weightPct": 0.06741573033707873,
+      "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 7
     },
