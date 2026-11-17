@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.03,
+    "reportRateToday": 0.05,
     "updatedAt": "2026-11-17",
-    "generatedAt": "2026-11-17 21:33"
+    "generatedAt": "2026-11-17 22:32"
   },
   "leaderboard": [
     {
@@ -617,12 +617,21 @@
       "rank": 75
     },
     {
+      "pid": "9fafa607",
+      "nickname": "白",
+      "weightPct": 0.09767441860465116,
+      "fatPct": -0.14529914529914534,
+      "passed": false,
+      "rockets": 2,
+      "rank": 76
+    },
+    {
       "pid": "a353441e",
       "nickname": "嘎嘎",
       "weightPct": 0.006849315068493086,
       "fatPct": -0.05498281786941573,
       "passed": false,
-      "rank": 76
+      "rank": 77
     },
     {
       "pid": "9440021b",
@@ -630,7 +639,7 @@
       "weightPct": 0.007858546168958714,
       "fatPct": -0.058020477815699634,
       "passed": false,
-      "rank": 77
+      "rank": 78
     },
     {
       "pid": "6ecd065a",
@@ -638,7 +647,7 @@
       "weightPct": 0.008800880088008925,
       "fatPct": -0.06451612903225809,
       "passed": false,
-      "rank": 78
+      "rank": 79
     },
     {
       "pid": "01b1b7ec",
@@ -646,15 +655,6 @@
       "weightPct": -0.06455142231947474,
       "fatPct": "",
       "passed": false,
-      "rank": 79
-    },
-    {
-      "pid": "9fafa607",
-      "nickname": "白",
-      "weightPct": 0.07906976744186046,
-      "fatPct": -0.14529914529914534,
-      "passed": false,
-      "rockets": 2,
       "rank": 80
     },
     {
