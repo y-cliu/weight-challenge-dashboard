@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-11-18",
-    "generatedAt": "2026-11-18 16:34"
+    "generatedAt": "2026-11-18 17:32"
   },
   "leaderboard": [
     {
@@ -289,12 +289,20 @@
       "rank": 34
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.03207964601769918,
+      "fatPct": 0.04980842911877397,
+      "passed": false,
+      "rank": 35
+    },
+    {
       "pid": "ab3fd63c",
       "nickname": "DD",
       "weightPct": 0.0046168051708217915,
       "fatPct": 0.06691449814126384,
       "passed": true,
-      "rank": 35
+      "rank": 36
     },
     {
       "pid": "3730d919",
@@ -302,7 +310,7 @@
       "weightPct": 0.01038781163434903,
       "fatPct": 0.05555555555555555,
       "passed": true,
-      "rank": 36
+      "rank": 37
     },
     {
       "pid": "84eac3ab",
@@ -310,14 +318,6 @@
       "weightPct": 0.11267605633802827,
       "fatPct": -0.054838709677419446,
       "passed": true,
-      "rank": 37
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.0165929203539823,
-      "fatPct": 0.038314176245210725,
-      "passed": false,
       "rank": 38
     },
     {
