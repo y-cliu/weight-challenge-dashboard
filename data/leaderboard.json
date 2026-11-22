@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 34,
-    "reportRateToday": 0.05,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-11-22",
-    "generatedAt": "2026-11-22 21:32"
+    "generatedAt": "2026-11-22 22:35"
   },
   "leaderboard": [
     {
@@ -553,12 +553,20 @@
       "rank": 67
     },
     {
+      "pid": "daa4c7c4",
+      "nickname": "阿正",
+      "weightPct": -0.0055248618784530384,
+      "fatPct": 0,
+      "passed": false,
+      "rank": 68
+    },
+    {
       "pid": "e7e4b5b0",
       "nickname": "謝浩恩",
       "weightPct": -0.0062893081761005686,
       "fatPct": "",
       "passed": false,
-      "rank": 68
+      "rank": 69
     },
     {
       "pid": "4e937ca1",
@@ -566,7 +574,7 @@
       "weightPct": -0.009101251422070501,
       "fatPct": "",
       "passed": false,
-      "rank": 69
+      "rank": 70
     },
     {
       "pid": "5dc0bfe4",
@@ -574,21 +582,13 @@
       "weightPct": 0.00547645125958379,
       "fatPct": -0.0165016501650165,
       "passed": false,
-      "rank": 70
+      "rank": 71
     },
     {
       "pid": "3523ba7a",
       "nickname": "蛤",
       "weightPct": 0.02011494252873571,
       "fatPct": -0.03438395415472788,
-      "passed": false,
-      "rank": 71
-    },
-    {
-      "pid": "daa4c7c4",
-      "nickname": "阿正",
-      "weightPct": -0.016574585635359115,
-      "fatPct": 0,
       "passed": false,
       "rank": 72
     },
