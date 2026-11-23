@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 36,
-    "reportRateToday": 0.06,
+    "reportRateToday": 0.07,
     "updatedAt": "2026-11-23",
-    "generatedAt": "2026-11-23 20:34"
+    "generatedAt": "2026-11-23 21:32"
   },
   "leaderboard": [
     {
@@ -346,18 +346,18 @@
       "rank": 41
     },
     {
-      "pid": "628995ff",
-      "nickname": "第一名是我的",
-      "weightPct": 0.03999999999999997,
-      "fatPct": -0.003095975232198187,
+      "pid": "3d34da95",
+      "nickname": "生命鬥士",
+      "weightPct": 0.039403620873269464,
+      "fatPct": "",
       "passed": false,
       "rank": 42
     },
     {
-      "pid": "3d34da95",
-      "nickname": "生命鬥士",
-      "weightPct": 0.036208732694355754,
-      "fatPct": "",
+      "pid": "628995ff",
+      "nickname": "第一名是我的",
+      "weightPct": 0.03999999999999997,
+      "fatPct": -0.003095975232198187,
       "passed": false,
       "rank": 43
     },
