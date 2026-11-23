@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 35,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-11-23",
-    "generatedAt": "2026-11-23 11:32"
+    "generatedAt": "2026-11-23 12:33"
   },
   "leaderboard": [
     {
@@ -56,18 +56,18 @@
       "histKey": "5f5c7fc2ccce5aa796b9beda7cd7b04df8a7d880ee2607654cbde7d0d34c402d"
     },
     {
-      "pid": "f805593c",
-      "nickname": "體脂消滅官",
-      "weightPct": 0.07560975609756102,
-      "fatPct": 0.2454545454545455,
-      "passed": true,
-      "rank": 6
-    },
-    {
       "pid": "86f28999",
       "nickname": "小胖仔",
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
+      "passed": true,
+      "rank": 6
+    },
+    {
+      "pid": "f805593c",
+      "nickname": "體脂消滅官",
+      "weightPct": 0.07317073170731707,
+      "fatPct": 0.24242424242424243,
       "passed": true,
       "rank": 7
     },
