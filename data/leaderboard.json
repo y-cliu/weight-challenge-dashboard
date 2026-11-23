@@ -3,10 +3,10 @@
     "day": 92,
     "totalDays": 100,
     "totalPlayers": 100,
-    "passedCount": 35,
-    "reportRateToday": 0.05,
+    "passedCount": 36,
+    "reportRateToday": 0.06,
     "updatedAt": "2026-11-23",
-    "generatedAt": "2026-11-23 18:32"
+    "generatedAt": "2026-11-23 19:33"
   },
   "leaderboard": [
     {
@@ -242,12 +242,20 @@
       "rank": 28
     },
     {
+      "pid": "43519314",
+      "nickname": "可以自己取名",
+      "weightPct": 0.04424778761061947,
+      "fatPct": 0.0536398467432951,
+      "passed": true,
+      "rank": 29
+    },
+    {
       "pid": "0823651e",
       "nickname": "胖",
       "weightPct": 0.030120481927710847,
       "fatPct": 0.06727828746177378,
       "passed": true,
-      "rank": 29
+      "rank": 30
     },
     {
       "pid": "58945cc1",
@@ -255,7 +263,7 @@
       "weightPct": 0.004789272030651341,
       "fatPct": 0.091588785046729,
       "passed": true,
-      "rank": 30
+      "rank": 31
     },
     {
       "pid": "9466cc32",
@@ -263,7 +271,7 @@
       "weightPct": 0.035187287173666225,
       "fatPct": 0.06040268456375841,
       "passed": true,
-      "rank": 31
+      "rank": 32
     },
     {
       "pid": "3d6d2ba0",
@@ -271,7 +279,7 @@
       "weightPct": 0.027431421446384073,
       "fatPct": 0.06270627062706277,
       "passed": true,
-      "rank": 32
+      "rank": 33
     },
     {
       "pid": "32de19f4",
@@ -279,7 +287,7 @@
       "weightPct": 0.03787103377686799,
       "fatPct": 0.047619047619047616,
       "passed": false,
-      "rank": 33
+      "rank": 34
     },
     {
       "pid": "1c738cd4",
@@ -287,14 +295,6 @@
       "weightPct": 0.015267175572519146,
       "fatPct": 0.06896551724137931,
       "passed": true,
-      "rank": 34
-    },
-    {
-      "pid": "43519314",
-      "nickname": "可以自己取名",
-      "weightPct": 0.03207964601769918,
-      "fatPct": 0.04980842911877397,
-      "passed": false,
       "rank": 35
     },
     {
