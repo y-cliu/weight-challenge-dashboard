@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 36,
-    "reportRateToday": 0,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-11-25",
-    "generatedAt": "2026-11-25 16:34"
+    "generatedAt": "2026-11-25 17:32"
   },
   "leaderboard": [
     {
@@ -562,18 +562,18 @@
       "rank": 68
     },
     {
-      "pid": "daa4c7c4",
-      "nickname": "阿正",
-      "weightPct": -0.0055248618784530384,
-      "fatPct": 0,
-      "passed": false,
-      "rank": 69
-    },
-    {
       "pid": "e7e4b5b0",
       "nickname": "謝浩恩",
       "weightPct": -0.0062893081761005686,
       "fatPct": "",
+      "passed": false,
+      "rank": 69
+    },
+    {
+      "pid": "daa4c7c4",
+      "nickname": "阿正",
+      "weightPct": -0.007734806629834286,
+      "fatPct": 0,
       "passed": false,
       "rank": 70
     },
