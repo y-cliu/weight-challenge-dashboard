@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 37,
-    "reportRateToday": 0.02,
+    "reportRateToday": 0.03,
     "updatedAt": "2026-11-26",
-    "generatedAt": "2026-11-26 15:34"
+    "generatedAt": "2026-11-26 17:31"
   },
   "leaderboard": [
     {
@@ -49,7 +49,7 @@
     {
       "pid": "8c77daee",
       "nickname": "火蜥蜴",
-      "weightPct": 0.08069458631256389,
+      "weightPct": 0.07967313585291125,
       "fatPct": 0.15333333333333338,
       "passed": true,
       "rank": 5,
