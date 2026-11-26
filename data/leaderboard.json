@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 37,
-    "reportRateToday": 0,
+    "reportRateToday": 0.01,
     "updatedAt": "2026-11-27",
-    "generatedAt": "2026-11-27 06:31"
+    "generatedAt": "2026-11-27 07:32"
   },
   "leaderboard": [
     {
