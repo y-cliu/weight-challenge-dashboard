@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 37,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-11-27",
-    "generatedAt": "2026-11-27 13:37"
+    "generatedAt": "2026-11-27 14:33"
   },
   "leaderboard": [
     {
@@ -47,13 +47,21 @@
       "histKey": "482c4c234b916951996a878453daa1b8dd7caa9c79903e7c48a743097ce74e23"
     },
     {
+      "pid": "27f80350",
+      "nickname": "松阪豬",
+      "weightPct": 0.10689310689310678,
+      "fatPct": 0.12979351032448375,
+      "passed": true,
+      "rank": 5,
+      "histKey": "e3c96658ca18a3a076e91ac9bf6f4a341e5a51be7751352d88ff337ba4ba1efc"
+    },
+    {
       "pid": "8c77daee",
       "nickname": "火蜥蜴",
       "weightPct": 0.07967313585291125,
       "fatPct": 0.15333333333333338,
       "passed": true,
-      "rank": 5,
-      "histKey": "7917eef7c3917585eebbc228408e55401301abb3c46fe935d75d5a6b95608227"
+      "rank": 6
     },
     {
       "pid": "86f28999",
@@ -61,7 +69,7 @@
       "weightPct": 0.07521578298397034,
       "fatPct": 0.25884955752212396,
       "passed": true,
-      "rank": 6
+      "rank": 7
     },
     {
       "pid": "f805593c",
@@ -69,7 +77,7 @@
       "weightPct": 0.07317073170731707,
       "fatPct": 0.24242424242424243,
       "passed": true,
-      "rank": 7
+      "rank": 8
     },
     {
       "pid": "07cce5f3",
@@ -77,7 +85,7 @@
       "weightPct": 0.05346294046172529,
       "fatPct": 0.21612903225806449,
       "passed": true,
-      "rank": 8
+      "rank": 9
     },
     {
       "pid": "e989771e",
@@ -85,7 +93,7 @@
       "weightPct": 0.08842297174111215,
       "fatPct": 0.10704225352112678,
       "passed": true,
-      "rank": 9
+      "rank": 10
     },
     {
       "pid": "b7405e59",
@@ -94,14 +102,6 @@
       "fatPct": 0.1467576791808874,
       "passed": true,
       "rockets": 2,
-      "rank": 10
-    },
-    {
-      "pid": "27f80350",
-      "nickname": "松阪豬",
-      "weightPct": 0.08491508491508493,
-      "fatPct": 0.10914454277286134,
-      "passed": true,
       "rank": 11
     },
     {
