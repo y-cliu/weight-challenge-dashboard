@@ -4,9 +4,9 @@
     "totalDays": 100,
     "totalPlayers": 100,
     "passedCount": 37,
-    "reportRateToday": 0.01,
+    "reportRateToday": 0.02,
     "updatedAt": "2026-11-28",
-    "generatedAt": "2026-11-28 18:32"
+    "generatedAt": "2026-11-28 19:32"
   },
   "leaderboard": [
     {
@@ -21,8 +21,8 @@
     {
       "pid": "aa6c84c9",
       "nickname": "胖胖班峻毓",
-      "weightPct": 0.11941112322791715,
-      "fatPct": 0.20306513409961688,
+      "weightPct": 0.1112322791712105,
+      "fatPct": 0.19157088122605362,
       "passed": true,
       "rockets": 1,
       "rank": 2,
